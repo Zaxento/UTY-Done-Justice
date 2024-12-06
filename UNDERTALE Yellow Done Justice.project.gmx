@@ -3,10 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions>
-    <extension index="0">extensions\Toy Gun</extension>
-    <extension index="1">extensions\Jaundice</extension>
-  </NewExtensions>
+  <NewExtensions/>
   <sounds name="sound">
     <sounds name="SND">
       <sounds name="YELLOW">
@@ -1290,7 +1287,6 @@
   </shaders>
   <fonts name="fonts">
     <fonts name="English">
-      <font>fonts\fnt_comicsans</font>
       <font>fonts\fnt_curs</font>
       <font>fonts\fnt_cursive</font>
       <font>fonts\fnt_dmg</font>
@@ -1302,17 +1298,12 @@
       <font>fonts\fnt_wingdings</font>
     </fonts>
     <fonts name="Japanese">
-      <font>fonts\fnt_ja_comicsans</font>
-      <font>fonts\fnt_ja_comicsans_big</font>
       <font>fonts\fnt_ja_curs</font>
       <font>fonts\fnt_ja_main</font>
       <font>fonts\fnt_ja_maintext</font>
       <font>fonts\fnt_ja_plain</font>
       <font>fonts\fnt_ja_plainbig</font>
       <font>fonts\fnt_ja_plainsmall</font>
-    </fonts>
-    <fonts name="Russian">
-      <font>fonts\fnt_ru_comicsans</font>
     </fonts>
   </fonts>
   <objects name="objects">

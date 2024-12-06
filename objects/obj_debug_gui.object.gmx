@@ -109,7 +109,7 @@ if (timer[0] &lt;= 0)
 if (type == 0)
 {
     fnt = fnt_maintext
-    draw_set_font(fnt_comicsans)
+    draw_set_font(fnt_maintext) //Originally comic sans... But RIP sans lol sorry gotta remove your fonts to save space
     col = draw_get_color()
     draw_set_color(c_black)
     draw_text_transformed(7, 7, (debugmessage), 1, 1, 0)

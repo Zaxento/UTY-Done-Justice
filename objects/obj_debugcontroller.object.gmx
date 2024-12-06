@@ -372,7 +372,7 @@ factor += obj_debug_gui.messagecount + 1;
 for (var j = 1; j &lt; factor; j++)
 mystring = ("#" + mystring);
     var fnt = fnt_maintext;
-    draw_set_font(fnt_comicsans);
+    draw_set_font(fnt_maintext); //also originally sans
     var col = draw_get_color();
     draw_set_color(c_black);
     draw_text_transformed(7, 7, (mystring), 1, 1, 0);

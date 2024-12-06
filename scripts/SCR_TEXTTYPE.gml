@@ -227,7 +227,7 @@ if ((global.language == "ja"))
         myfont = fnt_ja_plainbig
         spacing = ((spacing * 58) / 25)
     }
-    if ((myfont == fnt_comicsans))
+    /*if ((myfont == fnt_comicsans))
     {
         if ((global.typer < 80))
         {
@@ -241,7 +241,7 @@ if ((global.language == "ja"))
             myfont = fnt_ja_comicsans
             spacing = ((spacing * 15) / 10)
         }
-    }
+    }*/
     if ((global.typer == 11) || (global.typer == 112))
         textspeed += 1
 }

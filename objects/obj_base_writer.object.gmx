@@ -262,11 +262,11 @@ if ((halt == 3) || (dfy == 1))
     {
         choicer = instance_create(0, 0, obj_choicer)
         choicer.creator = id
-        if (myfont == fnt_ja_comicsans_big)
+        /*if (myfont == fnt_ja_comicsans_big)
         {
             choicer.x0 += 11
             choicer.x += 11
-        }
+        }*/
     }
     halt = 5
 }
@@ -524,8 +524,8 @@ while (n &lt;= stringpos)
             else
             {
                 myx = 100
-                if (myfont == fnt_ja_comicsans_big)
-                    myx += 11
+                //if (myfont == fnt_ja_comicsans_big)
+                //    myx += 11
             }
             if (view_wview[view_current] == 640)
                 myx *= 2
@@ -689,7 +689,7 @@ while (n &lt;= stringpos)
         letterx += spacing
         if (global.language == "en")
         {
-            if (myfont == fnt_comicsans)
+            /*if (myfont == fnt_comicsans)
             {
                 if (myletter == "w")
                     letterx += 2
@@ -703,7 +703,7 @@ while (n &lt;= stringpos)
                     letterx -= 1
                 if (myletter == "j")
                     letterx -= 1
-            }
+            }*/
         }
         else if (global.language == "ja")
         {
@@ -713,9 +713,9 @@ while (n &lt;= stringpos)
                 letterx -= floor((spacing / 2))
             else if (ord(myletter) &lt; 1024 || ord(myletter) == 8211)
             {
-                if (myfont == fnt_ja_comicsans || myfont == fnt_ja_comicsans_big)
-                    letterx -= floor((spacing * 0.3))
-                else
+                //if (myfont == fnt_ja_comicsans || myfont == fnt_ja_comicsans_big)
+                    //letterx -= floor((spacing * 0.3))
+                //else
                     letterx -= floor((spacing * 0.4))
             }
         }
