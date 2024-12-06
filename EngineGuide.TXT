@@ -1,0 +1,36 @@
+[Troubleshooting]
+If an error occurs with is_playing with the FMOD extension, make sure any mus_ labelled music has "Compressed - Streamed (On Disk, higher CPU)" ticked.
+
+[Debug Features]
+
+(1) sets you to the UNDERTALE Scenario. (2) sets you to the YELLOW Scenario and gives you the appropriate starting equipment. (3) teleports you to the test room. (4) sets you to the Wonders of Patience Scenario. other stuff exists too but me sleepy
+
+[Dialogue Commands]
+
+& moves the text to the next row
+Sometimes instead of "&", your text may require "#". These serve the same function, with "#" usually being used in some old parts of Undertale that weren't updated to use "&". Typically static non-dialogue text.
+^1 delays the text, typically used when "," appears.
+^2 delays it a bit more, typically used after a ".", "?", "!" or other notable words/phrases.
+/E1, /E2, etc determine what expression the character would have.
+/%% ends the dialogue box thingy and you can move and junk yay
+/ is used in certain Dialogues to tell the game to look at the next dialogue after this one.
+% skips to the next dialogue line I think?
+
+[How do I make bullets?]
+
+Bullets are pretty standalone. Monsters spawn them around where 'if (global.mnfight == 2)' is located (without quotation marks). I'd suggest copy-pasting a Monster, and switching out one of the 'gen = OBJECT' for whatever bullet you want to experiment with. I'd suggest copy-pasting a bullet for experimentation purposes too.
+
+[Door Tip]
+
+When placing doors, where do they take you? Well, you can set this in the creation code! Here is a basic example you can copy-paste and then edit.
+
+next_x = 700 next_y = 140 next_room = room_ruins3
+
+[Scenarios Tip]
+
+Because of this Engine being used for multiple games, there is a variable used for determining which Game Scenario is being played.
+
+
+------------------
+
+More will be added as time goes by!
