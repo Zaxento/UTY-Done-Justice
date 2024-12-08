@@ -34,8 +34,8 @@ switch global.weapon2
         break
     default:
         outline = 30
-        //shrink_speed = 2
-        shrink_speed = 0
+        shrink_speed = 2
+        //shrink_speed = 0
 }
 
 small_circle = 16
