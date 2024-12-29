@@ -5,6 +5,8 @@
   </Configs>
   <NewExtensions>
     <extension index="0">extensions\Jaundice Guns</extension>
+    <extension index="1">extensions\Fonts</extension>
+    <extension index="2">extensions\Undertale Map Imports</extension>
   </NewExtensions>
   <sounds name="sound">
     <sounds name="SND">
@@ -63,6 +65,13 @@
             <sound>sound\snd_decibat3bigwaves</sound>
             <sound>sound\snd_decibat1bigwave</sound>
           </sounds>
+        </sounds>
+        <sounds name="Talknoise">
+          <sound>sound\snd_talk_dalv</sound>
+          <sound>sound\snd_talk_martlet</sound>
+          <sound>sound\snd_talk_starlo</sound>
+          <sound>sound\snd_talk_ceroba</sound>
+          <sound>sound\snd_talk_chujin</sound>
         </sounds>
         <sound>sound\snd_groundcrack</sound>
         <sound>sound\snd_groundbreak</sound>
@@ -248,6 +257,7 @@
         <sound>sound\mus_story</sound>
         <sound>sound\mus_cymbal</sound>
         <sound>sound\mus_birdnoise</sound>
+        <sound>sound\mus_smallshock</sound>
       </sounds>
       <sounds name="YELLOW">
         <sounds name="Menu">
@@ -416,6 +426,9 @@
         <sprites name="Dalv">
           <sprite>sprites\spr_face_dalv</sprite>
         </sprites>
+        <sprites name="Martlet">
+          <sprite>sprites\spr_martlet_head_regular</sprite>
+        </sprites>
         <sprites name="Gilbert">
           <sprite>sprites\spr_face_gilbert</sprite>
           <sprite>sprites\spr_face_gilbert_nervous</sprite>
@@ -453,6 +466,10 @@
             <sprite>sprites\spr_dalvright</sprite>
             <sprite>sprites\spr_dalvhup</sprite>
             <sprite>sprites\spr_dalvhleft</sprite>
+          </sprites>
+          <sprites name="Martlet">
+            <sprite>sprites\spr_martlet_d</sprite>
+            <sprite>sprites\spr_martlet_dt</sprite>
           </sprites>
         </sprites>
         <sprites name="NPCs">
@@ -853,6 +870,19 @@
             <sprite>sprites\spr_g_follower_2</sprite>
             <sprite>sprites\spr_g_follower_3</sprite>
           </sprites>
+          <sprites name="Asgore">
+            <sprite>sprites\spr_asgore_d</sprite>
+            <sprite>sprites\spr_asgore_dt</sprite>
+            <sprite>sprites\spr_asgore_u</sprite>
+            <sprite>sprites\spr_asgore_ut</sprite>
+            <sprite>sprites\spr_asgore_l</sprite>
+            <sprite>sprites\spr_asgore_lt</sprite>
+            <sprite>sprites\spr_asgore_r</sprite>
+            <sprite>sprites\spr_asgore_rt</sprite>
+            <sprite>sprites\spr_asgore_d_shock</sprite>
+            <sprite>sprites\spr_asgore_dt_shock</sprite>
+            <sprite>sprites\spr_asgore_dt_sad</sprite>
+          </sprites>
           <sprite>sprites\spr_smallfrog</sprite>
           <sprite>sprites\spr_regnpc_1</sprite>
         </sprites>
@@ -878,6 +908,11 @@
           <sprite>sprites\spr_cheesetable</sprite>
           <sprite>sprites\spr_smallweb</sprite>
           <sprite>sprites\spr_bigweb</sprite>
+        </sprites>
+        <sprites name="New Home">
+          <sprite>sprites\spr_torielthrone</sprite>
+          <sprite>sprites\spr_asgorethrone</sprite>
+          <sprite>sprites\spr_garden_overlayshadow</sprite>
         </sprites>
         <sprite>sprites\spr_npc_sign</sprite>
         <sprite>sprites\spr_chestbox</sprite>
@@ -994,6 +1029,9 @@
       <background>background\bg_smallhouse_gr</background>
       <background>background\bg_smalltree_gr</background>
       <background>background\bg_tundratiles</background>
+      <background>background\bg_sanscorridor</background>
+      <background>background\bg_ruins_tint</background>
+      <background>background\bg_greyruinsplaceholder</background>
     </backgrounds>
     <background>background\bg_floweyglow</background>
     <background>background\bg_startarea_tileset</background>
@@ -1370,12 +1408,15 @@
           <object>objects\obj_mainchara_snoozefest_backup</object>
           <object>objects\obj_wakeupchara</object>
         </objects>
-        <objects name="Dalv">
-          <object>objects\obj_dalvoverworld1</object>
-        </objects>
         <objects name="Flowey">
           <object>objects\obj_flowey_intro</object>
           <object>objects\obj_flowey_save</object>
+        </objects>
+        <objects name="Dalv">
+          <object>objects\obj_dalvoverworld1</object>
+        </objects>
+        <objects name="Martlet">
+          <object>objects\obj_martlet_npc</object>
         </objects>
         <objects name="NPCs">
           <object>objects\obj_gilbert</object>
@@ -1400,6 +1441,8 @@
       <objects name="Trigger">
         <object>objects\obj_floweygreet_trigger</object>
         <object>objects\obj_floweygreet_trigger_backup</object>
+        <object>objects\obj_asgoremeet_event</object>
+        <object>objects\obj_asgoremeet_yellow</object>
       </objects>
       <object>objects\obj_yellowtitle</object>
     </objects>
@@ -1681,6 +1724,9 @@
             <object>objects\obj_torinteractable6</object>
             <object>objects\obj_torhandhold1</object>
           </objects>
+          <objects name="Asgore">
+            <object>objects\obj_asgore_actor</object>
+          </objects>
           <object>objects\obj_npc_room</object>
         </objects>
         <objects name="Decor">
@@ -1737,6 +1783,13 @@
           <object>objects\obj_cheesetable1</object>
           <object>objects\obj_smallweb</object>
           <object>objects\obj_bigweb</object>
+        </objects>
+        <objects name="New Home">
+          <object>objects\obj_torielthrone</object>
+          <object>objects\obj_asgorethrone</object>
+          <object>objects\obj_garden_overlayshadow</object>
+          <object>objects\obj_birbnoise</object>
+          <object>objects\obj_endcastlemusic</object>
         </objects>
         <object>objects\obj_readable_sign1</object>
         <object>objects\obj_sign_room</object>
@@ -1963,6 +2016,9 @@
     <rooms name="New Home">
       <room>rooms\room_kitchen_final</room>
       <room>rooms\room_asrielroom_final</room>
+      <room>rooms\room_castle_finalshoehorn</room>
+      <room>rooms\room_castle_throneroom</room>
+      <room>rooms\room_castle_throneroom_backup</room>
       <room>rooms\room_asgoreroom</room>
       <room>rooms\room_castle_exit</room>
       <room>rooms\room_castle_trueexit</room>

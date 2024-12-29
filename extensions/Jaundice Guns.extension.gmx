@@ -3,7 +3,7 @@
   <name>Jaundice Guns</name>
   <version>1.0.0</version>
   <packageID></packageID>
-  <ProductID>ACBD3CFF4E539AD869A0E8E3B4B022DD</ProductID>
+  <ProductID></ProductID>
   <date>31/08/24</date>
   <license>Free to use, also for commercial games.</license>
   <description></description>
@@ -18,6 +18,7 @@
   <maccompilerflags></maccompilerflags>
   <androidinject></androidinject>
   <androidmanifestinject></androidmanifestinject>
+  <iosplistinject></iosplistinject>
   <androidactivityinject></androidactivityinject>
   <gradleinject></gradleinject>
   <iosSystemFrameworks/>

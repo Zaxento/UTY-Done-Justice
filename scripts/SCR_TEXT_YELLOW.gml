@@ -53,6 +53,39 @@ switch argument0
             global.msg[0] = scr_gettext("SCR_TEXT_YELLOW_35") // * (Pebbles are too dangerous.)/%%
         break
         
+    case 3032:
+        {
+            if (global.flag[111] == 0)
+            {
+            global.msg[0] = scr_gettext("SCR_TEXT_YELLOW_30") // * (A little pile of conveniently&  bullet shaped pebbles.)/
+            global.msg[1] = scr_gettext("SCR_TEXT_YELLOW_31") // * (Take them?)& &         Take them     Leave them  \C 
+            global.msg[2] = scr_gettext("SCR_TEXT_YELLOW_32") //  
+            }
+            else
+                global.msg[0] = scr_gettext("SCR_TEXT_1313") // * Nothing's here!!!/%%
+            break
+        }
+    case 3033:
+        if (global.choice == 0)
+        {
+            if (doak == 0)
+            {
+                noroom = -1
+                doak = 1
+                script_execute(scr_itemget, 68)
+            }
+            if (noroom == 0)
+            {
+                global.msg[0] = scr_gettext("SCR_TEXT_YELLOW_33") // * (Obtained Pebbles!)/%%
+                global.flag[600] = 1
+            }
+            if (noroom == 1)
+                global.msg[0] = scr_gettext("SCR_TEXT_YELLOW_34") // * (Not enough space.)/%%
+        }
+        if (global.choice == 1)
+            global.msg[0] = scr_gettext("SCR_TEXT_YELLOW_35") // * (Pebbles are too dangerous.)/%%
+        break
+        
         //Monster Encounters YELLOW
     case 3100: //Flier Solo
         global.msg[0] = scr_gettext("SCR_BATTLE_INTROTEXT_YELLOW_1") // * Flier is giving fighting a try!
