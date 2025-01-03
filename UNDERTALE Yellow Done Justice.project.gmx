@@ -143,6 +143,9 @@
             <sound>sound\snd_vulkinhurt</sound>
             <sound>sound\snd_ehurt1</sound>
           </sounds>
+          <sounds name="Asgore">
+            <sound>sound\mus_sfx_swipe</sound>
+          </sounds>
           <sound>sound\snd_b</sound>
           <sound>sound\snd_battlefall</sound>
           <sound>sound\snd_hurt1</sound>
@@ -229,6 +232,7 @@
         <sounds name="Battle">
           <sound>sound\mus_prebattle1</sound>
           <sound>sound\mus_battle1</sound>
+          <sound>sound\mus_bergentruckung</sound>
         </sounds>
         <sounds name="Menu">
           <sound>sound\mus_options_winter</sound>
@@ -708,6 +712,9 @@
           </sprites>
           <sprites name="So Sorry">
             <sprite>sprites\spr_sorry_d</sprite>
+          </sprites>
+          <sprites name="Asgore">
+            <sprite>sprites\spr_asgore_prebrandish</sprite>
           </sprites>
           <sprite>sprites\spr_gyftrot</sprite>
           <sprite>sprites\spr_jerry</sprite>
@@ -1590,6 +1597,7 @@
             <object>objects\obj_butterflybullet_gen_2</object>
           </objects>
           <objects name="ASGORE">
+            <object>objects\obj_asgore_finalintro</object>
             <object>objects\obj_asgoreb</object>
           </objects>
           <object>objects\obj_frogbullet_ex</object>

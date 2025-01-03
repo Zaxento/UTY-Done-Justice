@@ -1608,32 +1608,16 @@ switch global.battlegroup
         global.monsterinstance[1] = instance_create(220, 18, obj_flier)
         global.monsterinstance[2] = instance_create(424, 18, obj_flier)
         break
-
-//PATIENCE Battlegroups
-    case 400: //Supervisor Whimsun
-        global.monstertype[0] = 201
+    case 320: //Dalv
+        global.monstertype[0] = 101
         global.monstertype[1] = 0
         global.monstertype[2] = 0
-        global.batmusic = mus_battle1
+        global.batmusic = mus_prebattle1_yellow
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 0
-        global.msg[0] = scr_gettext("SCR_BATTLE_INTRO_SWHIMSUN_1") // * I bumped into the anxious Supervisor!"
+        global.msc = 3100
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
-        global.monsterinstance[0] = instance_create(220, 18, obj_supervisor_whimsun)
-        break
-    case 401: //Bell Monster Solo
-        global.monstertype[0] = 202
-        global.monstertype[1] = 0
-        global.monstertype[2] = 0
-        global.batmusic = mus_battle1
-        caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 0
-        global.msg[0] = scr_gettext("SCR_BATTLE_INTROTEXT_PATIENCE_9") // * Bell Monster is epic playtesting."
-        global.battlelv = 0
-        global.actfirst = 0
-        global.extraintro = 0
-        global.monsterinstance[0] = instance_create(220, 18, obj_whimsun)
+        global.monsterinstance[0] = instance_create(220, 18, obj_flier)
         break
 }

@@ -984,27 +984,92 @@ if (global.monstertype[myself] == 101)
     global.itemrewardchance = 50
 }
 
-//WONDERS OF PATIENCE MONSTER SETUP
-if (global.monstertype[myself] == 201)
+if (global.monstertype[myself] == 102)
 {
-    global.monstername[myself] = scr_gettext("monstername_5") // Whimsun (This one is the Supervisor)
-    global.monstermaxhp[myself] = 10
-    global.monsterhp[myself] = 10
+    global.monstername[myself] = scr_gettext("monstername_102") // Penilla
+    global.monstermaxhp[myself] = 25
+    global.monsterhp[myself] = 30
     global.monsteratk[myself] = 4
-    global.monsterdef[myself] = 0
-    global.xpreward[myself] = 10
-    global.goldreward[myself] = 20
+    global.monsterdef[myself] = 2
+    global.xpreward[myself] = 2
+    global.goldreward[myself] = 2
     global.itemrewardid = 1
     global.itemrewardchance = 50
 }
-if (global.monstertype[myself] == 202)
+
+if (global.monstertype[myself] == 103)
 {
-    global.monstername[myself] = scr_gettext("monstername_5") // Bell Monster
-    global.monstermaxhp[myself] = 30
+    global.monstername[myself] = scr_gettext("monstername_103") // Sweet Corn
+    global.monstermaxhp[myself] = 25
     global.monsterhp[myself] = 30
     global.monsteratk[myself] = 4
-    global.monsterdef[myself] = 0
-    global.xpreward[myself] = 3
+    global.monsterdef[myself] = 2
+    global.xpreward[myself] = 2
+    global.goldreward[myself] = 2
+    global.itemrewardid = 1
+    global.itemrewardchance = 50
+}
+
+if (global.monstertype[myself] == 104)
+{
+    global.monstername[myself] = scr_gettext("monstername_104") // Crispy Scroll
+    global.monstermaxhp[myself] = 25
+    global.monsterhp[myself] = 30
+    global.monsteratk[myself] = 4
+    global.monsterdef[myself] = 2
+    global.xpreward[myself] = 2
+    global.goldreward[myself] = 2
+    global.itemrewardid = 1
+    global.itemrewardchance = 50
+}
+
+if (global.monstertype[myself] == 105)
+{
+    global.monstername[myself] = scr_gettext("monstername_105") // Rorrim
+    global.monstermaxhp[myself] = 25
+    global.monsterhp[myself] = 30
+    global.monsteratk[myself] = 4
+    global.monsterdef[myself] = 2
+    global.xpreward[myself] = 2
+    global.goldreward[myself] = 2
+    global.itemrewardid = 1
+    global.itemrewardchance = 50
+}
+
+if (global.monstertype[myself] == 106)
+{
+    global.monstername[myself] = scr_gettext("monstername_106") // Decibat
+    global.monstermaxhp[myself] = 25
+    global.monsterhp[myself] = 30
+    global.monsteratk[myself] = 4
+    global.monsterdef[myself] = 2
+    global.xpreward[myself] = 2
+    global.goldreward[myself] = 2
+    global.itemrewardid = 1
+    global.itemrewardchance = 50
+}
+
+if (global.monstertype[myself] == 107)
+{
+    global.monstername[myself] = scr_gettext("monstername_107") // Dalv
+    global.monstermaxhp[myself] = 25
+    global.monsterhp[myself] = 30
+    global.monsteratk[myself] = 4
+    global.monsterdef[myself] = 2
+    global.xpreward[myself] = 2
+    global.goldreward[myself] = 2
+    global.itemrewardid = 1
+    global.itemrewardchance = 50
+}
+
+if (global.monstertype[myself] == 108)
+{
+    global.monstername[myself] = scr_gettext("monstername_108") // Micro Froggit
+    global.monstermaxhp[myself] = 25
+    global.monsterhp[myself] = 30
+    global.monsteratk[myself] = 4
+    global.monsterdef[myself] = 2
+    global.xpreward[myself] = 2
     global.goldreward[myself] = 2
     global.itemrewardid = 1
     global.itemrewardchance = 50
