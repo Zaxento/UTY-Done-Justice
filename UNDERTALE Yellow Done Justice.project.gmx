@@ -233,6 +233,7 @@
           <sound>sound\mus_prebattle1</sound>
           <sound>sound\mus_battle1</sound>
           <sound>sound\mus_bergentruckung</sound>
+          <sound>sound\mus_vsasgore</sound>
         </sounds>
         <sounds name="Menu">
           <sound>sound\mus_options_winter</sound>
@@ -262,6 +263,8 @@
         <sound>sound\mus_cymbal</sound>
         <sound>sound\mus_birdnoise</sound>
         <sound>sound\mus_smallshock</sound>
+        <sound>sound\mus_chokedup</sound>
+        <sound>sound\mus_musicbox</sound>
       </sounds>
       <sounds name="YELLOW">
         <sounds name="Menu">
@@ -714,7 +717,30 @@
             <sprite>sprites\spr_sorry_d</sprite>
           </sprites>
           <sprites name="Asgore">
+            <sprites name="Spear">
+              <sprite>sprites\spr_asgore_swipe_spear</sprite>
+            </sprites>
+            <sprites name="Body">
+              <sprite>sprites\spr_asgoreb_head1</sprite>
+              <sprite>sprites\spr_asgoreb_armor</sprite>
+              <sprite>sprites\spr_asgoreb_arml</sprite>
+              <sprite>sprites\spr_asgoreb_armr</sprite>
+              <sprite>sprites\spr_asgoreb_dress</sprite>
+              <sprite>sprites\spr_asgoreb_legs</sprite>
+              <sprite>sprites\spr_asgoreb_feet</sprite>
+              <sprite>sprites\spr_asgoreb_cape</sprite>
+              <sprite>sprites\spr_asgore_swipe_nospear</sprite>
+            </sprites>
             <sprite>sprites\spr_asgore_prebrandish</sprite>
+            <sprite>sprites\spr_asgore_brandish</sprite>
+            <sprite>sprites\spr_asgore_bface</sprite>
+            <sprite>sprites\spr_asgorespear</sprite>
+            <sprite>sprites\spr_asgore_kneel</sprite>
+            <sprite>sprites\spr_asgore_lastface</sprite>
+            <sprite>sprites\spr_asgoreb_ballarm</sprite>
+            <sprite>sprites\spr_spearhandr</sprite>
+            <sprite>sprites\spr_spearhandl</sprite>
+            <sprite>sprites\spr_asgore_flashsilhouette</sprite>
           </sprites>
           <sprite>sprites\spr_gyftrot</sprite>
           <sprite>sprites\spr_jerry</sprite>
@@ -724,11 +750,21 @@
           <sprite>sprites\spr_dummybattle</sprite>
         </sprites>
         <sprites name="UI">
+          <sprites name="Japanese">
+            <sprite>sprites\spr_fightbt_hollow_ja</sprite>
+            <sprite>sprites\spr_talkbt_hollow_ja</sprite>
+            <sprite>sprites\spr_itembt_hollow_ja</sprite>
+          </sprites>
           <sprite>sprites\spr_fightbt</sprite>
           <sprite>sprites\spr_talkbt</sprite>
           <sprite>sprites\spr_spellbt</sprite>
           <sprite>sprites\spr_itembt</sprite>
           <sprite>sprites\spr_sparebt</sprite>
+          <sprite>sprites\spr_fightbt_hollow</sprite>
+          <sprite>sprites\spr_talkbt_hollow</sprite>
+          <sprite>sprites\spr_itembt_hollow</sprite>
+          <sprite>sprites\spr_mercybutton_normal</sprite>
+          <sprite>sprites\spr_mercybutton_shatter</sprite>
           <sprite>sprites\spr_hpname</sprite>
           <sprite>sprites\spr_enname</sprite>
           <sprite>sprites\spr_target</sprite>
@@ -1011,6 +1047,7 @@
       <sprite>sprites\spr_quittingmessage_ja</sprite>
       <sprite>sprites\spr_tobdog_sleep_trash</sprite>
       <sprite>sprites\spr_singleblackpixel</sprite>
+      <sprite>sprites\spr_orangeparticle</sprite>
     </sprites>
     <sprites name="Amalgamate Engine">
       <sprites name="In-dev stuff">
@@ -1299,6 +1336,7 @@
       <script>scripts\scr_getideal.gml</script>
       <script>scripts\scr_moveideal.gml</script>
       <script>scripts\murdererlv1.gml</script>
+      <script>scripts\scr_afterimage.gml</script>
     </scripts>
     <scripts name="Done Justice">
       <script>scripts\textdata_yellow_ja.gml</script>
@@ -1599,6 +1637,13 @@
           <objects name="ASGORE">
             <object>objects\obj_asgore_finalintro</object>
             <object>objects\obj_asgoreb</object>
+            <object>objects\obj_asgorefakespear</object>
+            <object>objects\obj_asgore_lastcutscene</object>
+            <object>objects\obj_asgoreb_body</object>
+            <object>objects\obj_asgoreb_body_backup</object>
+            <object>objects\obj_asgorespear</object>
+            <object>objects\obj_spearafterimage2</object>
+            <object>objects\obj_spearafterimage</object>
           </objects>
           <object>objects\obj_frogbullet_ex</object>
           <object>objects\obj_wizard</object>
@@ -1635,6 +1680,7 @@
           <object>objects\obj_talkbt</object>
           <object>objects\obj_itembt</object>
           <object>objects\obj_sparebt</object>
+          <object>objects\obj_anybt</object>
           <object>objects\obj_hpname</object>
           <object>objects\obj_target</object>
           <object>objects\obj_targetchoice</object>
@@ -1642,6 +1688,8 @@
           <object>objects\obj_targetchoiceHITSEVERYONE</object>
           <object>objects\obj_shoetargettest</object>
           <object>objects\obj_pressZ</object>
+          <object>objects\obj_mercybutton_shatter</object>
+          <object>objects\obj_mercybutton_part</object>
         </objects>
         <objects name="Common Bullets">
           <object>objects\obj_bulletgenparent</object>
@@ -1905,6 +1953,10 @@
       <object>objects\obj_roomofdog</object>
       <object>objects\obj_musfadeout</object>
       <object>objects\obj_imageview</object>
+      <object>objects\obj_genafterimage</object>
+      <object>objects\obj_orangeparticlegen</object>
+      <object>objects\obj_orangeparticle</object>
+      <object>objects\obj_purplegradienter</object>
     </objects>
     <objects name="Done Justice">
       <object>objects\obj_intromenu_donejustice</object>
