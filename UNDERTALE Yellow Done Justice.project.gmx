@@ -719,28 +719,33 @@
           <sprites name="Asgore">
             <sprites name="Spear">
               <sprite>sprites\spr_asgore_swipe_spear</sprite>
+              <sprite>sprites\spr_asgorespear</sprite>
             </sprites>
             <sprites name="Body">
               <sprite>sprites\spr_asgoreb_head1</sprite>
               <sprite>sprites\spr_asgoreb_armor</sprite>
               <sprite>sprites\spr_asgoreb_arml</sprite>
               <sprite>sprites\spr_asgoreb_armr</sprite>
+              <sprite>sprites\spr_asgoreb_ballarm</sprite>
               <sprite>sprites\spr_asgoreb_dress</sprite>
               <sprite>sprites\spr_asgoreb_legs</sprite>
               <sprite>sprites\spr_asgoreb_feet</sprite>
               <sprite>sprites\spr_asgoreb_cape</sprite>
               <sprite>sprites\spr_asgore_swipe_nospear</sprite>
+              <sprite>sprites\spr_asgore_bface</sprite>
+              <sprite>sprites\spr_asgore_prebrandish</sprite>
+              <sprite>sprites\spr_asgore_brandish</sprite>
+              <sprite>sprites\spr_asgore_kneel</sprite>
+              <sprite>sprites\spr_asgore_lastface</sprite>
+              <sprite>sprites\spr_spearhandr</sprite>
+              <sprite>sprites\spr_spearhandl</sprite>
+              <sprite>sprites\spr_asgore_flashsilhouette</sprite>
             </sprites>
-            <sprite>sprites\spr_asgore_prebrandish</sprite>
-            <sprite>sprites\spr_asgore_brandish</sprite>
-            <sprite>sprites\spr_asgore_bface</sprite>
-            <sprite>sprites\spr_asgorespear</sprite>
-            <sprite>sprites\spr_asgore_kneel</sprite>
-            <sprite>sprites\spr_asgore_lastface</sprite>
-            <sprite>sprites\spr_asgoreb_ballarm</sprite>
-            <sprite>sprites\spr_spearhandr</sprite>
-            <sprite>sprites\spr_spearhandl</sprite>
-            <sprite>sprites\spr_asgore_flashsilhouette</sprite>
+            <sprite>sprites\spr_handbullet_old_d</sprite>
+            <sprite>sprites\spr_handbullet_old_r</sprite>
+            <sprite>sprites\spr_handbullet_old_u</sprite>
+            <sprite>sprites\spr_handbullet_old_l</sprite>
+            <sprite>sprites\spr_firebullet_center_generous</sprite>
           </sprites>
           <sprite>sprites\spr_gyftrot</sprite>
           <sprite>sprites\spr_jerry</sprite>
@@ -1635,15 +1640,24 @@
             <object>objects\obj_butterflybullet_gen_2</object>
           </objects>
           <objects name="ASGORE">
-            <object>objects\obj_asgore_finalintro</object>
-            <object>objects\obj_asgoreb</object>
-            <object>objects\obj_asgorefakespear</object>
-            <object>objects\obj_asgore_lastcutscene</object>
-            <object>objects\obj_asgoreb_body</object>
-            <object>objects\obj_asgoreb_body_backup</object>
-            <object>objects\obj_asgorespear</object>
-            <object>objects\obj_spearafterimage2</object>
-            <object>objects\obj_spearafterimage</object>
+            <objects name="Body">
+              <object>objects\obj_asgore_finalintro</object>
+              <object>objects\obj_asgoreb</object>
+              <object>objects\obj_asgorefakespear</object>
+              <object>objects\obj_asgore_lastcutscene</object>
+              <object>objects\obj_asgoreb_body</object>
+              <object>objects\obj_asgoreb_body_backup</object>
+              <object>objects\obj_asgorespear</object>
+              <object>objects\obj_asgorespear_backup2</object>
+              <object>objects\obj_spearafterimage2</object>
+              <object>objects\obj_spearafterimage</object>
+            </objects>
+            <objects name="Bullets">
+              <object>objects\obj_asgorebulparent</object>
+              <object>objects\obj_handbulletgen</object>
+              <object>objects\obj_handbullet_new</object>
+              <object>objects\obj_genericfire</object>
+            </objects>
           </objects>
           <object>objects\obj_frogbullet_ex</object>
           <object>objects\obj_wizard</object>
