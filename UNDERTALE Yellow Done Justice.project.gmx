@@ -145,6 +145,7 @@
           </sounds>
           <sounds name="Asgore">
             <sound>sound\mus_sfx_swipe</sound>
+            <sound>sound\mus_sfx_eyeflash</sound>
           </sounds>
           <sound>sound\snd_b</sound>
           <sound>sound\snd_battlefall</sound>
@@ -740,12 +741,16 @@
               <sprite>sprites\spr_spearhandr</sprite>
               <sprite>sprites\spr_spearhandl</sprite>
               <sprite>sprites\spr_asgore_flashsilhouette</sprite>
+              <sprite>sprites\spr_asgore_eyeflash_serious</sprite>
+              <sprite>sprites\spr_asgore_eyeflash</sprite>
             </sprites>
+            <sprite>sprites\spr_handbullet</sprite>
             <sprite>sprites\spr_handbullet_old_d</sprite>
             <sprite>sprites\spr_handbullet_old_r</sprite>
             <sprite>sprites\spr_handbullet_old_u</sprite>
             <sprite>sprites\spr_handbullet_old_l</sprite>
             <sprite>sprites\spr_firebullet_center_generous</sprite>
+            <sprite>sprites\spr_firebullet</sprite>
           </sprites>
           <sprite>sprites\spr_gyftrot</sprite>
           <sprite>sprites\spr_jerry</sprite>
@@ -826,6 +831,8 @@
         </sprites>
         <sprites name="Bullets">
           <sprite>sprites\spr_dirbullet</sprite>
+          <sprite>sprites\spr_exclamationpoint</sprite>
+          <sprite>sprites\spr_firebullet_noc</sprite>
         </sprites>
         <sprite>sprites\spr_battlebg</sprite>
         <sprite>sprites\spr_gameoverbg</sprite>
@@ -1651,12 +1658,28 @@
               <object>objects\obj_asgorespear_backup2</object>
               <object>objects\obj_spearafterimage2</object>
               <object>objects\obj_spearafterimage</object>
+              <object>objects\obj_eyeflash</object>
             </objects>
             <objects name="Bullets">
               <object>objects\obj_asgorebulparent</object>
               <object>objects\obj_handbulletgen</object>
               <object>objects\obj_handbullet_new</object>
               <object>objects\obj_genericfire</object>
+              <object>objects\obj_asgoreattackgen</object>
+              <object>objects\obj_sinefiregen_asg_lv2_usethis</object>
+              <object>objects\obj_sidedam</object>
+              <object>objects\obj_sided_fire</object>
+              <object>objects\obj_asgore_spearswipegen</object>
+              <object>objects\obj_asgore_spearswipe</object>
+              <object>objects\obj_randomhandgen</object>
+              <object>objects\obj_cfiregen</object>
+              <object>objects\obj_cfire</object>
+              <object>objects\obj_firestormgen</object>
+              <object>objects\obj_sinefiregen_asglv3</object>
+              <object>objects\obj_sinefire_asghelix</object>
+              <object>objects\blt_handbullet1</object>
+              <object>objects\blt_chasefire1</object>
+              <object>objects\blt_chasefire2</object>
             </objects>
           </objects>
           <object>objects\obj_frogbullet_ex</object>
@@ -1971,6 +1994,7 @@
       <object>objects\obj_orangeparticlegen</object>
       <object>objects\obj_orangeparticle</object>
       <object>objects\obj_purplegradienter</object>
+      <object>objects\obj_flasher</object>
     </objects>
     <objects name="Done Justice">
       <object>objects\obj_intromenu_donejustice</object>
