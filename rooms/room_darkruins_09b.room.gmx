@@ -59,7 +59,9 @@
     <instance objName="obj_solidsmall" x="240" y="160" name="inst_2A86EC17" locked="0" code="" scaleX="1" scaleY="9" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="80" y="340" name="inst_BD5D6BD2" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="120" y="340" name="inst_D0EAE845" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="140" y="340" name="inst_C57B0BA8" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="140" y="340" name="inst_C57B0BA8" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sul" x="120" y="160" name="inst_0210A40B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sur" x="180" y="160" name="inst_FE63FD74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_darkruins" x="80" y="80" w="20" h="60" xo="180" yo="200" id="10018849" name="inst_BEBE43DC" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

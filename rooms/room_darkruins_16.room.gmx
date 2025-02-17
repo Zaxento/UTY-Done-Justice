@@ -56,6 +56,15 @@ if !audio_is_playing(mus_ruins){audio_play_sound(mus_ruins,1,true)}</code>
     <instance objName="obj_solidsmall" x="520" y="100" name="inst_022F6BB4" locked="0" code="" scaleX="1" scaleY="14" colour="4294967295" rotation="0"/>
     <instance objName="obj_mainchara" x="140" y="260" name="inst_727A7489" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="20" y="0" name="inst_EB2339DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="240" y="500" name="inst_224E4680" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="0" y="420" name="inst_76BF49FB" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="0" y="360" name="inst_07A014DC" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="60" y="420" name="inst_CE52AB07" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="80" y="500" name="inst_A655E2C9" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="520" y="420" name="inst_F8685E67" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="340" y="500" name="inst_EBA1A9E7" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="340" y="520" name="inst_B2E64EB4" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="520" y="440" name="inst_2163FD7F" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_darkruins" x="60" y="0" w="20" h="20" xo="100" yo="60" id="10005771" name="inst_D3397810" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

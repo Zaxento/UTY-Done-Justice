@@ -51,8 +51,8 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_solidsmall" x="0" y="0" name="inst_474D769B" locked="0" code="" scaleX="1" scaleY="14" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="640" y="120" name="inst_022F6BB4" locked="0" code="" scaleX="1" scaleY="14" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="20" y="60" name="inst_474D769B" locked="0" code="" scaleX="1" scaleY="19" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="640" y="100" name="inst_022F6BB4" locked="0" code="" scaleX="1" scaleY="17" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="320" y="500" name="inst_C5951E04" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_08&#xA;next_dir = 2&#xA;" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="660" y="80" name="inst_FA6DBCBC" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_10&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="40" y="60" name="inst_155CC77D" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_09b&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -61,6 +61,11 @@
     <instance objName="obj_spikes" x="420" y="420" name="inst_37985E42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mainchara" x="340" y="460" name="inst_2E62A159" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="20" y="0" name="inst_50977A2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="40" y="440" name="inst_B03D2558" locked="0" code="" scaleX="13" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="300" y="440" name="inst_A8614F82" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="400" y="440" name="inst_2DFCBDC4" locked="0" code="" scaleX="12" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="380" y="440" name="inst_31A03153" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="660" y="100" name="inst_EC7C7B77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_darkruins" x="20" y="0" w="20" h="20" xo="100" yo="60" id="10005770" name="inst_ACBAA3DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

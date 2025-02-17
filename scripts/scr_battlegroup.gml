@@ -1609,15 +1609,15 @@ switch global.battlegroup
         global.monsterinstance[2] = instance_create(424, 18, obj_flier)
         break
     case 320: //Dalv
-        global.monstertype[0] = 101
+        global.monstertype[0] = 107
         global.monstertype[1] = 0
         global.monstertype[2] = 0
-        global.batmusic = mus_prebattle1_yellow
+        global.batmusic = mus_dalvbattle
         caster_loop(global.batmusic, 0.5, 1)
         global.msc = 3100
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
-        global.monsterinstance[0] = instance_create(220, 18, obj_flier)
+        global.monsterinstance[0] = instance_create(220, 18, obj_dalv)
         break
 }

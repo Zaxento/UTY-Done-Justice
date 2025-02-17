@@ -1052,8 +1052,8 @@ if (global.monstertype[myself] == 106)
 if (global.monstertype[myself] == 107)
 {
     global.monstername[myself] = scr_gettext("monstername_107") // Dalv
-    global.monstermaxhp[myself] = 25
-    global.monsterhp[myself] = 30
+    global.monstermaxhp[myself] = 200
+    global.monsterhp[myself] = 200
     global.monsteratk[myself] = 4
     global.monsterdef[myself] = 2
     global.xpreward[myself] = 2

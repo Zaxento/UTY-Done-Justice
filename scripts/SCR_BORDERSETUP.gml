@@ -316,3 +316,11 @@ if (global.border == 53)
     global.idealborder[2] = 250
     global.idealborder[3] = 385
 }
+
+if (global.border == 54) //Dalv Lightning Vertical
+{
+    global.idealborder[0] = 198
+    global.idealborder[1] = 440
+    global.idealborder[2] = 250
+    global.idealborder[3] = 385
+}

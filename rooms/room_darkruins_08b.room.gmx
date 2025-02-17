@@ -54,7 +54,7 @@
     <instance objName="obj_solidsmall" x="20" y="60" name="inst_474D769B" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="200" y="20" name="inst_022F6BB4" locked="0" code="" scaleX="1" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="0" y="120" name="inst_C2371CC1" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_08&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mainchara" x="120" y="180" name="inst_1E7A56DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mainchara" x="120" y="140" name="inst_1E7A56DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="20" y="0" name="inst_0F3E0344" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="20" y="160" name="inst_99689DA4" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="40" y="60" name="inst_1ECCE7E0" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>

@@ -7,6 +7,7 @@
     <extension index="0">extensions\Jaundice Guns</extension>
     <extension index="1">extensions\Fonts</extension>
     <extension index="2">extensions\Undertale Map Imports</extension>
+    <extension index="3">extensions\GMSched</extension>
   </NewExtensions>
   <sounds name="sound">
     <sounds name="SND">
@@ -64,6 +65,9 @@
             <sound>sound\snd_decibatbouncewave1</sound>
             <sound>sound\snd_decibat3bigwaves</sound>
             <sound>sound\snd_decibat1bigwave</sound>
+          </sounds>
+          <sounds name="Dalv">
+            <sound>sound\snd_dalvbolt1</sound>
           </sounds>
         </sounds>
         <sounds name="Talknoise">
@@ -276,6 +280,7 @@
         <sounds name="Battle">
           <sound>sound\mus_prebattle1_yellow</sound>
           <sound>sound\mus_decibat_yellow</sound>
+          <sound>sound\mus_dalvbattle</sound>
         </sounds>
         <sound>sound\mus_fallendownyellow</sound>
         <sound>sound\mus_darkruins</sound>
@@ -292,6 +297,8 @@
         <sprite>sprites\spr_fakewateropenr_dr</sprite>
         <sprite>sprites\spr_fakewaterlcd</sprite>
         <sprite>sprites\spr_fakewatermd</sprite>
+        <sprite>sprites\spr_fakewatermu</sprite>
+        <sprite>sprites\spr_fakewaterlcu</sprite>
       </sprites>
       <sprites name="Battle">
         <sprites name="FIGHT Minigames">
@@ -421,6 +428,20 @@
             <sprite>sprites\spr_decibat_wave_mini_blue</sprite>
             <sprite>sprites\spr_decibat_stalagmite</sprite>
           </sprites>
+          <sprites name="Dalv">
+            <sprite>sprites\spr_dalv_neck</sprite>
+            <sprite>sprites\spr_dalv_neck_critical</sprite>
+            <sprite>sprites\spr_dalv_body</sprite>
+            <sprite>sprites\spr_dalv_body_critical</sprite>
+            <sprite>sprites\spr_dalv_body_open</sprite>
+            <sprite>sprites\spr_dalv_hit</sprite>
+            <sprite>sprites\spr_dalv_hit_2</sprite>
+            <sprite>sprites\spr_dalv_spared</sprite>
+            <sprite>sprites\spr_dalv_dead</sprite>
+            <sprites name="Bullets">
+              <sprite>sprites\spr_dalvlightning_dual</sprite>
+            </sprites>
+          </sprites>
         </sprites>
         <sprite>sprites\spr_fightbt_yellow</sprite>
         <sprite>sprites\spr_heartgtfo_yellow</sprite>
@@ -433,6 +454,17 @@
         <sprite>sprites\spr_face_torielbody_yellow</sprite>
         <sprites name="Dalv">
           <sprite>sprites\spr_face_dalv</sprite>
+          <sprite>sprites\spr_face_dalv_sleepy</sprite>
+          <sprite>sprites\spr_dalv_head_happy</sprite>
+          <sprite>sprites\spr_dalv_head_angry</sprite>
+          <sprite>sprites\spr_dalv_head_sad</sprite>
+          <sprite>sprites\spr_dalv_head_sadder</sprite>
+          <sprite>sprites\spr_dalv_head_confused</sprite>
+          <sprite>sprites\spr_dalv_head_downer</sprite>
+          <sprite>sprites\spr_dalv_head_content</sprite>
+          <sprite>sprites\spr_dalv_head_content_2</sprite>
+          <sprite>sprites\spr_dalv_head_moderate</sprite>
+          <sprite>sprites\spr_dalv_head_dead</sprite>
         </sprites>
         <sprites name="Martlet">
           <sprite>sprites\spr_martlet_head_regular</sprite>
@@ -1075,6 +1107,7 @@
       <background>background\bg_snowdin_01_yellow</background>
       <background>background\overlay_lightbeam</background>
       <background>background\bg_dunescave</background>
+      <background>background\ts_darkruins_pillars</background>
     </backgrounds>
     <backgrounds name="UNDERTALE">
       <background>background\bg_firetiles</background>
@@ -1429,6 +1462,17 @@
             <object>objects\blt_flierbullet_carry</object>
             <object>objects\blt_flierbullet_dumbbell</object>
           </objects>
+          <objects name="Dalv">
+            <object>objects\obj_dalv</object>
+            <objects name="Bullets">
+              <object>objects\obj_dalvbullet_gen</object>
+              <object>objects\obj_dalvwarning</object>
+              <object>objects\obj_dalvwarning2</object>
+              <object>objects\blt_dalvlightning_horizontal</object>
+              <object>objects\blt_dalvlightning_vertical</object>
+              <object>objects\blt_dalvlightning_vertical_backup</object>
+            </objects>
+          </objects>
         </objects>
         <object>objects\obj_toy_gun_battle_circle</object>
         <object>objects\obj_toy_gun_battle_circle_backup</object>
@@ -1478,6 +1522,13 @@
         <objects name="NPCs">
           <object>objects\obj_gilbert</object>
           <object>objects\obj_angie</object>
+        </objects>
+        <objects name="Music">
+          <object>objects\obj_darkruinsmusic</object>
+        </objects>
+        <objects name="Animated Tiles">
+          <object>objects\obj_fakewaterlcu</object>
+          <object>objects\obj_fakewatermu</object>
         </objects>
         <object>objects\obj_lever</object>
         <object>objects\obj_lever_backup</object>
@@ -1678,8 +1729,10 @@
               <object>objects\obj_sinefiregen_asglv3</object>
               <object>objects\obj_sinefire_asghelix</object>
               <object>objects\blt_handbullet1</object>
+              <object>objects\blt_handbullet2</object>
               <object>objects\blt_chasefire1</object>
               <object>objects\blt_chasefire2</object>
+              <object>objects\obj_helixfiregen</object>
             </objects>
           </objects>
           <object>objects\obj_frogbullet_ex</object>
@@ -2144,6 +2197,10 @@
       <room>rooms\room_battle</room>
       <room>rooms\room_floweybattle</room>
       <room>rooms\room_fastbattle</room>
+    </rooms>
+    <rooms name="Dark Ruins Old">
+      <room>rooms\room_darkruins_02_old</room>
+      <room>rooms\room_darkruins_07_old</room>
     </rooms>
   </rooms>
   <help>
