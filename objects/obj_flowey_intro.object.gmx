@@ -90,7 +90,7 @@ if (sprite_index == spr_floweysink &amp;&amp; image_index &gt;= 5 &amp;&amp; glo
 {
     //instance_destroy()
     image_speed = 0
-    instance_create(150,150,obj_savepoint)
+    instance_create(150,130,obj_savepoint)
     alarm[2] = 60
     conversation = 1
 }
@@ -135,7 +135,7 @@ if conversation == 4 &amp;&amp; sprite_index == spr_floweysink &amp;&amp; image_
     //instance_destroy()
     image_speed = 0
     global.interact = 0
-    instance_create(150,150,obj_savepoint)
+    instance_create(150,130,obj_savepoint)
     instance_create(0, 0, obj_musfadeout)
     instance_destroy()
     instance_destroy(obj_floweygreet_trigger)

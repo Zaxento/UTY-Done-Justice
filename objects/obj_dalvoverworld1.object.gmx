@@ -35,6 +35,30 @@ myinteract = 0
 facing = 0
 phone = 0
 fader = 0
+conversation = 0
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>conversation += 1
 </string>
           </argument>
         </arguments>
@@ -68,10 +92,57 @@ if (speed &gt; 0)
     image_speed = 0.2
 scr_npcdir(0)
 
-if obj_mainchara.x &gt; 800
+if obj_mainchara.x &gt; 380 &amp;&amp; conversation == 0
 {
     global.interact = 3;
     instance_create(0,0,obj_musfadeout)
+    conversation = 1
+}
+
+if (conversation == 1 &amp;&amp; !instance_exists(obj_dialoguer))
+{
+    //Zaxento being EVIL and stealing his own code based on STOLEN Undyne Meeting Code smh my head
+    obj_mainchara.cutscene = 1
+    originx = view_xview[0];
+    conversation = 1.5
+    alarm[4] = 10
+}
+
+if conversation == 2.5
+{
+    if (view_xview[0] &lt; 340)
+    {
+        view_xview[0] += 2;
+    }
+    else
+    {
+        conversation = 3
+    }
+}
+
+if conversation == 3
+{
+    conversation = 4
+    global.msc = 0
+    global.msg[0] = scr_gettext("scr_text_dalvscene1_1")
+    global.msg[1] = scr_gettext("scr_text_dalvscene1_2")
+    global.msg[0] = scr_gettext("scr_text_dalvscene1_3")
+    global.msg[1] = scr_gettext("scr_text_dalvscene1_4")
+    global.msg[0] = scr_gettext("scr_text_dalvscene1_5")
+    global.msg[1] = scr_gettext("scr_text_dalvscene1_6")
+    global.msg[0] = scr_gettext("scr_text_dalvscene1_7")
+    global.msg[1] = scr_gettext("scr_text_dalvscene1_8")
+    global.typer = 700 
+    global.facechoice = 0 
+    global.faceemotion = 0
+    
+    mydialoguer = instance_create(0, 0, obj_dialoguer)
+}
+
+if (conversation == 4 &amp;&amp; !instance_exists(obj_dialoguer)) 
+{
+    // Harold stops pointing and turns away from Charlie
+    conversation = 5
 }
 </string>
           </argument>

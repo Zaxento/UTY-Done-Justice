@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_door" x="140" y="0" name="inst_D9B694F8" locked="0" code="next_x = 140&#xA;next_y = 200&#xA;next_room = room_darkruins_04&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="140" y="0" name="inst_D9B694F8" locked="0" code="next_x = 140&#xA;next_y = 180&#xA;next_room = room_darkruins_04&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="120" y="280" name="inst_92943A73" locked="0" code="//next_x = 510&#xA;//next_y = 220&#xA;next_x = 150&#xA;next_y = 80&#xA;next_room = room_darkruins_01&#xA;next_dir = 0&#xA;" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mainchara" x="150" y="105" name="inst_4585982E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="20" y="0" name="inst_84E3F2F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

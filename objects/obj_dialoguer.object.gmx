@@ -205,6 +205,11 @@ if (global.facechange == 1)
             if (!instance_exists(obj_face_asriel))
                 script_execute(scr_facechoice)
         }
+        if (global.facechoice &gt; 9)
+        {
+        if (!instance_exists(obj_face_dalv))
+            script_execute(scr_facechoice_yellow)
+        }
         global.facechange = 2
     }
 }

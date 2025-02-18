@@ -71,7 +71,7 @@
           </sounds>
         </sounds>
         <sounds name="Talknoise">
-          <sound>sound\snd_talk_dalv</sound>
+          <sound>sound\snd_txtdalv</sound>
           <sound>sound\snd_talk_martlet</sound>
           <sound>sound\snd_talk_starlo</sound>
           <sound>sound\snd_talk_ceroba</sound>
@@ -1398,6 +1398,7 @@
       <script>scripts\scr_controls_battle_reticle.gml</script>
       <script>scripts\scr_controls_battle_reticle_multi.gml</script>
       <script>scripts\shotFail.gml</script>
+      <script>scripts\scr_facechoice_yellow.gml</script>
     </scripts>
     <scripts name="Lolchick Engine">
       <script>scripts\scr_checkresolution.gml</script>
@@ -1499,6 +1500,7 @@
         <object>objects\obj_circleparent_test_backup</object>
       </objects>
       <objects name="Faces">
+        <object>objects\obj_face_dalv</object>
         <object>objects\obj_face_gilbert</object>
         <object>objects\obj_face_angie</object>
       </objects>

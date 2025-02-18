@@ -200,6 +200,8 @@ if ((global.typer == 121))
     script_execute(SCR_TEXTSETUP, fnt_main, c_white, (x + 20), (y + 20), (x + 99999), 0, 3, snd_nosound, 16, 32)
 if ((global.typer == 666))
     script_execute(SCR_TEXTSETUP, fnt_wingdings, c_white, (x + 20), (y + 20), (view_xview[view_current] + 290), 1, 4, snd_wngdng1, 16, 18)
+if ((global.typer == 700))
+    script_execute(SCR_TEXTSETUP, fnt_maintext, c_white, (x + 20), (y + 20), (view_xview[view_current] + 300), 0, 1, snd_txtdalv, 8, 18)
 if ((global.language == "ja"))
 {
     if ((myfont == fnt_main))
