@@ -30,7 +30,7 @@ image_speed = 0
 if (global.flag[500] == 0)
 {
     if (global.flag[272] == 0)
-        gameoversong = mus_gameover
+        gameoversong = mus_jaundice
     if (global.flag[272] == 1)
         gameoversong = mus_dogsong
 }

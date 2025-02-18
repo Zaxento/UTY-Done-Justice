@@ -27,10 +27,9 @@
             <kind>1</kind>
             <string>con = 0;
 side = 0;
-len = 32;
+len = 23;
 wait = 40;
 eo = 0;
-global.border = 54
 </string>
           </argument>
         </arguments>
@@ -98,20 +97,20 @@ global.border = 54
         if (eo == 2)
             draw_set_color(c_black);
         
-        draw_sprite(spr_exclamationpoint, eo, x + 5, global.idealborder[2] + 40);
+        draw_sprite(spr_exclamationpoint, eo, x - 4, global.idealborder[2] + 40);
         eo += 1;
         
         if (eo &gt; 2)
             eo = 0;
         
         draw_set_color(c_red);
-        draw_rectangle(x + 0, global.idealborder[2] + 6, x + len, global.idealborder[3] - 4, true);
-        draw_rectangle(x + 1, global.idealborder[2] + 7, x + len - 1, global.idealborder[3] - 3, true);
+        draw_rectangle(x -9, global.idealborder[2] + 6, x + len, global.idealborder[3] - 4, true);
+        draw_rectangle(x -8, global.idealborder[2] + 7, x + len - 1, global.idealborder[3] - 3, true);
     }
     
     if (con == 2)
     {
-        instance_create(x, (global.idealborder[3] -1), blt_dalvlightning_vertical);
+        instance_create(x -12, (global.idealborder[3] -1), blt_dalvlightning_vertical);
         instance_destroy();
     }
 }

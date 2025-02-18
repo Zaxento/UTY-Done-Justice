@@ -63,6 +63,43 @@ audio_play_sound(snd_dalvbolt1,20,false)
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_heart">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (global.invc &lt; 1) &amp;&amp; image_index &lt; 4
+{
+    dmgamt = round((6 - ((global.df + global.adef) / 5)))
+    if (dmgamt &lt; 1)
+        dmgamt = 1
+    global.hp -= dmgamt
+    if (global.hp &lt; 0)
+        global.hp = 0
+    audio_play_sound(snd_hurt1,80,false)
+    global.hshake = 2
+    global.shakespeed = 2
+    global.vshake = 2
+    instance_create(0, 0, obj_shaker)
+    global.invc = global.inv
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="7" enumb="7">
       <action>
         <libid>1</libid>

@@ -153,6 +153,7 @@ if (obj_mainchara.puzzlecount == 5) &amp;&amp; room_darkruins_06 &amp;&amp; glob
     global.plot = 14
     audio_play_sound(snd_dumbvictory, 1, false)
     obj_mainchara.puzzlecount++
+    obj_spikes.image_index = 1
 }
 </string>
           </argument>

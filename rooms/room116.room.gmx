@@ -53,18 +53,26 @@
   <instances>
     <instance objName="obj_door" x="0" y="140" name="inst_ACBB17E2" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_06&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="640" y="120" name="inst_E799E10C" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_08&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mainchara" x="100" y="140" name="inst_237CE6C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mainchara" x="60" y="140" name="inst_237CE6C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="0" y="20" name="inst_CF94EDE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fakewaterlcd" x="60" y="120" name="inst_8C9CBAF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fakewaterlcd" x="120" y="120" name="inst_734081F0" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fakewaterlcd" x="180" y="120" name="inst_734081F0" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fakewatermd" x="80" y="120" name="inst_A37C60F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fakewatermd" x="100" y="120" name="inst_92441E33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fakewatermd" x="120" y="120" name="inst_1939783D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fakewatermd" x="140" y="120" name="inst_D99F3008" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stairstep" x="442" y="144" name="inst_B8D2A572" locked="0" code="" scaleX="1" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
     <instance objName="obj_dalvoverworld1" x="500" y="100" name="inst_86C923FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="0" y="120" name="inst_CB7EBE27" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="60" y="100" name="inst_CB7EBE27" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="0" y="120" name="inst_1AC655E1" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="600" y="160" name="inst_0E1924AA" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fakewaterlcu" x="60" y="180" name="inst_92137955" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fakewatermu" x="80" y="180" name="inst_50DB4291" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="0" y="180" name="inst_D39EC4BA" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fakewatermu" x="100" y="180" name="inst_7DAECC03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fakewatermu" x="120" y="180" name="inst_9F6EA22C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fakewatermu" x="140" y="180" name="inst_A81342FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_fakewaterlcu" x="180" y="180" name="inst_A0BED96D" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="0" y="180" name="inst_D39EC4BA" locked="0" code="" scaleX="9" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidlong" x="60" y="200" name="inst_AAA4F2C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sul" x="440" y="120" name="inst_6E53356B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sul" x="460" y="100" name="inst_BF7DB9BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -77,26 +85,16 @@
     <instance objName="obj_sur" x="580" y="100" name="inst_76F32911" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="600" y="100" name="inst_F4C90833" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="500" y="60" name="inst_18379B46" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="220" y="100" name="inst_7D6BCED1" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="240" y="120" name="inst_A037DD6C" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="280" y="100" name="inst_7D6BCED1" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="320" y="120" name="inst_00C2110B" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="320" y="180" name="inst_A76859C9" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="200" y="80" name="inst_A037DD6C" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="460" y="180" name="inst_B6E4ED5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="480" y="120" name="inst_4B5A5EE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="440" y="100" name="inst_4B5A5EE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stairstep" x="450" y="136" name="inst_1B8E3346" locked="0" code="" scaleX="1" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
     <instance objName="obj_stairstep" x="446" y="140" name="inst_DAD796CA" locked="0" code="" scaleX="1" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
     <instance objName="obj_stairstep" x="458" y="128" name="inst_775D9185" locked="0" code="" scaleX="1" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
     <instance objName="obj_stairstep" x="454" y="132" name="inst_0389604D" locked="0" code="" scaleX="1" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fakewaterlcu" x="320" y="180" name="inst_8AB57570" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fakewatermu" x="260" y="180" name="inst_5D8741E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fakewaterlcu" x="240" y="180" name="inst_EBF89455" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fakewaterlcu" x="120" y="180" name="inst_61772A42" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fakewaterlcd" x="320" y="120" name="inst_58DCC64F" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fakewatermd" x="260" y="120" name="inst_FEED7323" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fakewaterlcd" x="240" y="120" name="inst_00043B56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="240" y="180" name="inst_50DD68BA" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="140" y="80" name="inst_0FB9C9E3" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="120" y="100" name="inst_E0EE6633" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fakewatermu" x="280" y="180" name="inst_3D4C5556" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fakewatermd" x="280" y="120" name="inst_944382A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_darkruins" x="0" y="60" w="20" h="20" xo="120" yo="40" id="10004617" name="inst_F8BE69FA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -145,7 +143,13 @@
     <tile bgName="bg_darkruins" x="60" y="40" w="20" h="20" xo="120" yo="360" id="10062899" name="inst_E5387662" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="80" y="40" w="20" h="20" xo="120" yo="360" id="10062900" name="inst_B8ABF832" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="100" y="40" w="20" h="20" xo="120" yo="360" id="10062901" name="inst_EB7FB0D9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="120" y="40" w="20" h="20" xo="120" yo="360" id="10062902" name="inst_5E97D365" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="140" y="40" w="20" h="20" xo="120" yo="360" id="10062903" name="inst_4FD9959C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="160" y="40" w="20" h="20" xo="120" yo="360" id="10062904" name="inst_D11A0F7D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="60" y="80" w="20" h="40" xo="40" yo="0" id="10062906" name="inst_A6A8C16A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="80" y="80" w="20" h="40" xo="40" yo="0" id="10062907" name="inst_173C719F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="100" y="80" w="20" h="40" xo="40" yo="0" id="10062908" name="inst_CC3B4133" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="160" y="80" w="20" h="40" xo="40" yo="0" id="10062911" name="inst_EF06700A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="60" y="140" w="20" h="20" xo="0" yo="40" id="10062914" name="inst_0EEB1892" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="80" y="140" w="20" h="20" xo="0" yo="40" id="10062915" name="inst_F6B47DD1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="100" y="140" w="20" h="20" xo="0" yo="40" id="10062916" name="inst_6A8FD8E5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -165,36 +169,41 @@
     <tile bgName="bg_darkruins" x="200" y="180" w="20" h="20" xo="0" yo="20" id="10062939" name="inst_7FE4653B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="220" y="180" w="20" h="20" xo="0" yo="20" id="10062940" name="inst_E1BC524A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="240" y="180" w="20" h="20" xo="0" yo="20" id="10062941" name="inst_77160E1A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="120" y="80" w="20" h="40" xo="80" yo="0" id="10062952" name="inst_5B9143B9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="220" y="80" w="20" h="40" xo="20" yo="0" id="10062953" name="inst_7B227BAF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="160" y="60" w="20" h="40" xo="40" yo="0" id="10062955" name="inst_4099E859" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="180" y="60" w="20" h="40" xo="40" yo="0" id="10062956" name="inst_2687993F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="120" y="60" w="20" h="20" xo="80" yo="0" id="10062958" name="inst_8EADA023" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="180" y="80" w="20" h="40" xo="80" yo="0" id="10062952" name="inst_5B9143B9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="280" y="80" w="20" h="40" xo="20" yo="0" id="10062953" name="inst_7B227BAF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="200" y="60" w="20" h="40" xo="40" yo="0" id="10062954" name="inst_C70B9250" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="220" y="60" w="20" h="40" xo="40" yo="0" id="10062955" name="inst_4099E859" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="240" y="60" w="20" h="40" xo="40" yo="0" id="10062956" name="inst_2687993F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="260" y="60" w="20" h="40" xo="40" yo="0" id="10062957" name="inst_6C5C274A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="180" y="60" w="20" h="20" xo="80" yo="0" id="10062958" name="inst_8EADA023" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="60" y="60" w="20" h="20" xo="40" yo="0" id="10062966" name="inst_31F583B0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="80" y="60" w="20" h="20" xo="40" yo="0" id="10062967" name="inst_C851CFED" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="100" y="60" w="20" h="20" xo="40" yo="0" id="10062968" name="inst_ECAAB3D8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="200" y="40" w="20" h="20" xo="40" yo="0" id="10062972" name="inst_E468B007" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="180" y="40" w="20" h="20" xo="40" yo="0" id="10062973" name="inst_2C031BE8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="160" y="40" w="20" h="20" xo="40" yo="0" id="10062974" name="inst_69D763A7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="140" y="40" w="20" h="20" xo="40" yo="0" id="10062975" name="inst_75E209CF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="120" y="20" w="20" h="20" xo="100" yo="60" id="10062976" name="inst_AD8066D1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="120" y="40" w="20" h="20" xo="140" yo="40" id="10062977" name="inst_7CF7A6F3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="140" y="20" w="20" h="20" xo="120" yo="40" id="10062978" name="inst_8A0393A4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="160" y="20" w="20" h="20" xo="120" yo="40" id="10062979" name="inst_E98AF1C6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="180" y="20" w="20" h="20" xo="120" yo="40" id="10062980" name="inst_7629AADC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="200" y="20" w="20" h="20" xo="120" yo="40" id="10062981" name="inst_7A8802BF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="220" y="40" w="20" h="20" xo="100" yo="40" id="10062983" name="inst_0E3DEADD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="220" y="20" w="20" h="20" xo="120" yo="60" id="10062984" name="inst_6BA69890" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="220" y="60" w="20" h="20" xo="20" yo="0" id="10062985" name="inst_360ADB62" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="120" y="60" w="20" h="20" xo="40" yo="0" id="10062969" name="inst_A0D07621" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="140" y="60" w="20" h="20" xo="40" yo="0" id="10062970" name="inst_1D7E5F0A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="260" y="40" w="20" h="20" xo="40" yo="0" id="10062972" name="inst_E468B007" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="240" y="40" w="20" h="20" xo="40" yo="0" id="10062973" name="inst_2C031BE8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="220" y="40" w="20" h="20" xo="40" yo="0" id="10062974" name="inst_69D763A7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="200" y="40" w="20" h="20" xo="40" yo="0" id="10062975" name="inst_75E209CF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="180" y="20" w="20" h="20" xo="100" yo="60" id="10062976" name="inst_AD8066D1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="180" y="40" w="20" h="20" xo="140" yo="40" id="10062977" name="inst_7CF7A6F3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="200" y="20" w="20" h="20" xo="120" yo="40" id="10062978" name="inst_8A0393A4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="220" y="20" w="20" h="20" xo="120" yo="40" id="10062979" name="inst_E98AF1C6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="240" y="20" w="20" h="20" xo="120" yo="40" id="10062980" name="inst_7629AADC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="260" y="20" w="20" h="20" xo="120" yo="40" id="10062981" name="inst_7A8802BF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="280" y="40" w="20" h="20" xo="100" yo="40" id="10062983" name="inst_0E3DEADD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="280" y="20" w="20" h="20" xo="120" yo="60" id="10062984" name="inst_6BA69890" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="280" y="60" w="20" h="20" xo="20" yo="0" id="10062985" name="inst_360ADB62" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="300" y="80" w="20" h="40" xo="40" yo="0" id="10062986" name="inst_9A2D2F37" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="340" y="80" w="20" h="40" xo="40" yo="0" id="10062988" name="inst_1FE56BFB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="240" y="40" w="20" h="20" xo="120" yo="40" id="10062989" name="inst_4EAFBC2B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="300" y="40" w="20" h="20" xo="120" yo="40" id="10062989" name="inst_4EAFBC2B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="320" y="40" w="20" h="20" xo="120" yo="40" id="10062990" name="inst_B742F9F0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="340" y="40" w="20" h="20" xo="120" yo="40" id="10062991" name="inst_CC15C259" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="360" y="40" w="20" h="20" xo="120" yo="40" id="10062992" name="inst_E066C681" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="380" y="40" w="20" h="20" xo="120" yo="40" id="10062993" name="inst_BE21182A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="340" y="60" w="20" h="20" xo="40" yo="0" id="10063007" name="inst_7AA8E2AF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="320" y="60" w="20" h="20" xo="40" yo="0" id="10063008" name="inst_71CA5999" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="240" y="60" w="20" h="20" xo="40" yo="0" id="10063009" name="inst_EA52029F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="300" y="60" w="20" h="20" xo="40" yo="0" id="10063009" name="inst_EA52029F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="640" y="160" w="20" h="20" xo="120" yo="0" id="10063080" name="inst_D7595EDD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="600" y="200" w="20" h="20" xo="120" yo="80" id="10063091" name="inst_83980B20" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="600" y="160" w="20" h="20" xo="100" yo="0" id="10063096" name="inst_CA1802FD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -206,6 +215,8 @@
     <tile bgName="bg_darkruins" x="620" y="40" w="20" h="20" xo="120" yo="40" id="10063107" name="inst_1028CEC4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="460" y="180" w="20" h="20" xo="40" yo="280" id="10063115" name="inst_48917A94" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="440" y="180" w="20" h="20" xo="0" yo="40" id="10063117" name="inst_7B7CF14D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="480" y="100" w="20" h="20" xo="0" yo="40" id="10063127" name="inst_7C3A7F32" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="460" y="120" w="20" h="20" xo="0" yo="40" id="10063128" name="inst_C3F6BB12" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="240" y="140" w="20" h="20" xo="0" yo="40" id="10063140" name="inst_DF64B68B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="260" y="140" w="20" h="20" xo="0" yo="40" id="10063141" name="inst_87DDF066" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="280" y="140" w="20" h="20" xo="0" yo="40" id="10063142" name="inst_DBEE0625" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -220,20 +231,27 @@
     <tile bgName="bg_darkruins" x="440" y="20" w="20" h="20" xo="120" yo="40" id="10063245" name="inst_8D1014AD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="420" y="40" w="20" h="20" xo="140" yo="40" id="10063247" name="inst_3DE4ADCD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="360" y="80" w="20" h="40" xo="40" yo="0" id="10063249" name="inst_6F8E9A93" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="400" y="80" w="20" h="40" xo="40" yo="0" id="10063251" name="inst_AC51B0D6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="460" y="60" w="20" h="40" xo="40" yo="0" id="10063258" name="inst_452804AB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="480" y="60" w="20" h="40" xo="40" yo="0" id="10063259" name="inst_D0CFE09E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="580" y="60" w="20" h="40" xo="40" yo="0" id="10063266" name="inst_40E23483" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="600" y="40" w="20" h="20" xo="100" yo="40" id="10063267" name="inst_E9B1639A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="580" y="20" w="20" h="20" xo="120" yo="40" id="10063268" name="inst_A5EE5B69" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="600" y="20" w="20" h="20" xo="120" yo="60" id="10063271" name="inst_FF1BB02D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="420" y="20" w="20" h="20" xo="100" yo="60" id="10063272" name="inst_A3CAB4A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="400" y="40" w="20" h="20" xo="120" yo="40" id="10063273" name="inst_B7AF2EB6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="620" y="160" w="20" h="20" xo="120" yo="0" id="10063275" name="inst_D9251FD1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="440" y="120" w="20" h="20" xo="0" yo="40" id="10063285" name="inst_B2106377" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="460" y="100" w="20" h="20" xo="0" yo="40" id="10063286" name="inst_C1EB134F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="580" y="100" w="20" h="20" xo="0" yo="40" id="10063288" name="inst_2369B8A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="580" y="180" w="20" h="20" xo="20" yo="280" id="10063289" name="inst_772143BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="420" y="80" w="20" h="40" xo="80" yo="0" id="10063293" name="inst_0AAC2F9B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="420" y="60" w="20" h="20" xo="80" yo="0" id="10063295" name="inst_021C472F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="400" y="60" w="20" h="20" xo="40" yo="0" id="10063296" name="inst_50CC03C9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="380" y="60" w="20" h="20" xo="40" yo="0" id="10063297" name="inst_88E35650" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="360" y="60" w="20" h="20" xo="40" yo="0" id="10063298" name="inst_71CA6D72" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="440" y="40" w="20" h="20" xo="40" yo="0" id="10063299" name="inst_99675882" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="460" y="40" w="20" h="20" xo="40" yo="0" id="10063300" name="inst_94CC3BAB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="560" y="40" w="20" h="20" xo="40" yo="0" id="10063305" name="inst_76B38CB2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="580" y="40" w="20" h="20" xo="40" yo="0" id="10063306" name="inst_107DDF4D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="40" y="200" w="20" h="20" xo="100" yo="80" id="10063312" name="inst_4C13D201" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -273,6 +291,8 @@
     <tile bgName="bg_darkruins" x="500" y="60" w="20" h="40" xo="40" yo="0" id="10063358" name="inst_25E44C16" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="520" y="60" w="20" h="40" xo="40" yo="0" id="10063359" name="inst_1873D9AA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="540" y="40" w="20" h="20" xo="40" yo="0" id="10063361" name="inst_4E3F7E40" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="520" y="40" w="20" h="20" xo="40" yo="0" id="10063362" name="inst_B4EDA32E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="500" y="40" w="20" h="20" xo="40" yo="0" id="10063363" name="inst_B09D1B2F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="440" y="220" w="20" h="20" xo="120" yo="0" id="10063364" name="inst_94974832" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="460" y="200" w="20" h="20" xo="0" yo="40" id="10063365" name="inst_C42E83D1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="440" y="200" w="20" h="20" xo="0" yo="40" id="10063366" name="inst_B26DBA7E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -300,60 +320,40 @@
     <tile bgName="bg_darkruins" x="220" y="120" w="20" h="20" xo="0" yo="20" id="10063389" name="inst_5CDF1FA5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="200" y="120" w="20" h="20" xo="0" yo="20" id="10063390" name="inst_9BE3915B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="180" y="120" w="20" h="20" xo="0" yo="20" id="10063391" name="inst_3F61C7E0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="200" y="100" w="20" h="20" xo="0" yo="20" id="10063392" name="inst_D5FA42A9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="220" y="100" w="20" h="20" xo="0" yo="20" id="10063393" name="inst_76352742" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="240" y="100" w="20" h="20" xo="0" yo="20" id="10063394" name="inst_AF459D56" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="260" y="100" w="20" h="20" xo="0" yo="20" id="10063395" name="inst_29C6E129" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="440" y="100" w="20" h="20" xo="0" yo="20" id="10063396" name="inst_A388B9FA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="120" y="80" w="40" h="40" xo="80" yo="120" id="10063411" name="inst_35C18C81" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="160" y="60" w="20" h="20" xo="80" yo="40" id="10063412" name="inst_7AE4A085" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="380" y="100" w="20" h="20" xo="60" yo="20" id="10063414" name="inst_109A6F38" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="380" y="80" w="20" h="20" xo="60" yo="0" id="10063416" name="inst_7A6B757E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="440" y="60" w="20" h="40" xo="40" yo="0" id="10063418" name="inst_60784ABE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="480" y="40" w="20" h="20" xo="40" yo="400" id="10063419" name="inst_C3D709EB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="540" y="60" w="40" h="20" xo="20" yo="400" id="10063421" name="inst_4029C9DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="620" y="60" w="20" h="20" xo="0" yo="380" id="10063422" name="inst_8F4C88FF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="600" y="60" w="20" h="20" xo="20" yo="0" id="10063423" name="inst_E95E4532" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="260" y="80" w="20" h="40" xo="40" yo="0" id="10063428" name="inst_99D83FCF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="260" y="60" w="20" h="20" xo="40" yo="0" id="10063431" name="inst_A0CA7AAE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="280" y="60" w="20" h="20" xo="40" yo="0" id="10063432" name="inst_06863F6B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="300" y="60" w="20" h="20" xo="40" yo="0" id="10063433" name="inst_7C3A1617" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="260" y="40" w="20" h="20" xo="120" yo="40" id="10063434" name="inst_F3E551CA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="280" y="40" w="20" h="20" xo="120" yo="40" id="10063435" name="inst_47027F70" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="300" y="40" w="20" h="20" xo="120" yo="40" id="10063436" name="inst_11D1DB62" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="160" y="120" w="20" h="20" xo="0" yo="20" id="10063437" name="inst_816EADB3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="140" y="120" w="20" h="20" xo="0" yo="20" id="10063438" name="inst_A9B76600" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="-1"/>
-    <tile bgName="bg_darkruins" x="140" y="100" w="20" h="20" xo="0" yo="20" id="10063439" name="inst_FB45D328" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="160" y="100" w="20" h="20" xo="0" yo="20" id="10063440" name="inst_FB4245D7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="180" y="100" w="20" h="20" xo="0" yo="20" id="10063441" name="inst_D9489D7E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="200" y="100" w="20" h="20" xo="0" yo="20" id="10063442" name="inst_2799B7F4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="120" y="120" w="20" h="20" xo="0" yo="20" id="10063443" name="inst_217A6BD1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="60" y="80" w="40" h="20" xo="40" yo="400" id="10063446" name="inst_B60FD4B2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="80" y="100" w="20" h="20" xo="40" yo="20" id="10063447" name="inst_4BAB9970" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="60" y="100" w="20" h="20" xo="40" yo="20" id="10063448" name="inst_1EB9B17F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="140" y="120" w="20" h="20" xo="0" yo="20" id="10063451" name="inst_43FDD909" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="200" y="60" w="20" h="20" xo="40" yo="420" id="10063454" name="inst_E1861913" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="140" y="80" w="20" h="20" xo="0" yo="120" id="10063455" name="inst_77D84764" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="140" y="60" w="20" h="20" xo="40" yo="0" id="10063456" name="inst_0CB1A27D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="200" y="80" w="20" h="20" xo="40" yo="20" id="10063457" name="inst_2D812D34" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="240" y="80" w="20" h="20" xo="80" yo="60" id="10063458" name="inst_01AB54B7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="240" y="100" w="20" h="20" xo="40" yo="20" id="10063459" name="inst_A04F3095" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="280" y="80" w="40" h="40" xo="80" yo="120" id="10063460" name="inst_8C7275EF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="320" y="100" w="20" h="20" xo="40" yo="20" id="10063461" name="inst_D79BCEA3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="320" y="80" w="20" h="20" xo="60" yo="420" id="10063462" name="inst_35DF02D1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="400" y="100" w="20" h="20" xo="60" yo="120" id="10063463" name="inst_36BC1C38" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="380" y="80" w="20" h="20" xo="40" yo="400" id="10063464" name="inst_E7D0B047" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="400" y="60" w="20" h="20" xo="60" yo="400" id="10063465" name="inst_64686145" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="380" y="100" w="20" h="20" xo="40" yo="20" id="10063466" name="inst_0F87936E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="400" y="80" w="20" h="20" xo="40" yo="0" id="10063467" name="inst_113D7B32" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="440" y="40" w="20" h="20" xo="0" yo="400" id="10063484" name="inst_0EE8222A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="500" y="40" w="40" h="20" xo="0" yo="420" id="10063485" name="inst_1B19CA55" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="560" y="60" w="40" h="20" xo="40" yo="400" id="10063486" name="inst_9FA23F54" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="480" y="40" w="20" h="20" xo="40" yo="0" id="10063487" name="inst_06CC2FBA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="460" y="40" w="20" h="20" xo="40" yo="0" id="10063488" name="inst_4ED0E421" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="540" y="60" w="20" h="20" xo="40" yo="0" id="10063489" name="inst_9C2A2701" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="580" y="80" w="20" h="20" xo="40" yo="20" id="10063490" name="inst_E4EFFE06" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="560" y="80" w="20" h="20" xo="40" yo="20" id="10063491" name="inst_E68FA6BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="540" y="80" w="20" h="20" xo="40" yo="20" id="10063492" name="inst_AD79F0BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="440" y="120" w="20" h="20" xo="0" yo="40" id="10063538" name="inst_6EA1D22C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="460" y="100" w="20" h="20" xo="0" yo="40" id="10063539" name="inst_F2BDB30B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="440" y="100" w="20" h="20" xo="0" yo="20" id="10063540" name="inst_1D2B55F2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="320" y="100" w="20" h="20" xo="20" yo="120" id="10063425" name="inst_8C2067A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="320" y="80" w="20" h="20" xo="40" yo="0" id="10063426" name="inst_3C23D573" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="560" y="80" w="20" h="20" xo="40" yo="20" id="10063427" name="inst_C85DD4BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="100" y="60" w="20" h="20" xo="120" yo="200" id="10004924" name="inst_8A97371A" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="100" y="80" w="20" h="20" xo="120" yo="200" id="10004925" name="inst_020133D3" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="100" y="100" w="20" h="20" xo="120" yo="200" id="10004926" name="inst_D9A2DA27" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="280" y="60" w="20" h="20" xo="120" yo="200" id="10004928" name="inst_1754B577" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="280" y="80" w="20" h="20" xo="120" yo="200" id="10004929" name="inst_FB67AD00" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="340" y="60" w="20" h="20" xo="120" yo="200" id="10004930" name="inst_13BB3599" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="540" y="40" w="20" h="20" xo="120" yo="200" id="10004940" name="inst_C56BAAEF" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="640" y="60" w="20" h="20" xo="120" yo="200" id="10004952" name="inst_8494C068" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="640" y="80" w="20" h="20" xo="120" yo="200" id="10004953" name="inst_AFE95053" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="640" y="100" w="20" h="20" xo="120" yo="200" id="10004954" name="inst_81E584F7" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="20" y="80" w="20" h="20" xo="120" yo="200" id="10018872" name="inst_BB2A55BF" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="40" y="140" w="20" h="20" xo="80" yo="500" id="10018873" name="inst_5483383D" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="220" y="160" w="20" h="20" xo="60" yo="480" id="10018875" name="inst_8441B1A5" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="100" y="140" w="20" h="20" xo="80" yo="500" id="10018873" name="inst_5483383D" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="240" y="120" w="20" h="20" xo="80" yo="500" id="10018874" name="inst_26236AA9" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="400" y="160" w="20" h="20" xo="60" yo="480" id="10018875" name="inst_8441B1A5" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="240" y="180" w="20" h="20" xo="20" yo="100" id="10018876" name="inst_EB48AF6C" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="320" y="120" w="20" h="20" xo="40" yo="500" id="10018878" name="inst_A6BA9FBF" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="120" y="180" w="20" h="20" xo="60" yo="500" id="10018879" name="inst_0A6A024D" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="40" y="160" w="20" h="20" xo="40" yo="500" id="10018878" name="inst_A6BA9FBF" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="140" y="180" w="20" h="20" xo="60" yo="500" id="10018879" name="inst_0A6A024D" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="460" y="100" w="20" h="20" xo="160" yo="300" id="10026659" name="inst_92D59237" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="480" y="80" w="20" h="20" xo="160" yo="300" id="10026660" name="inst_8D0AAB02" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="560" y="80" w="20" h="20" xo="180" yo="300" id="10026661" name="inst_7804355E" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -370,7 +370,7 @@
     <tile bgName="bg_darkruins" x="620" y="120" w="20" h="20" xo="180" yo="260" id="10026680" name="inst_9045CBAE" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="460" y="120" w="20" h="20" xo="180" yo="280" id="10026683" name="inst_8CC545F4" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="460" y="140" w="20" h="20" xo="180" yo="280" id="10026686" name="inst_390491B1" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="160" y="60" w="40" h="20" xo="80" yo="100" id="10062982" name="inst_E40F70AE" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="220" y="60" w="40" h="20" xo="80" yo="100" id="10062982" name="inst_E40F70AE" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="440" y="120" w="20" h="60" xo="120" yo="380" id="10063031" name="inst_ED97877F" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="480" y="120" w="20" h="20" xo="0" yo="20" id="10063035" name="inst_4195A33A" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="480" y="140" w="20" h="20" xo="0" yo="20" id="10063036" name="inst_7DF8F66B" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -403,29 +403,18 @@
     <tile bgName="bg_darkruins" x="420" y="140" w="20" h="20" xo="20" yo="280" id="10063122" name="inst_FF09C95A" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="420" y="180" w="20" h="20" xo="20" yo="300" id="10063123" name="inst_A338467D" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="420" y="120" w="20" h="20" xo="20" yo="280" id="10063283" name="inst_3EA79F95" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="340" y="120" w="60" h="20" xo="100" yo="40" id="10063400" name="inst_470773BC" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="340" y="180" w="60" h="20" xo="100" yo="0" id="10063401" name="inst_FB2B0E93" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="440" y="100" w="20" h="20" xo="20" yo="280" id="10063294" name="inst_535D535C" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="320" y="120" w="60" h="20" xo="100" yo="40" id="10063400" name="inst_470773BC" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="320" y="180" w="60" h="20" xo="100" yo="0" id="10063401" name="inst_FB2B0E93" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="540" y="60" w="20" h="20" xo="120" yo="200" id="10063403" name="inst_08C46724" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="460" y="40" w="20" h="20" xo="120" yo="200" id="10063404" name="inst_20F67823" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="460" y="60" w="20" h="20" xo="120" yo="200" id="10063405" name="inst_9ADCD1FD" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="460" y="80" w="20" h="20" xo="120" yo="200" id="10063406" name="inst_1B13C6BA" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="140" y="100" w="80" h="20" xo="80" yo="220" id="10063410" name="inst_D7D51FF8" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="240" y="140" w="20" h="20" xo="80" yo="480" id="10063449" name="inst_24748E9B" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="60" y="60" w="20" h="20" xo="120" yo="200" id="10063471" name="inst_9CF3CB22" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="60" y="80" w="20" h="20" xo="120" yo="200" id="10063472" name="inst_C75EB450" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="60" y="100" w="20" h="20" xo="120" yo="200" id="10063473" name="inst_CE96D8D2" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="240" y="60" w="20" h="20" xo="120" yo="200" id="10063474" name="inst_44A296E8" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="240" y="80" w="20" h="20" xo="120" yo="200" id="10063475" name="inst_6C2DAA17" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="240" y="100" w="20" h="20" xo="120" yo="200" id="10063476" name="inst_BFCD8075" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="340" y="80" w="20" h="20" xo="120" yo="200" id="10063477" name="inst_8D04955E" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="340" y="60" w="20" h="20" xo="120" yo="200" id="10063478" name="inst_BA55FC13" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="620" y="60" w="20" h="20" xo="120" yo="200" id="10063479" name="inst_81F0B360" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="620" y="80" w="20" h="20" xo="120" yo="200" id="10063480" name="inst_77E8DA5D" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="460" y="200" w="20" h="20" xo="80" yo="500" id="10063483" name="inst_C8C4EA95" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="440" y="100" w="20" h="20" xo="20" yo="280" id="10063533" name="inst_6FB7E4E7" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins_corn" x="340" y="120" w="60" h="20" xo="140" yo="80" id="10063307" name="inst_5BCC5B20" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins_corn" x="340" y="180" w="60" h="20" xo="140" yo="60" id="10063310" name="inst_9132B205" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="440" y="100" w="20" h="20" xo="20" yo="460" id="10063531" name="inst_58E0C1CF" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="340" y="80" w="20" h="20" xo="120" yo="200" id="10063407" name="inst_1FA1B12A" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="280" y="100" w="20" h="20" xo="120" yo="200" id="10063408" name="inst_E38D8CFC" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="200" y="100" w="80" h="20" xo="80" yo="220" id="10063410" name="inst_D7D51FF8" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins_corn" x="320" y="120" w="60" h="20" xo="140" yo="80" id="10063307" name="inst_5BCC5B20" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins_corn" x="320" y="180" w="60" h="20" xo="140" yo="60" id="10063310" name="inst_9132B205" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

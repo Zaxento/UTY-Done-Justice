@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 30
+global.border = 54
 </string>
           </argument>
         </arguments>
@@ -49,7 +50,18 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 40
-instance_create((obj_heart.x), (9), obj_dalvwarning)
+if obj_heart.x &lt; global.idealborder[0] + 15
+{
+    instance_create((global.idealborder[0] + 15), (9), obj_dalvwarning)
+}
+else if obj_heart.x &gt; global.idealborder[1] - 25
+{
+    instance_create((global.idealborder[1] - 25), (9), obj_dalvwarning)
+}
+else
+{
+    instance_create((obj_heart.x), (9), obj_dalvwarning)
+}
 </string>
           </argument>
         </arguments>
