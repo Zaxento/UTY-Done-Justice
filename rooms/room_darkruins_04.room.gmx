@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_door" x="120" y="220" name="inst_3D836A91" locked="0" code="next_x = 150&#xA;next_y = 110&#xA;next_room = room_darkruins_03&#xA;next_dir = 2&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="300" y="140" name="inst_3D4DED54" locked="0" code="next_x = 20&#xA;next_y = 160&#xA;next_room = room_darkruins_06&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="300" y="140" name="inst_3D4DED54" locked="0" code="next_x = 20&#xA;next_y = 120&#xA;next_room = room_darkruins_06&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_lever" x="80" y="80" name="inst_7C790012" locked="0" code="row = 1&#xA;&#xA;if global.plot &gt; 12&#xA;    {&#xA;    image_index = 1&#xA;    }&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lever" x="130" y="80" name="inst_4061960F" locked="0" code="row = 2&#xA;&#xA;if global.plot &gt; 12&#xA;    {&#xA;    image_index = 1&#xA;    }&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lever" x="180" y="80" name="inst_52DFFE7B" locked="0" code="row = 3&#xA;obj_mainchara.puzzleswitch = 0&#xA;&#xA;if global.plot &gt; 12&#xA;    {&#xA;    image_index = 1&#xA;    }" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

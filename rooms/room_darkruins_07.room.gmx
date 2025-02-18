@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_door" x="0" y="140" name="inst_ACBB17E2" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_06&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="640" y="120" name="inst_E799E10C" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_08&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="640" y="120" name="inst_E799E10C" locked="0" code="next_x = 20&#xA;next_y = 140&#xA;next_room = room_darkruins_08&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_mainchara" x="100" y="140" name="inst_237CE6C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="0" y="20" name="inst_CF94EDE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fakewaterlcd" x="60" y="120" name="inst_8C9CBAF6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -80,7 +80,6 @@
     <instance objName="obj_solidsmall" x="220" y="100" name="inst_7D6BCED1" locked="0" code="" scaleX="11" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="240" y="120" name="inst_A037DD6C" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="460" y="180" name="inst_B6E4ED5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="480" y="120" name="inst_4B5A5EE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stairstep" x="450" y="136" name="inst_1B8E3346" locked="0" code="" scaleX="1" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
     <instance objName="obj_stairstep" x="446" y="140" name="inst_DAD796CA" locked="0" code="" scaleX="1" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>
     <instance objName="obj_stairstep" x="458" y="128" name="inst_775D9185" locked="0" code="" scaleX="1" scaleY="1.29999995231628" colour="4294967295" rotation="0"/>

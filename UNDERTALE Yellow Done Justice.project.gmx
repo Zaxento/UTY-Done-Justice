@@ -2084,10 +2084,8 @@
     </rooms>
     <rooms name="Dark Ruins">
       <room>rooms\room_darkruins_01</room>
-      <room>rooms\room_darkruins_02</room>
       <room>rooms\room_darkruins_03</room>
       <room>rooms\room_darkruins_04</room>
-      <room>rooms\room_darkruins_05</room>
       <room>rooms\room_darkruins_06</room>
       <room>rooms\room_darkruins_07</room>
       <room>rooms\room_darkruins_08</room>
@@ -2201,8 +2199,10 @@
     <rooms name="Dark Ruins Old">
       <room>rooms\room_darkruins_02_old</room>
       <room>rooms\room_darkruins_03_old</room>
+      <room>rooms\room_darkruins_05_old</room>
       <room>rooms\room_darkruins_06_old</room>
       <room>rooms\room_darkruins_07_old</room>
+      <room>rooms\room_darkruins_08_old</room>
     </rooms>
   </rooms>
   <help>

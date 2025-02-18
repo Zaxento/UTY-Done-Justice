@@ -81,7 +81,7 @@
     <instance objName="obj_lightp" x="160" y="80" name="inst_0D95872C" locked="0" code="i = 4&#xA;turn = 0&#xA;if global.plot &gt; 13&#xA;{&#xA;    turn = 1&#xA;}&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lightp" x="180" y="80" name="inst_FCD15C7D" locked="0" code="i = 5" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_puzzle_resetter" x="50" y="60" name="inst_BF207046" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="300" y="140" name="inst_12B1D85F" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_07&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="300" y="140" name="inst_12B1D85F" locked="0" code="next_x = 40&#xA;next_y = 140&#xA;next_room = room_darkruins_07&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="0" y="140" name="inst_2FDAC00B" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_04&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_mainchara" x="140" y="180" name="inst_284C2BE3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="20" y="0" name="inst_A3E3AF59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
