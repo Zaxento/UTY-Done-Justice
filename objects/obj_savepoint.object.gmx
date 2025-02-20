@@ -25,11 +25,25 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>myinteract = 0
+            <string>//Some silly Flowey Shenanigans. UTY Devs didn't make the best use of the bad idea they were insistent on smh
+if global.flowey_flag[0] = 1 &amp;&amp; global.plot &lt; 13
+{
+    if global.gold &gt; 0 || global.xp &gt; 0 //This technically counts as something worth saving! Getting your butt kicked or running away doesn't count.
+    {
+        global.flowey_flag[0] = 2
+    }
+    else
+    {
+        instance_destroy()
+    }
+}
+//
+myinteract = 0
 image_xscale = 1
 image_yscale = 1
 image_speed = 0.2
 conversation = 0
+talkcount = 0
 // Rooms aren't in the game yet.
 //if (global.flag[493] &gt;= 12 &amp;&amp; global.flag[7] == 0)
 //{
@@ -74,6 +88,7 @@ conversation = 0
             <kind>1</kind>
             <string>if instance_exists(obj_flowey_save) == 0
 {
+    talkcount += 1
     myinteract = 4
     //global.msc = 15
     //global.typer = 5
@@ -95,7 +110,7 @@ conversation = 0
     if (offroom == 0)
     {
         visible = false
-        instance_create(x - 2,y - 4,obj_flowey_save)
+        instance_create(x - 2,y - 4, obj_flowey_save)
     }
 }
 else

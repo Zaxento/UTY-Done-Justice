@@ -29,7 +29,7 @@
 if global.plot &gt; 9
 {
     instance_destroy()
-    instance_create(150,150,obj_savepoint)
+    instance_create(150,130,obj_savepoint)
 }
 </string>
           </argument>

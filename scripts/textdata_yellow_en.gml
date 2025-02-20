@@ -658,10 +658,26 @@ ds_map_add(global.text_data_en, "scr_text_plothole_5", "* I must leave for a mom
 ds_map_add(global.text_data_en, "scr_text_plothole_6", "* Do not wander,^1 many monsters&  are unfriendly towards humans./")
 ds_map_add(global.text_data_en, "scr_text_plothole_7", "* Fret not,^1 my child,^1 I will&  protect you!/")
 ds_map_add(global.text_data_en, "scr_text_plothole_8", "* Please...^2 wait there./%")
+
+//DARK RUINS//
+
+//Readable Signs//
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins1_1", "* The sign is obscured by&  leaves./%%")
+
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins4_1", "* (It's a sign.)^2 &* (It says\R EXPOSITION\W in large&  friendly letters.)/%%")
+
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins7_1", "* Private property.^2 &* No trespassing./%%")
+
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_1", "* Friend:^2 &* I planted these for you./")
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_2", "* It isn't much but I hope it&  brightens your day./")
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_3", "* It always brightened mine./")
+
+//Cutscenes//
+
 //Flowey shows up and destroys canon by existing. First playthrough.
 ds_map_add(global.text_data_en, "scr_text_floweyintro_1", "\W* Howdy^2!&* I'm\Y FLOWEY\W.^2 &* \YFLOWEY\W the \YFLOWER\W!/")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_2", "\E9* Hmm...^2 &* You look confused!/")
-ds_map_add(global.text_data_en, "scr_text_floweyintro_3", "\E6* Toriel ought to have&  taught you how things&  work around here!/")
+ds_map_add(global.text_data_en, "scr_text_floweyintro_3", "\E0* Toriel ought to have&  taught you how things&  work around here!/")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_4", "\E8* She didn't?/")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_5", "\E0* I guess little old me&  will have to do./")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_6", "* Ready? Here we go!/%%")
@@ -677,7 +693,7 @@ ds_map_add(global.text_data_en, "scr_text_floweyintro_13", "Try dodging my&bulle
 ds_map_add(global.text_data_en, "scr_text_floweyintro_14", "Nice job there,^1 &buddy!^2 In case you&do get hit,^1 I can&SAVE your progress!/")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_15", "That means if&something bad&happens,^1 I can make&it unhappen for you./%%")
 //Get hit by Flowey's bullets
-ds_map_add(global.text_data_en, "scr_text_floweyintro_16", "\E7Sorry about that./")
+ds_map_add(global.text_data_en, "scr_text_floweyintro_16", "\E8Sorry about that./")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_17", "\E0Let's try again!/%%")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_18", "Here they come!^2 &Dodge them all!^2 %%%")
 //Dodge Flowey's bullets after getting hit or get hit by all of them. Absence of second line is intentional for recycling purposes.
@@ -689,39 +705,39 @@ ds_map_add(global.text_data_en, "scr_text_floweyintro_21", "\E0Don't mess it up&
 ds_map_add(global.text_data_en, "scr_text_floweyintro_22", "\E3You sicko!^2 &Are you doing this&on purpose?!/")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_23", "Fine!^2 I'll just stop&sending them then./%%")
 //Flowey Intro Battle ends. Back to Overworld Dialogue.
-ds_map_add(global.text_data_en, "scr_text_floweyintro_24", "\E6* You probably want to go&  home,^1 don'tcha?/")
+ds_map_add(global.text_data_en, "scr_text_floweyintro_24", "\E0* You probably want to go&  home,^1 don'tcha?/")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_25", "\E0* Well you've got a long&  journey ahead!/")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_26", "* If you ever need to&  save,^1 come look for me!/")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_27", "* I'll leave these little&  things around for you./%%")
 //Flowey sinks inside the ground for a while. Save Star is present, then he rises back up to yap some more.
 ds_map_add(global.text_data_en, "scr_text_floweyintro_28", "* That way it's easy to&  find me!/")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_29", "* If you see one don't&  hesitate to call me!/")
-ds_map_add(global.text_data_en, "scr_text_floweyintro_30", "\E6* And then I'll save&  for you.^2 Like I just&  saved for you now!/")
+ds_map_add(global.text_data_en, "scr_text_floweyintro_30", "\E0* And then I'll save&  for you.^2 Like I just&  saved for you now!/")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_31", "\E1* .../")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_32", "\E9* There's one more&  thing.../")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_33", "\E8\W* The king of all the&  monsters, \RASGORE\W.../")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_34", "* He's been killing&  humans./")
-ds_map_add(global.text_data_en, "scr_text_floweyintro_35", "\E7* The only way out is&  killing him and...^2 &  well.../")
+ds_map_add(global.text_data_en, "scr_text_floweyintro_35", "\E8* The only way out is&  killing him and...^2 &  well.../")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_36", "\E4* You're pretty small.../")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_37", "\E8* That doesn't matter too&  much though./")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_38", "\E0* What matters is you've&  got me on your side!/")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_39", "* I'll let you get going,^1 &  but please be careful./")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_40", "\E9* There's all sortsa&  dangerous traps down&  here./")
 ds_map_add(global.text_data_en, "scr_text_floweyintro_41", "\E1* And some of the&  monsters in this&  place.../")
-ds_map_add(global.text_data_en, "scr_text_floweyintro_42", "\E9* I hear they don't&  like visitors.^2 &  So good luck!/%%")
+ds_map_add(global.text_data_en, "scr_text_floweyintro_42", "\E9* I hear they don't&  like visitors.^2 &* So good luck!/%%")
 
 //Interact with room_darkruins03 Flowey Save Point after tutorial
 //ds_map_add(global.text_data_en, "scr_text_floweysave1_1", "\E0* Howdy!^2 &* Looks like you got&  it then!/%%")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_1", "\E0* Ligma balls lmao/%%")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_1", "\E0* Howdy!^2 &* Looks like you got&  it then!/%%")
 //Interact with room_darkruins03 Flowey Save Point again
 ds_map_add(global.text_data_en, "scr_text_floweysave1_2", "\E0* Why the long face, pal?/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_3", "\E6* Don't worry,^1 this place&  is way better than up&  there!/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_4", "\E9* That old lady would've&  just  spoiled all of&  our fun!/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_3", "\E0* Don't worry,^1 this place&  is way better than up&  there!/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_4", "\E9* That old lady would've&  just spoiled all of&  our fun!/")
 ds_map_add(global.text_data_en, "scr_text_floweysave1_5", "\E0* Come on,^1 let's not stand&  around here all day!/%%")
 //Interact with room_darkruins03 Flowey Save Point a third time. First line of dialogue is different, so this sequence will need to be re-reviewed for Localization.
-ds_map_add(global.text_data_en, "scr_text_floweysave1_6", "\E8* I've already saved for you.../")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_6", "\E8* I've already saved for&  you.../")
 ds_map_add(global.text_data_en, "scr_text_floweysave1_7", "\E9* Do you not trust me or&  something?/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_8", "\E6* Come on!^2 &* I'm your pal!/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_8", "\E0* Come on!^2 &* I'm your pal!/")
 ds_map_add(global.text_data_en, "scr_text_floweysave1_9", "\E0* I got your back!/%%")
 //Repeat interactions with room_darkruins03 Flowey Save Point after the third time, but not on the sixth.
 ds_map_add(global.text_data_en, "scr_text_floweysave1_10", "\E8* You should get going.../%%")
@@ -729,18 +745,30 @@ ds_map_add(global.text_data_en, "scr_text_floweysave1_10", "\E8* You should get 
 ds_map_add(global.text_data_en, "scr_text_floweysave1_11", "\E4* Really?^2 &* What is this about?/")
 ds_map_add(global.text_data_en, "scr_text_floweysave1_12", "* I told you already,^1 you&  don't need that stupid&  goat lady!/")
 ds_map_add(global.text_data_en, "scr_text_floweysave1_13", "* She couldn't have&  protected you anyway!/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_14", "\E6* You have me!^2 &* I'm way better!/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_14", "\E0* I'm your pal Flowey!/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_14", "\E6* I'm the only friend&  you'll ever need!/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_14", "\E0* Can Toriel save for you?^1 &* NO!/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_14", "\E9* So let's get out of&  here while we're&  still young!/%%")
-//Interact with room_darkruin03 Flowey Save Point a sixth time before encountering a monster or solving the first puzzle.
-ds_map_add(global.text_data_en, "scr_text_floweysave1_15", "\E1* You're having an awful lot of fun with this.../")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_16", "\E1* Making me go up and down constantly for nothing./")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_17", "\E1* I might be your friend... But I've got limits too, y'know?/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_18", "\E1* Guess I gotta put my foot down./")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_19", "\E1* I'm not going to come out from here again until you actually do something worth saving./")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_20", "\E1* No slacking off now!/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_14", "\E0* You have me!^2 &* I'm way better!/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_15", "\E0* I'm your pal Flowey!/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_16", "\E0* I'm the only friend&  you'll ever need!/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_17", "\E0* Can Toriel save for you?^1 &* NO!/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_18", "\E9* So let's get out of&  here while we're&  still young!/%%")
+//Interact with room_darkruin03 Flowey Save Point a sixth time before gaining gold, EXP or solving the first puzzle.
+ds_map_add(global.text_data_en, "scr_text_floweysave1_19", "\E9* You're having an awful&  lot of fun with this.../")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_20", "\E9* Making me go up and down&  for nothing./")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_21", "\E8* I may be your friend...^2 &  But I've got limits too,^1  y'know?/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_22", "\E2* Guess I gotta put my&  roots down./")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_23", "\E0* I'm not going to come&  out until you do&  something worth saving./")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_24", "\E0* No slacking off now!/%%")
+//Return after solving the first puzzle
+ds_map_add(global.text_data_en, "scr_text_floweysave1_25", "\E9* Well...^1 \E9I guess solving that puzzle counts?/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_26", "\E0* I'll give you an A for effort at least!/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_27", "\E0* How about doing a little more for your pal?/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_28", "\E2* I might think of more things to talk about, since you like hearing my voice so much./")
+//Talk to Flowey a second time afterwards
+ds_map_add(global.text_data_en, "scr_text_floweysave1_29", "\E8* Again? Seems like you didn't learn from last time./")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_30", "\E2* Well that's fine with me!^1 &/E0* See you later!/%%")
+//Flowey comes back up afterwards.
+ds_map_add(global.text_data_en, "scr_text_floweysave1_31", "\E0* Just kidding!^2 You didn't think I'd do that again,^1 did you?/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_32", "\E2* Not THIS time, anyway./")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_33", "\E0* I won't have any new material for you.&* So you'll get bored and do what I want anyways./%%")
 
 //Interact with room
 
@@ -751,13 +779,13 @@ ds_map_add(global.text_data_en, "scr_text_dalvscene1_3", "* How long has it been
 ds_map_add(global.text_data_en, "scr_text_dalvscene1_4", "* I was wondering if you'd ever&  come back.../")
 ds_map_add(global.text_data_en, "scr_text_dalvscene1_5", "* .../")
 ds_map_add(global.text_data_en, "scr_text_dalvscene1_6", "* No...^2 too forward./")
-ds_map_add(global.text_data_en, "scr_text_dalvscene1_7", "* Who am I kidding?^2 I'll never&  be able to meet you in this&  state/")
-ds_map_add(global.text_data_en, "scr_text_dalvscene1_8", "* I just hope you know...^2 I had&  no choice. It must be this way./%%")
+ds_map_add(global.text_data_en, "scr_text_dalvscene1_7", "* Who am I kidding?^2 &* I'll never be able to meet you&  in this state./")
+ds_map_add(global.text_data_en, "scr_text_dalvscene1_8", "* I just hope you know...^2 &* I had no choice.^1 &* It must be this way./%%")
 //Dalv moves forward a bit before hitting us with another "...". Reusing the one he already he did.
 ds_map_add(global.text_data_en, "scr_text_dalvscene1_9", "* Huh?/%%")
 //Dalv turns around to see Clover from Undertale Yellow.
-ds_map_add(global.text_data_en, "scr_text_dalvscene1_10", "* Who....?/")
-ds_map_add(global.text_data_en, "scr_text_dalvscene1_11", "* I must be seeing things.../%%") //Removed Ddalv's stutter here, since he does not seem to have this as a nervous tick like Alphys does.
+ds_map_add(global.text_data_en, "scr_text_dalvscene1_10", "* Who...?/")
+ds_map_add(global.text_data_en, "scr_text_dalvscene1_11", "* I must be seeing things.../%%") //Removed Dalv's stutter here, since he does not seem to have this as a nervous tick like Alphys does.
 //Dalv moves backwards and then moves into the next room, where the camera then returns to Clover.
 
 

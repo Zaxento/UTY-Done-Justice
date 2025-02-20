@@ -56,7 +56,7 @@
     <instance objName="obj_archwaypillar_start" x="109" y="147" name="inst_5FE69EB0" locked="0" code="color = make_colour_rgb(97,44,97)&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_archwaypillar_start" x="213" y="147" name="inst_E07E7657" locked="0" code="color = make_colour_rgb(97,44,97)&#xA;" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="180" y="150" name="inst_4F0E3E13" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="120" y="410" name="inst_77ACCF65" locked="0" code="next_x = 610&#xA;next_y = 150&#xA;next_room = room_area1&#xA;" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="120" y="410" name="inst_77ACCF65" locked="0" code="next_x = 610&#xA;next_y = 150&#xA;next_room = room_area1" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="100" y="150" name="inst_DC06AA00" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="20" y="180" name="inst_91CBD97A" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="220" y="160" name="inst_D9AF52F3" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
@@ -76,6 +76,7 @@
     <instance objName="obj_door_musicfade" x="-520" y="250" name="inst_28A5FAA4" locked="0" code="next_x = 150&#xA;next_y = 420&#xA;next_room = room_ruins1" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidtall" x="0" y="140" name="inst_7BB7C6EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidtall" x="300" y="140" name="inst_528A6B1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_musicfade" x="140" y="150" name="inst_7AB8FE07" locked="0" code="next_x = 150&#xA;next_y = 420&#xA;next_room = room_ruins1&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

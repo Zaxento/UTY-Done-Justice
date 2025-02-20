@@ -50,12 +50,12 @@ fadespeed = 0.04
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>volume += fadespeed
+            <string>volume += fadespeed;
 if (volume &gt; 0.95)
-    volume = 1
+    volume = 1;
 audio_sound_gain(mysong, volume,0)
 if (volume == 1)
-    instance_destroy()
+    instance_destroy();
 </string>
           </argument>
         </arguments>

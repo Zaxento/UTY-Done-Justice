@@ -9,6 +9,6 @@ global.damagebonus_effect = 0 //A Bonus Effect that appears on hit. Exists solel
 //SETTINGS PROTOTYPE! May be relocated.
 global.artstyle_yellow = "Yellow"
 
-global.flag[28] = 1 //Allows you to skip text with C
+global.flag[28] = 0 //Allows you to skip text with C
 global.flag[700] = 0
 global.flowey_flag[10] = 0 //Made a dedicated variable for this like UTY did, since it's likely I will need to have this on hand for a lot of Flowey Save Dialogue.

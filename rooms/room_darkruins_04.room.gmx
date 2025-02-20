@@ -51,8 +51,8 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_door" x="120" y="220" name="inst_3D836A91" locked="0" code="next_x = 150&#xA;next_y = 110&#xA;next_room = room_darkruins_03&#xA;next_dir = 2&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="300" y="140" name="inst_3D4DED54" locked="0" code="next_x = 20&#xA;next_y = 120&#xA;next_room = room_darkruins_06&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="120" y="220" name="inst_3D836A91" locked="0" code="next_x = 150&#xA;next_y = 10&#xA;next_room = room_darkruins_03&#xA;next_dir = 2&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="300" y="140" name="inst_3D4DED54" locked="0" code="next_x = 20&#xA;next_y = 140&#xA;next_room = room_darkruins_06&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_lever" x="80" y="80" name="inst_7C790012" locked="0" code="row = 1&#xA;&#xA;if global.plot &gt; 12&#xA;    {&#xA;    image_index = 1&#xA;    }&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lever" x="130" y="80" name="inst_4061960F" locked="0" code="row = 2&#xA;&#xA;if global.plot &gt; 12&#xA;    {&#xA;    image_index = 1&#xA;    }&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lever" x="180" y="80" name="inst_52DFFE7B" locked="0" code="row = 3&#xA;obj_mainchara.puzzleswitch = 0&#xA;&#xA;if global.plot &gt; 12&#xA;    {&#xA;    image_index = 1&#xA;    }" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -70,9 +70,11 @@
     <instance objName="obj_mainchara" x="120" y="140" name="inst_1795C5E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="0" y="0" name="inst_CE8443B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidtall" x="20" y="20" name="inst_14C5BCD8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidlong" x="40" y="80" name="inst_518F6C73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidlong" x="20" y="80" name="inst_518F6C73" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidlong" x="240" y="180" name="inst_CD811645" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidlong" x="240" y="120" name="inst_A2DB01EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_darkruinsmusic" x="40" y="0" name="inst_FDCC870E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_readable_room1" x="40" y="80" name="inst_01E1FD9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_darkruins" x="20" y="200" w="20" h="20" xo="100" yo="80" id="10003867" name="inst_4A9E9D52" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -135,12 +137,6 @@
     <tile bgName="bg_darkruins" x="300" y="160" w="20" h="20" xo="0" yo="20" id="10004062" name="inst_5BE54967" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="220" y="160" w="20" h="20" xo="0" yo="20" id="10004063" name="inst_24B601A0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="220" y="140" w="20" h="20" xo="0" yo="20" id="10004064" name="inst_C5C15B06" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="280" y="140" w="20" h="20" xo="140" yo="200" id="10004065" name="inst_00A7AE63" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="260" y="140" w="20" h="20" xo="140" yo="200" id="10004066" name="inst_0879D4C0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="240" y="140" w="20" h="20" xo="140" yo="200" id="10004067" name="inst_0D8F7C09" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="240" y="160" w="20" h="20" xo="140" yo="200" id="10004068" name="inst_81AB8093" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="260" y="160" w="20" h="20" xo="140" yo="200" id="10004069" name="inst_B26B116F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins" x="280" y="160" w="20" h="20" xo="140" yo="200" id="10004070" name="inst_E5E7BF84" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="140" y="200" w="20" h="20" xo="0" yo="20" id="10004071" name="inst_21FA4FB9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="120" y="200" w="20" h="20" xo="0" yo="20" id="10004072" name="inst_37144290" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="140" y="220" w="20" h="20" xo="0" yo="20" id="10004073" name="inst_3F6B0C36" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -219,6 +215,12 @@
     <tile bgName="bg_darkruins" x="100" y="40" w="20" h="20" xo="80" yo="60" id="10004149" name="inst_FC56FD70" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="200" y="100" w="20" h="20" xo="0" yo="20" id="10004155" name="inst_1C166E83" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="220" y="120" w="20" h="20" xo="0" yo="20" id="10004156" name="inst_85E9B935" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="240" y="140" w="20" h="20" xo="0" yo="20" id="10063954" name="inst_9DF50499" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="260" y="140" w="20" h="20" xo="0" yo="20" id="10063955" name="inst_C386B416" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="280" y="140" w="20" h="20" xo="0" yo="20" id="10063956" name="inst_A6B0402F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="280" y="160" w="20" h="20" xo="0" yo="20" id="10063957" name="inst_F1D9858B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="260" y="160" w="20" h="20" xo="0" yo="20" id="10063958" name="inst_13B41148" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="240" y="160" w="20" h="20" xo="0" yo="20" id="10063959" name="inst_3970AF04" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="220" y="60" w="20" h="20" xo="80" yo="220" id="10003920" name="inst_CCF12089" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="40" y="40" w="20" h="20" xo="140" yo="220" id="10003921" name="inst_9A28A1A7" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="100" y="40" w="20" h="20" xo="120" yo="200" id="10003923" name="inst_64B4F0CF" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -230,6 +232,12 @@
     <tile bgName="bg_darkruins" x="40" y="60" w="20" h="20" xo="140" yo="220" id="10004150" name="inst_2BE6027D" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="200" y="100" w="20" h="20" xo="20" yo="300" id="10004153" name="inst_0E192AC2" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="220" y="120" w="20" h="20" xo="20" yo="300" id="10004154" name="inst_76B0E97D" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="240" y="140" w="20" h="20" xo="140" yo="280" id="10063960" name="inst_B2D64D80" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="240" y="160" w="20" h="20" xo="140" yo="280" id="10063961" name="inst_1713AAF7" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="260" y="140" w="20" h="20" xo="140" yo="280" id="10063962" name="inst_F02E1D6F" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="260" y="160" w="20" h="20" xo="140" yo="280" id="10063963" name="inst_C9CB22EF" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="280" y="140" w="20" h="20" xo="140" yo="280" id="10063964" name="inst_629DA83D" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="280" y="160" w="20" h="20" xo="140" yo="280" id="10063965" name="inst_5C034759" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

@@ -69,6 +69,24 @@ if (room == room_ruins2)
     global.msg[0] = scr_gettext("obj_readable_room1_65") // * Only the fearless may proceed.&amp;* Brave ones, foolish ones.&amp;* Both walk not the middle road./%%
 if (room == room_ruins3)
     global.msg[0] = scr_gettext("obj_readable_room1_66") // * Stay on the path./%%
+if (room == room_darkruins_01)
+    global.msg[0] = scr_gettext("obj_readable_room1_darkruins1_1") // * The sign is obscured by&amp;  leaves./%%
+if (room == room_darkruins_04)
+    global.msg[0] = scr_gettext("obj_readable_room1_darkruins4_1") // * (It's a sign.)^2 &amp;* (It says\R EXPOSITION\W in large&amp;  friendly letters.)/%%
+if (room == room_darkruins_07)
+    global.msg[0] = scr_gettext("obj_readable_room1_darkruins1_1") // * The sign is obscured by&amp;  leaves./%%
+    
+if (room == room_darkruins_09)
+{
+    global.msg[0] = scr_gettext("obj_readable_room1_darkruins9_1") // * Friend:^2 &amp;* I planted these for you./
+    global.msg[0] = scr_gettext("obj_readable_room1_darkruins9_2") // * It isn't much but I hope it&amp;  brightens your day./
+    global.msg[0] = scr_gettext("obj_readable_room1_darkruins9_3") // * It always brightened mine./
+}
+
+read += 1;
+
+if (cantalk == 1)
+    mydialoguer = instance_create(0, 0, obj_dialoguer);
 </string>
           </argument>
         </arguments>

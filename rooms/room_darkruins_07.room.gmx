@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_door" x="0" y="140" name="inst_ACBB17E2" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_06&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="0" y="140" name="inst_ACBB17E2" locked="0" code="next_x = 280&#xA;next_y = 140&#xA;next_room = room_darkruins_06&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="640" y="120" name="inst_E799E10C" locked="0" code="next_x = 20&#xA;next_y = 140&#xA;next_room = room_darkruins_08&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_mainchara" x="100" y="140" name="inst_237CE6C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="0" y="20" name="inst_CF94EDE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -96,6 +96,9 @@
     <instance objName="obj_solidsmall" x="120" y="100" name="inst_E0EE6633" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fakewatermu" x="280" y="180" name="inst_3D4C5556" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fakewatermd" x="280" y="120" name="inst_944382A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_toribuster" x="730" y="130" name="inst_71462CF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sdr" x="440" y="160" name="inst_29A7349B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_readable_room1" x="160" y="80" name="inst_73DC36CE" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_darkruins" x="0" y="60" w="20" h="20" xo="120" yo="40" id="10004617" name="inst_F8BE69FA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -346,6 +349,7 @@
     <tile bgName="bg_darkruins" x="440" y="120" w="20" h="20" xo="0" yo="40" id="10063538" name="inst_6EA1D22C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="460" y="100" w="20" h="20" xo="0" yo="40" id="10063539" name="inst_F2BDB30B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="440" y="100" w="20" h="20" xo="0" yo="20" id="10063540" name="inst_1D2B55F2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins" x="0" y="160" w="20" h="20" xo="0" yo="40" id="10063944" name="inst_2A25F273" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="540" y="40" w="20" h="20" xo="120" yo="200" id="10004940" name="inst_C56BAAEF" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="20" y="80" w="20" h="20" xo="120" yo="200" id="10018872" name="inst_BB2A55BF" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins" x="40" y="140" w="20" h="20" xo="80" yo="500" id="10018873" name="inst_5483383D" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

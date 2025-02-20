@@ -5,9 +5,8 @@
   </Configs>
   <NewExtensions>
     <extension index="0">extensions\Jaundice Guns</extension>
-    <extension index="1">extensions\Fonts</extension>
-    <extension index="2">extensions\Undertale Map Imports</extension>
-    <extension index="3">extensions\GMSched</extension>
+    <extension index="1">extensions\Stupid Font Export</extension>
+    <extension index="2">extensions\GMSched</extension>
   </NewExtensions>
   <sounds name="sound">
     <sounds name="SND">
@@ -108,6 +107,8 @@
           <sound>sound\snd_txtsans</sound>
           <sound>sound\snd_txtsans2</sound>
           <sound>sound\snd_txtasg</sound>
+          <sound>sound\snd_mtt1</sound>
+          <sound>sound\snd_wngdng1</sound>
         </sounds>
         <sounds name="Item Sounds">
           <sound>sound\snd_item</sound>
@@ -357,6 +358,10 @@
           </sprites>
         </sprites>
         <sprites name="Enemies">
+          <sprites name="Flowey">
+            <sprite>sprites\spr_floweyworriedside</sprite>
+            <sprite>sprites\spr_floweyplainside</sprite>
+          </sprites>
           <sprites name="Flier">
             <sprite>sprites\spr_flier</sprite>
             <sprite>sprites\spr_flierhurt</sprite>
@@ -603,7 +608,6 @@
             <sprite>sprites\spr_floweyhurt</sprite>
             <sprite>sprites\spr_floweynice</sprite>
             <sprite>sprites\spr_floweyplain</sprite>
-            <sprite>sprites\spr_floweyplainside</sprite>
             <sprite>sprites\spr_floweywink</sprite>
             <sprite>sprites\spr_floweyniceside</sprite>
             <sprite>sprites\spr_floweynicesideum</sprite>
@@ -617,7 +621,6 @@
             <sprite>sprites\spr_floweylaugh</sprite>
             <sprite>sprites\spr_floweyevil</sprite>
             <sprite>sprites\spr_floweyworried</sprite>
-            <sprite>sprites\spr_floweyworriedside</sprite>
             <sprite>sprites\spr_floweysad</sprite>
             <sprite>sprites\spr_flowey_riseanim</sprite>
             <sprite>sprites\spr_flowey_toskull</sprite>
@@ -1347,6 +1350,10 @@
         <script>scripts\scr_conshake.gml</script>
         <script>scripts\scr_conshakeend.gml</script>
       </scripts>
+      <scripts name="Music">
+        <script>scripts\scr_musfadepause.gml</script>
+        <script>scripts\scr_musfaderesume.gml</script>
+      </scripts>
       <script>scripts\scr_enable_screen_border.gml</script>
       <script>scripts\control_update.gml</script>
       <script>scripts\SCR_GAMESTART.gml</script>
@@ -1399,6 +1406,7 @@
       <script>scripts\scr_controls_battle_reticle_multi.gml</script>
       <script>scripts\shotFail.gml</script>
       <script>scripts\scr_facechoice_yellow.gml</script>
+      <script>scripts\scr_floweysave_text.gml</script>
     </scripts>
     <scripts name="Lolchick Engine">
       <script>scripts\scr_checkresolution.gml</script>
@@ -1410,6 +1418,8 @@
       <script>scripts\draw_text_outline.gml</script>
       <script>scripts\debug_printline.gml</script>
       <script>scripts\scr_badexplosion.gml</script>
+      <script>scripts\string_contains.gml</script>
+      <script>scripts\string_pos_ext.gml</script>
     </scripts>
   </scripts>
   <shaders name="shaders">
@@ -1427,6 +1437,7 @@
       <font>fonts\fnt_plainbig</font>
       <font>fonts\fnt_small</font>
       <font>fonts\fnt_wingdings</font>
+      <font>fonts\fnt_comicsans</font>
     </fonts>
     <fonts name="Japanese">
       <font>fonts\fnt_ja_curs</font>
@@ -1435,6 +1446,11 @@
       <font>fonts\fnt_ja_plain</font>
       <font>fonts\fnt_ja_plainbig</font>
       <font>fonts\fnt_ja_plainsmall</font>
+      <font>fonts\fnt_ja_comicsans</font>
+      <font>fonts\fnt_ja_comicsans_big</font>
+    </fonts>
+    <fonts name="Russian">
+      <font>fonts\fnt_ru_comicsans</font>
     </fonts>
   </fonts>
   <objects name="objects">
@@ -1503,6 +1519,8 @@
         <object>objects\obj_face_dalv</object>
         <object>objects\obj_face_gilbert</object>
         <object>objects\obj_face_angie</object>
+        <object>objects\obj_face_evilfloweytalk</object>
+        <object>objects\obj_face_floweytalk_oldyellow</object>
       </objects>
       <objects name="Overworld">
         <objects name="Clover">
@@ -1555,6 +1573,7 @@
         <object>objects\obj_asgoremeet_yellow</object>
       </objects>
       <object>objects\obj_yellowtitle</object>
+      <object>objects\obj_readable_room1</object>
     </objects>
     <objects name="Amalgamate Engine">
       <objects name="Solids">
@@ -1593,11 +1612,12 @@
           <object>objects\obj_face_alphys</object>
           <object>objects\obj_face_asgore</object>
           <object>objects\obj_face_floweytalk</object>
-          <object>objects\obj_face_evilfloweytalk</object>
         </objects>
         <object>objects\OBJ_WRITER</object>
         <object>objects\obj_base_writer</object>
+        <object>objects\obj_base_writer_lolchick</object>
         <object>objects\obj_dialoguer</object>
+        <object>objects\obj_dialoguer_lolchick</object>
         <object>objects\OBJ_NOMSCWRITER</object>
         <object>objects\OBJ_INSTAWRITER</object>
       </objects>
@@ -1949,7 +1969,6 @@
         <object>objects\obj_savepoint</object>
         <object>objects\obj_savepoint_backup</object>
         <object>objects\obj_stalkerflowey</object>
-        <object>objects\obj_readable_room1</object>
         <object>objects\obj_cosmeticblcon</object>
         <object>objects\obj_stairstep</object>
       </objects>
@@ -2015,6 +2034,9 @@
         <object>objects\obj_npc_marker</object>
       </objects>
       <objects name="Music">
+        <object>objects\obj_musfadein</object>
+        <object>objects\obj_musfadepause</object>
+        <object>objects\obj_musfadeout</object>
         <object>objects\obj_musicobjectparent</object>
         <object>objects\obj_ruinsmusic</object>
         <object>objects\obj_lavamusic</object>
@@ -2022,7 +2044,6 @@
       <object>objects\obj_time</object>
       <object>objects\object234</object>
       <object>objects\object235</object>
-      <object>objects\obj_musfadein</object>
       <object>objects\obj_unfader</object>
       <object>objects\obj_persistentfader</object>
       <object>objects\obj_ambientwater</object>
@@ -2043,7 +2064,6 @@
       <object>objects\obj_foodsound</object>
       <object>objects\obj_quittingmessage</object>
       <object>objects\obj_roomofdog</object>
-      <object>objects\obj_musfadeout</object>
       <object>objects\obj_imageview</object>
       <object>objects\obj_genafterimage</object>
       <object>objects\obj_orangeparticlegen</object>
@@ -2086,8 +2106,10 @@
     </rooms>
     <rooms name="Dark Ruins">
       <room>rooms\room_darkruins_01</room>
+      <room>rooms\room_darkruins_02_old</room>
       <room>rooms\room_darkruins_03</room>
       <room>rooms\room_darkruins_04</room>
+      <room>rooms\room_darkruins_05_old</room>
       <room>rooms\room_darkruins_06</room>
       <room>rooms\room_darkruins_07</room>
       <room>rooms\room_darkruins_08</room>
@@ -2199,9 +2221,7 @@
       <room>rooms\room_fastbattle</room>
     </rooms>
     <rooms name="Dark Ruins Old">
-      <room>rooms\room_darkruins_02_old</room>
       <room>rooms\room_darkruins_03_old</room>
-      <room>rooms\room_darkruins_05_old</room>
       <room>rooms\room_darkruins_06_old</room>
       <room>rooms\room_darkruins_07_old</room>
       <room>rooms\room_darkruins_08_old</room>

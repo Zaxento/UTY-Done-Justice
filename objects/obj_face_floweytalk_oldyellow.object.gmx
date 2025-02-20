@@ -32,7 +32,7 @@ if (global.faceemotion == 0 &amp;&amp; sprite_index != spr_floweynice)
     sprite_index = spr_floweynice;
 
 if (global.faceemotion == 1 &amp;&amp; sprite_index != spr_floweyworriedside) //replaced spr_floweynicesideum
-    sprite_index = spr_floweyworriedside; //While a worried variation... I think it helps that Flowey's mouth is different here too for a more distinct expression. On thin ice, but allowed.
+    sprite_index = spr_floweyworriedside;
 
 if (global.faceemotion == 2 &amp;&amp; sprite_index != spr_floweysassy)
     sprite_index = spr_floweysassy;
@@ -41,16 +41,16 @@ if (global.faceemotion == 3 &amp;&amp; sprite_index != spr_floweypissed)
     sprite_index = spr_floweypissed;
 
 if (global.faceemotion == 4 &amp;&amp; sprite_index != spr_floweysad) //replaced spr_floweyevil
-    sprite_index = spr_floweysad; //Kept for now. Could change depending on mileage of use, as too weak uses can be replaced.
+    sprite_index = spr_floweysad;
 
 if (global.faceemotion == 5 &amp;&amp; sprite_index != spr_floweygrin)
-    sprite_index = spr_floweygrin; //Can replace this if needed. Can have a set of "Evil" Flowey sprites to use instead of default since they're more specific.
+    sprite_index = spr_floweygrin;
     
 if (global.faceemotion == 6 &amp;&amp; sprite_index != spr_floweyniceside) //replaced spr_floweytoriel
     sprite_index = spr_floweyniceside;
     
 if (global.faceemotion == 7 &amp;&amp; sprite_index != spr_floweyplainside) //replaced spr_floweytoriel2
-    sprite_index = spr_floweyplainside; //Definitely think this can be replaced again when a more practical face is used. Avoid using this.
+    sprite_index = spr_floweyplainside;
     
 if (global.faceemotion == 8 &amp;&amp; sprite_index != spr_floweyplain)
     sprite_index = spr_floweyplain;

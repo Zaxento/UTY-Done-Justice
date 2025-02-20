@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_depth(0, 0, 0, 0, 0)
+            <string>if global.plot &gt; 14
+{
+    instance_destroy()
+}
+scr_depth(0, 0, 0, 0, 0)
 image_speed = 0
 dsprite = spr_dalvhdown
 usprite = spr_dalvhup
@@ -36,6 +40,29 @@ facing = 0
 phone = 0
 fader = 0
 conversation = 0
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>scr_musfaderesume(0.05);
 </string>
           </argument>
         </arguments>
@@ -88,14 +115,15 @@ if (speed == 0)
     image_index = 0
     image_speed = 0
 }
-if (speed &gt; 0)
+if (speed != 0)
     image_speed = 0.2
-scr_npcdir(0)
+scr_npcdir(10)
 
-if obj_mainchara.x &gt; 380 &amp;&amp; conversation == 0
+if obj_mainchara.x &gt; 370 &amp;&amp; conversation == 0
 {
     global.interact = 3;
-    instance_create(0,0,obj_musfadeout)
+    //instance_create(0,0,obj_musfadeout)
+    scr_musfadepause(0.05);
     conversation = 1
 }
 
@@ -110,7 +138,7 @@ if (conversation == 1 &amp;&amp; !instance_exists(obj_dialoguer))
 
 if conversation == 2.5
 {
-    if (view_xview[0] &lt; 340)
+    if (view_xview[0] &lt; 339) //originally 340 but I think there was something funny that happened that locked the dialogue
     {
         view_xview[0] += 2;
     }
@@ -126,12 +154,12 @@ if conversation == 3
     global.msc = 0
     global.msg[0] = scr_gettext("scr_text_dalvscene1_1")
     global.msg[1] = scr_gettext("scr_text_dalvscene1_2")
-    global.msg[0] = scr_gettext("scr_text_dalvscene1_3")
-    global.msg[1] = scr_gettext("scr_text_dalvscene1_4")
-    global.msg[0] = scr_gettext("scr_text_dalvscene1_5")
-    global.msg[1] = scr_gettext("scr_text_dalvscene1_6")
-    global.msg[0] = scr_gettext("scr_text_dalvscene1_7")
-    global.msg[1] = scr_gettext("scr_text_dalvscene1_8")
+    global.msg[2] = scr_gettext("scr_text_dalvscene1_3")
+    global.msg[3] = scr_gettext("scr_text_dalvscene1_4")
+    global.msg[4] = scr_gettext("scr_text_dalvscene1_5")
+    global.msg[5] = scr_gettext("scr_text_dalvscene1_6")
+    global.msg[6] = scr_gettext("scr_text_dalvscene1_7")
+    global.msg[7] = scr_gettext("scr_text_dalvscene1_8")
     global.typer = 700 
     global.facechoice = 0 
     global.faceemotion = 0
@@ -141,8 +169,89 @@ if conversation == 3
 
 if (conversation == 4 &amp;&amp; !instance_exists(obj_dialoguer)) 
 {
-    // Harold stops pointing and turns away from Charlie
     conversation = 5
+    speed = 0.6
+    alarm[4] = 52
+}
+
+if conversation == 6
+{
+    conversation = 7
+    speed = 0
+    alarm[4] = 10
+}
+
+if conversation == 8
+{
+    conversation = 9
+    global.msg[0] = scr_gettext("scr_text_dalvscene1_9")
+    
+    mydialoguer = instance_create(0, 0, obj_dialoguer)
+}
+
+if conversation == 9 &amp;&amp; !instance_exists(obj_dialoguer)
+{
+    conversation = 10
+    alarm[4] = 14
+}
+
+if conversation == 11
+{
+    conversation = 12
+    alarm[4] = 14
+    direction = 270
+}
+
+if conversation == 13
+{
+    conversation = 14
+    alarm[4] = 10
+    direction = 180
+}
+
+if conversation == 15
+{
+    conversation = 16
+    global.msg[0] = scr_gettext("scr_text_dalvscene1_10")
+    global.msg[1] = scr_gettext("scr_text_dalvscene1_11")
+    
+    mydialoguer = instance_create(0, 0, obj_dialoguer)
+}
+
+if conversation == 16 &amp;&amp; !instance_exists(obj_dialoguer)
+{
+    conversation = 17
+    speed = -0.4
+    alarm[4] = 20
+}
+
+if conversation == 18
+{
+    conversation = 19
+    alarm[4] = 30
+    speed = 0
+}
+
+if conversation == 20
+{
+    conversation = 21
+    direction = 0
+    speed = 2
+    alarm[4] = 4
+    alarm[5] = 14
+    global.plot = 15
+}
+
+if conversation == 22 &amp;&amp; view_xview[0] &gt; originx
+{
+    view_xview[0] -= 2;
+}
+
+if conversation == 22 &amp;&amp; view_xview[0] &lt;= originx
+{
+    global.interact = 0
+    obj_mainchara.cutscene = 0
+    conversation = 23
 }
 </string>
           </argument>
