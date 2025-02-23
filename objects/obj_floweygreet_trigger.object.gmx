@@ -26,10 +26,19 @@
           <argument>
             <kind>1</kind>
             <string>conversation = 0
-if global.plot &gt; 9
+if global.gold &gt; 0 || global.xp &gt; 0 || global.plot &gt; 12 //This technically counts as something worth saving! Getting your butt kicked or running away doesn't count.
+{
+    global.flowey_flag[0] = 2
+}
+
+if global.plot &gt; 9 &amp;&amp; global.flowey_flag[0] != 1
 {
     instance_destroy()
     instance_create(150,130,obj_savepoint)
+}
+else if global.flowey_flag[0] = 1
+{
+    instance_destroy()
 }
 </string>
           </argument>

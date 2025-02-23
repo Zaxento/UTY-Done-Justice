@@ -758,17 +758,18 @@ ds_map_add(global.text_data_en, "scr_text_floweysave1_22", "\E2* Guess I gotta p
 ds_map_add(global.text_data_en, "scr_text_floweysave1_23", "\E0* I'm not going to come&  out until you do&  something worth saving./")
 ds_map_add(global.text_data_en, "scr_text_floweysave1_24", "\E0* No slacking off now!/%%")
 //Return after solving the first puzzle
-ds_map_add(global.text_data_en, "scr_text_floweysave1_25", "\E9* Well...^1 \E9I guess solving that puzzle counts?/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_26", "\E0* I'll give you an A for effort at least!/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_27", "\E0* How about doing a little more for your pal?/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_28", "\E2* I might think of more things to talk about, since you like hearing my voice so much./")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_25", "\E9* Well...^2 I guess solving&  that puzzle counts?/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_26", "\E0* I'll give you an A for&  effort at least./")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_27", "\E2* Now an A+...^2 &* You gotta work a little&  harder for that./%%")
 //Talk to Flowey a second time afterwards
-ds_map_add(global.text_data_en, "scr_text_floweysave1_29", "\E8* Again? Seems like you didn't learn from last time./")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_30", "\E2* Well that's fine with me!^1 &/E0* See you later!/%%")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_29", "\E8* This again?^2 Seems like&  you didn't learn from&  last time./")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_30", "\E2* That's fine by me!^1 \E0&* See you later!/%%")
 //Flowey comes back up afterwards.
-ds_map_add(global.text_data_en, "scr_text_floweysave1_31", "\E0* Just kidding!^2 You didn't think I'd do that again,^1 did you?/")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_32", "\E2* Not THIS time, anyway./")
-ds_map_add(global.text_data_en, "scr_text_floweysave1_33", "\E0* I won't have any new material for you.&* So you'll get bored and do what I want anyways./%%")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_31", "\E0* Just kidding!^2 &* You didn't think I'd do&  that again,^1 did you?/")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_32", "\E2* Not THIS time,^1 anyway./")
+ds_map_add(global.text_data_en, "scr_text_floweysave1_33", "\E0* I've got nothing to say,^1  so poking at me won't do&  you any good!/%%")
+//Flowey not giving new dialogue
+ds_map_add(global.text_data_en, "scr_text_floweysave1_34", "\E0* Get going!/%%")
 
 //Interact with room
 

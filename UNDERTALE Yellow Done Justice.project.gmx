@@ -1532,6 +1532,7 @@
         <objects name="Flowey">
           <object>objects\obj_flowey_intro</object>
           <object>objects\obj_flowey_save</object>
+          <object>objects\obj_flowey_save_backup</object>
         </objects>
         <objects name="Dalv">
           <object>objects\obj_dalvoverworld1</object>
@@ -2115,6 +2116,8 @@
       <room>rooms\room_darkruins_08</room>
       <room>rooms\room_darkruins_08b</room>
       <room>rooms\room_darkruins_09</room>
+      <room>rooms\room_darkruins_09_backup2</room>
+      <room>rooms\room_darkruins_09_backup</room>
       <room>rooms\room_darkruins_09b</room>
       <room>rooms\room_darkruins_10</room>
       <room>rooms\room_darkruins_11</room>
@@ -2225,6 +2228,7 @@
       <room>rooms\room_darkruins_06_old</room>
       <room>rooms\room_darkruins_07_old</room>
       <room>rooms\room_darkruins_08_old</room>
+      <room>rooms\room_darkruins_09_old</room>
     </rooms>
   </rooms>
   <help>

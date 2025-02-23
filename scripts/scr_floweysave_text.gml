@@ -5,16 +5,31 @@ if (room == room_darkruins_03)
 {
     if global.flowey_flag[0] = 2
     {
-        if global.flowey_flag[1] = 1
+        if global.flowey_flag[1] = 3
         {
+            global.msg[0] = scr_gettext("scr_text_floweysave1_34") // \E0* Don't you have anything&  better to do?/%%
+        }
+        else if global.flowey_flag[1] = 2
+        {
+            global.flowey_flag[1] = 3
             global.faceemotion = 0;
             global.msg[0] = scr_gettext("scr_text_floweysave1_31") // \E0* Just kidding!^2 You didn't think I'd do that again,^1 did you?/
             global.msg[1] = scr_gettext("scr_text_floweysave1_32") // \E2* Not THIS time, anyway./
-            global.msg[1] = scr_gettext("scr_text_floweysave1_33") // \E2* Not THIS time, anyway./
+            global.msg[2] = scr_gettext("scr_text_floweysave1_33") // \E0* I won't have any new material for you.&* So you'll get bored and do what I want anyways./%%
+        }
+        else if obj_savepoint.talkcount < 2 && global.flowey_flag[1] != 1
+        {
+            global.faceemotion = 8;
+            global.msg[0] = scr_gettext("scr_text_floweysave1_25") // \E9* Well...^1 \E9I guess solving that puzzle counts?/
+            global.msg[1] = scr_gettext("scr_text_floweysave1_26") // \E0* I'll give you an A for effort at least!/
+            global.msg[2] = scr_gettext("scr_text_floweysave1_27") // \E0* How about doing a little more for your pal?/
+            global.msg[3] = scr_gettext("scr_text_floweysave1_28") // \E2* I might think of more things to talk about, since you like hearing my voice so much./%%
         }
         else if obj_savepoint.talkcount = 2 && global.flowey_flag[1] != 1
         {
+            global.flowey_flag[1] = 1
             global.faceemotion = 8;
+            global.interact = 3
             global.msg[0] = scr_gettext("scr_text_floweysave1_29") // \E8* Again? Seems like you didn't learn from last time./
             global.msg[1] = scr_gettext("scr_text_floweysave1_30") // \E2* Well that's fine with me!^1 &/E0* See you later!/%%
         }
@@ -29,7 +44,6 @@ if (room == room_darkruins_03)
         else if obj_savepoint.talkcount = 2
         {
             global.faceemotion = 0;
-            global.flowey_flag[1] = 1
             global.msg[0] = scr_gettext("scr_text_floweysave1_2") // \E0* Why the long face, pal?/
             global.msg[1] = scr_gettext("scr_text_floweysave1_3") // \E0* Don't worry,^1 this place&  is way better than up&  there!/
             global.msg[2] = scr_gettext("scr_text_floweysave1_4") // \E9* That old lady would've&  just  spoiled all of&  our fun!/
