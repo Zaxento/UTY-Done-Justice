@@ -87,3 +87,6 @@ if (room == room_darkruins_03)
         }
     }
 }
+if (room == room_darkruins_08)
+{
+}

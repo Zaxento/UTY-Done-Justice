@@ -1001,7 +1001,7 @@ if (global.monstertype[myself] == 103)
 {
     global.monstername[myself] = scr_gettext("monstername_103") // Sweet Corn
     global.monstermaxhp[myself] = 25
-    global.monsterhp[myself] = 30
+    global.monsterhp[myself] = 25
     global.monsteratk[myself] = 4
     global.monsterdef[myself] = 2
     global.xpreward[myself] = 2

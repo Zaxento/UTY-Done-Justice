@@ -1479,6 +1479,15 @@
             <object>objects\blt_flierbullet_carry</object>
             <object>objects\blt_flierbullet_dumbbell</object>
           </objects>
+          <objects name="Sweet Corn">
+            <object>objects\obj_sweetcorn</object>
+            <object>objects\obj_sweetcorn_body</object>
+            <object>objects\obj_sweetcorn_husk</object>
+            <object>objects\object491</object>
+            <object>objects\object494</object>
+            <object>objects\object493</object>
+            <object>objects\obj_sweetcorn_body_backup</object>
+          </objects>
           <objects name="Dalv">
             <object>objects\obj_dalv</object>
             <objects name="Bullets">
@@ -1575,6 +1584,7 @@
       </objects>
       <object>objects\obj_yellowtitle</object>
       <object>objects\obj_readable_room1</object>
+      <object>objects\obj_readable_room2</object>
     </objects>
     <objects name="Amalgamate Engine">
       <objects name="Solids">

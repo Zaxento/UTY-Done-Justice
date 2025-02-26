@@ -78,8 +78,10 @@
     <instance objName="obj_solidsmall" x="200" y="100" name="inst_3CB549DC" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="60" y="140" name="inst_64321B92" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="80" y="180" name="inst_2A693A4F" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="120" y="120" name="inst_04014A3F" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="120" y="120" name="inst_04014A3F" locked="0" code="" scaleX="0.939999997615814" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="80" y="200" name="inst_7489EC7F" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_readable_room1" x="260" y="60" name="inst_92EC9748" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_readable_room1" x="280" y="60" name="inst_E7E7E56E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_darkruins" x="20" y="0" w="20" h="20" xo="100" yo="60" id="10005770" name="inst_ACBAA3DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

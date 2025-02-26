@@ -25,18 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>myinteract = 0
-read = 0
-specialread = 0
-cantalk = 1
-mydialoguer = 438274832
-image_xscale = 1
-image_yscale = 1
-//if (room &lt; room_basement3)
-//{
-//    if (global.plot == 0)
-//        instance_destroy()
-//}
+            <string>myinteract = 0;
+specialread = 0;
+image_xscale = 1;
+image_yscale = 1;
+read = 0;
+
 </string>
           </argument>
         </arguments>
@@ -65,21 +59,13 @@ global.typer = 5
 global.facechoice = 0
 global.faceemotion = 0
 global.msg[0] = scr_gettext("obj_readable_room1_64") // %%
-if (room == room_ruins2)
-    global.msg[0] = scr_gettext("obj_readable_room1_65") // * Only the fearless may proceed.&amp;* Brave ones, foolish ones.&amp;* Both walk not the middle road./%%
-if (room == room_ruins3)
-    global.msg[0] = scr_gettext("obj_readable_room1_66") // * Stay on the path./%%
-if (room == room_darkruins_01)
-    global.msg[0] = scr_gettext("obj_readable_room1_darkruins1_1") // * The sign is obscured by&amp;  leaves./%%
-if (room == room_darkruins_04)
-    global.msg[0] = scr_gettext("obj_readable_room1_darkruins4_1") // * (It's a sign.)^2 &amp;* (It says\R EXPOSITION\W in large&amp;  friendly letters.)/%%
 if (room == room_darkruins_06)
 {
-    global.msg[0] = scr_gettext("obj_readable_room1_darkruins6_1") // * Stuck? Press this for a do-over./
-    global.msg[1] = scr_gettext("obj_readable_room1_darkruins6_2") // * Or don't./%%
+    global.msg[0] = scr_gettext("obj_readable_room2_darkruins6_1") // * Make what is dim, bright./
+    global.msg[1] = scr_gettext("obj_readable_room2_darkruins6_2") // * Make what is dark, light./%%
 }
 if (room == room_darkruins_07)
-    global.msg[0] = scr_gettext("obj_readable_room1_darkruins7_1") // * The sign is obscured by&amp;  leaves./%%
+    global.msg[0] = scr_gettext("obj_readable_room1_darkruins1_1") // * The sign is obscured by&amp;  leaves./%%
     
 if (room == room_darkruins_09)
 {
@@ -89,9 +75,7 @@ if (room == room_darkruins_09)
 }
 
 read += 1;
-
-if (cantalk == 1)
-    mydialoguer = instance_create(0, 0, obj_dialoguer);
+mydialoguer = instance_create(0, 0, obj_dialoguer);
 </string>
           </argument>
         </arguments>

@@ -98,7 +98,8 @@
     <instance objName="obj_fakewatermd" x="280" y="120" name="inst_944382A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_toribuster" x="730" y="130" name="inst_71462CF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sdr" x="440" y="160" name="inst_29A7349B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_readable_room1" x="160" y="80" name="inst_73DC36CE" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_readable_room1" x="160" y="80" name="inst_73DC36CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_readable_room1" x="180" y="80" name="inst_4D459F77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_darkruins" x="0" y="60" w="20" h="20" xo="120" yo="40" id="10004617" name="inst_F8BE69FA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

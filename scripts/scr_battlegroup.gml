@@ -1608,6 +1608,118 @@ switch global.battlegroup
         global.monsterinstance[1] = instance_create(220, 18, obj_flier)
         global.monsterinstance[2] = instance_create(424, 18, obj_flier)
         break
+    case 302: //Penilla Solo
+        global.monstertype[0] = 102
+        global.monstertype[1] = 0
+        global.monstertype[2] = 0
+        global.batmusic = mus_prebattle1_yellow
+        caster_loop(global.batmusic, 0.5, 1)
+        global.msc = 3101
+        global.battlelv = 0
+        global.actfirst = 0
+        global.extraintro = 0
+        global.monsterinstance[0] = instance_create(18, 18, obj_flier)
+        break
+    case 303: //Flier Penilla duo
+        global.monstertype[0] = 101
+        global.monstertype[1] = 102
+        global.monstertype[2] = 0
+        global.batmusic = mus_prebattle1_yellow
+        caster_loop(global.batmusic, 0.5, 1)
+        global.msc = 3101
+        global.battlelv = 0
+        global.actfirst = 0
+        global.extraintro = 0
+        global.monsterinstance[0] = instance_create(18, 18, obj_flier)
+        global.monsterinstance[1] = instance_create(220, 18, obj_flier)
+        break
+    case 304: //Sweet Corn Solo
+        global.monstertype[0] = 103
+        global.monstertype[1] = 0
+        global.monstertype[2] = 0
+        global.batmusic = mus_prebattle1_yellow
+        caster_loop(global.batmusic, 0.5, 1)
+        global.msc = 3101
+        global.battlelv = 0
+        global.actfirst = 0
+        global.extraintro = 0
+        global.monsterinstance[0] = instance_create(240, 120, obj_sweetcorn)
+        break
+    case 305: //Sweet Corn Duo
+        global.monstertype[0] = 103
+        global.monstertype[1] = 103
+        global.monstertype[2] = 0
+        global.batmusic = mus_prebattle1_yellow
+        caster_loop(global.batmusic, 0.5, 1)
+        global.msc = 3101
+        global.battlelv = 0
+        global.actfirst = 0
+        global.extraintro = 0
+        global.monsterinstance[0] = instance_create(18, 18, obj_flier)
+        global.monsterinstance[1] = instance_create(220, 18, obj_flier)
+        break
+    case 306: //Sweet Corn Penilla Duo
+        global.monstertype[0] = 103
+        global.monstertype[1] = 102
+        global.monstertype[2] = 0
+        global.batmusic = mus_prebattle1_yellow
+        caster_loop(global.batmusic, 0.5, 1)
+        global.msc = 3101
+        global.battlelv = 0
+        global.actfirst = 0
+        global.extraintro = 0
+        global.monsterinstance[0] = instance_create(18, 18, obj_flier)
+        global.monsterinstance[1] = instance_create(220, 18, obj_flier)
+        break
+    case 307: //Crispy Scroll Solo
+        global.monstertype[0] = 104
+        global.monstertype[1] = 0
+        global.monstertype[2] = 0
+        global.batmusic = mus_prebattle1_yellow
+        caster_loop(global.batmusic, 0.5, 1)
+        global.msc = 3101
+        global.battlelv = 0
+        global.actfirst = 0
+        global.extraintro = 0
+        global.monsterinstance[0] = instance_create(18, 18, obj_flier)
+        break
+    case 308: //Crispy Scroll Penilla Duo
+        global.monstertype[0] = 104
+        global.monstertype[1] = 102
+        global.monstertype[2] = 0
+        global.batmusic = mus_prebattle1_yellow
+        caster_loop(global.batmusic, 0.5, 1)
+        global.msc = 3101
+        global.battlelv = 0
+        global.actfirst = 0
+        global.extraintro = 0
+        global.monsterinstance[0] = instance_create(18, 18, obj_flier)
+        global.monsterinstance[1] = instance_create(220, 18, obj_flier)
+        break
+    case 309: //Rorrim Solo
+        global.monstertype[0] = 105
+        global.monstertype[1] = 0
+        global.monstertype[2] = 0
+        global.batmusic = mus_prebattle1_yellow
+        caster_loop(global.batmusic, 0.5, 1)
+        global.msc = 3101
+        global.battlelv = 0
+        global.actfirst = 0
+        global.extraintro = 0
+        global.monsterinstance[0] = instance_create(18, 18, obj_flier)
+        break
+    case 310: //Decibat
+        global.monstertype[0] = 106
+        global.monstertype[1] = 0
+        global.monstertype[2] = 0
+        global.batmusic = mus_prebattle1_yellow
+        caster_loop(global.batmusic, 0.5, 1)
+        global.msc = 3101
+        global.battlelv = 0
+        global.actfirst = 0
+        global.extraintro = 0
+        global.monsterinstance[0] = instance_create(18, 18, obj_flier)
+        break
     case 320: //Dalv
         global.monstertype[0] = 107
         global.monstertype[1] = 0

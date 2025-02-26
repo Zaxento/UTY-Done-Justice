@@ -264,10 +264,67 @@ ds_map_add(global.text_data_en, "item_use_83", "* (You load the Nails&  into you
 ds_map_add(global.text_data_en, "item_use_127", "* You presented the poster.^2 &* Froggit's eyes widened with&  familiarity./%%")
 
 //SAVE Room Names
+//Dark Ruins
 ds_map_add(global.text_data_en, "roomname_darkruins_03", "Dark Ruins - Entrance");
-ds_map_add(global.text_data_en, "roomname_darkruins_08", "Dark Ruins - Leaf Pile");
-ds_map_add(global.text_data_en, "roomname_darkruins_12", "Dark Ruins - Mouse Hole");
-ds_map_add(global.text_data_en, "roomname_darkruins_16", "Dark Ruins - Home");
+ds_map_add(global.text_data_en, "roomname_darkruins_08", "Dark Ruins - Atrium");
+ds_map_add(global.text_data_en, "roomname_darkruins_10", "Dark Ruins - Cliff");
+ds_map_add(global.text_data_en, "roomname_darkruins_12", "Dark Ruins - Puzzle");
+ds_map_add(global.text_data_en, "roomname_darkruins_16", "Dark Ruins - Hall");
+//Tundra Yellow
+ds_map_add(global.text_data_en, "roomname_snowdin_03_yellow", "Snowdin - Delta Rock");
+ds_map_add(global.text_data_en, "roomname_snowdin_08_yellow", "Snowdin - Ruined Shack");
+ds_map_add(global.text_data_en, "roomname_snowdin_12_yellow", "Snowdin - Pathway");
+ds_map_add(global.text_data_en, "roomname_snowdin_14_yellow", "Snowdin - Resort");
+ds_map_add(global.text_data_en, "roomname_snowdin_20_yellow", "Snowdin - Benches");
+//Dunes
+ds_map_add(global.text_data_en, "roomname_dunes_02", "Dunes - Cave");
+ds_map_add(global.text_data_en, "roomname_dunes_08", "Dunes - Tree");
+ds_map_add(global.text_data_en, "roomname_dunes_14", "Dunes - Mines Elevaor");
+ds_map_add(global.text_data_en, "roomname_dunes_20", "Dunes - Minecart");
+ds_map_add(global.text_data_en, "roomname_dunes_25", "Dunes - Mountaintop");
+ds_map_add(global.text_data_en, "roomname_dunes_28", "Dunes - Playground");
+ds_map_add(global.text_data_en, "roomname_dunes_34", "Dunes - Well");
+ds_map_add(global.text_data_en, "roomname_dunes_37", "Dunes - Wild East");
+ds_map_add(global.text_data_en, "roomname_dunes_39", "Dunes - Outskirts");
+ds_map_add(global.text_data_en, "roomname_dunes_41", "Dunes - Sunnyside");
+//Cerboba's Manjin
+ds_map_add(global.text_data_en, "roomname_mansion_entrance", "Estate");
+
+//Savepoint Dialogue
+//Dark Ruins
+//DARKRUINS_8
+//Talk to Flowey once
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins8_1_1", "\E0* Howdy!/")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins8_1_2", "\E9* I see you're still in one piece!/")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins8_1_3", "\E8* You saw that weirdo&  right?")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins8_1_4", "\E9* If you want to get out&  of here you'll have to&  go through him./")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins8_1_5", "\E0* He shouldn't be a&  problem though./")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins8_1_6", "* And if he is,^1 that's why&  I'm here!/%%")
+//Talk to Flowey again
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins8_2_1", "\E0* Again?/")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins8_2_2", "\E9* Okay, you're double&  saved now!/%%")
+//Talk to Flowey a third time
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins8_3_1", "\E8* Again?^2 Really?/")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins8_3_2", "\E9* How many saves do you&  need?/%%")
+//DARKRUINS_10
+//Talk to Flowey once
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins10_1_1", "\E0* Howdy!/")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins10_1_2", "* Golly,^1 this place sure&  is dead!")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins10_1_3", "\E0* All the monsters are&  all quiet and lurking./")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins10_1_4", "\E0* That's not like monsters&  at all!/")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins10_1_5", "\E0* Don't let this ruin&  your impression of&  the Underground!/")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins10_1_6", "\E0* We'll leave this&  dump behind soon&  enough!/%%")
+//Talk to Flowey a second time
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins10_2_1", "\E0* You're already saved,^1 &  let's get a move&  on!/%%")
+//DARKRUINS_12
+//Talk to Flowey once
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins12_1_1", "\E0* Howdy!/")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins12_1_2", "\E0* You seem to be doing&  well!/")
+//Flowey checks for a death tally... I should probably program a functional Monster able to kill the player.
+
+//Talk to Flowey twice
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins12_2_1", "\E0* Howdy!/")
+ds_map_add(global.text_data_en, "obj_flowey_save_darkruins12_2_2", "\E0* You seem to be doing&  well!/%%")
 
 //YELLOW Monster Names
 
@@ -666,11 +723,18 @@ ds_map_add(global.text_data_en, "obj_readable_room1_darkruins1_1", "* The sign i
 
 ds_map_add(global.text_data_en, "obj_readable_room1_darkruins4_1", "* (It's a sign.)^2 &* (It says\R EXPOSITION\W in large&  friendly letters.)/%%")
 
-ds_map_add(global.text_data_en, "obj_readable_room1_darkruins7_1", "* Private property.^2 &* No trespassing./%%")
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins6_1", "* Stuck? Press this for a&  do-over./")
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins6_2", "* Or don't./%%")
+
+//THEY JUST SAID THE SAME THING TWICE!
+ds_map_add(global.text_data_en, "obj_readable_room2_darkruins6_1", "* Make what is dim, bright./")
+ds_map_add(global.text_data_en, "obj_readable_room2_darkruins6_2", "* Make what is dark, light./%%")
+
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins7_1", "* Private property. &* No trespassing./%%")
 
 ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_1", "* Friend:^2 &* I planted these for you./")
 ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_2", "* It isn't much but I hope it&  brightens your day./")
-ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_3", "* It always brightened mine./")
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_3", "* It always brightened mine./%%")
 
 //Cutscenes//
 
