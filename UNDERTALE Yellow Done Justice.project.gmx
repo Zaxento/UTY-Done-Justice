@@ -390,6 +390,10 @@
             <sprite>sprites\spr_sweet_corn_husk_critical</sprite>
             <sprite>sprites\spr_sweet_corn_spared</sprite>
             <sprite>sprites\spr_sweet_corn_dead</sprite>
+            <sprites name="Bullets">
+              <sprite>sprites\spr_homingcorn</sprite>
+              <sprite>sprites\spr_candycorn_bullet</sprite>
+            </sprites>
           </sprites>
           <sprites name="Rorrim">
             <sprite>sprites\spr_rorrim_body</sprite>
@@ -1487,6 +1491,10 @@
             <object>objects\object494</object>
             <object>objects\object493</object>
             <object>objects\obj_sweetcorn_body_backup</object>
+            <objects name="Bullets">
+              <object>objects\blt_homing_corn</object>
+              <object>objects\blt_candycorn</object>
+            </objects>
           </objects>
           <objects name="Dalv">
             <object>objects\obj_dalv</object>

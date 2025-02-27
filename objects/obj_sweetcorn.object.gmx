@@ -30,8 +30,8 @@ image_speed = 0
 part1 = obj_sweetcorn_body;
 part2 = obj_sweetcorn_husk;
 part3 = object491;
-mypart1 = instance_create(x + 80, y + 0, part1);
-mypart2 = instance_create(x + 80, y + 0, part2);
+mypart1 = instance_create(x + 180, y + 60, part1);
+mypart2 = instance_create(x + 180, y + 110, part2);
 mypart3 = instance_create(x - 32, y + 42, part3);
 hurtanim = 0
 hurtsound = snd_ehurt1
@@ -272,7 +272,6 @@ if (global.hurtanim[myself] == 2)
     {
         global.hurtanim[myself] = 0
         sprite_index = spr_fliercritical
-        path_start(path_whimsun, 0.5, path_action_restart, 0)
         image_index = 0
         global.myfight = 0
         global.mnfight = 1
@@ -281,7 +280,6 @@ if (global.hurtanim[myself] == 2)
     {
         global.hurtanim[myself] = 0
         sprite_index = spr_flier
-        path_start(path_whimsun, 0.5, path_action_restart, 0)
         image_index = 0
         global.myfight = 0
         global.mnfight = 1
@@ -310,9 +308,9 @@ if (global.mnfight == 2)
     {
         global.turntimer = 200
         if (mycommand &gt;= 0 &amp;&amp; mycommand &lt;= 50)
-            gen = instance_create(203, 0, obj_dalvbullet_gen)
+            gen = instance_create((global.idealborder[1] - 60), (global.idealborder[2] - 20), blt_homing_corn)
         else
-            gen = instance_create(203, 0, obj_dalvbullet_gen)
+            gen = instance_create((global.idealborder[1] - 60), (global.idealborder[2] - 20), blt_homing_corn)
         gen.myself = myself
         if (mycommand &gt;= 0)
             global.msg[0] = scr_gettext("SCR_BATTLE_DEFAULTTEXT_YELLOW_1") // * Everything has that new car&amp;  smell with a faint whiff of&amp;  bodyspray.
