@@ -308,9 +308,9 @@ if (global.mnfight == 2)
     {
         global.turntimer = 200
         if (mycommand &gt;= 0 &amp;&amp; mycommand &lt;= 50)
-            gen = instance_create((global.idealborder[1] - 60), (global.idealborder[2] - 20), blt_homing_corn)
+            gen = instance_create((global.idealborder[1] - 80), (global.idealborder[2] - 20), blt_homing_corn)
         else
-            gen = instance_create((global.idealborder[1] - 60), (global.idealborder[2] - 20), blt_homing_corn)
+            gen = instance_create((global.idealborder[1] - 80), (global.idealborder[2] - 20), blt_homing_corn)
         gen.myself = myself
         if (mycommand &gt;= 0)
             global.msg[0] = scr_gettext("SCR_BATTLE_DEFAULTTEXT_YELLOW_1") // * Everything has that new car&amp;  smell with a faint whiff of&amp;  bodyspray.

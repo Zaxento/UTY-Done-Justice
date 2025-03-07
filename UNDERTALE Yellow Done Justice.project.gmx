@@ -537,6 +537,14 @@
         <sprite>sprites\spr_micro4</sprite>
         <sprite>sprites\spr_micro5</sprite>
       </sprites>
+      <sprites name="Shops">
+        <sprites name="Honeydew">
+          <sprite>sprites\spr_shop1_bg_yellow</sprite>
+        </sprites>
+        <sprites name="Blackjack">
+          <sprite>sprites\spr_shop_blackjack</sprite>
+        </sprites>
+      </sprites>
       <sprite>sprites\spr_pixel</sprite>
       <sprite>sprites\spr_flowerbed_start</sprite>
       <sprite>sprites\spr_floweypatch</sprite>
@@ -1065,9 +1073,30 @@
         </sprites>
       </sprites>
       <sprites name="Shops">
+        <sprites name="Shopkeeper1">
+          <sprite>sprites\spr_shop1_bg</sprite>
+          <sprite>sprites\spr_shop1_bgorange</sprite>
+          <sprite>sprites\spr_shopkeeper1</sprite>
+          <sprite>sprites\spr_shopkeeper1eyes</sprite>
+          <sprite>sprites\spr_shopkeeper1_face0</sprite>
+          <sprite>sprites\spr_shopkeeper1_face1</sprite>
+          <sprite>sprites\spr_shopkeeper1_face2</sprite>
+          <sprite>sprites\spr_shopkeeper1_face3</sprite>
+          <sprite>sprites\spr_shopkeeper1_face4</sprite>
+          <sprite>sprites\spr_shopkeeper1_face5</sprite>
+          <sprite>sprites\spr_shopkeeper1_face6</sprite>
+          <sprite>sprites\spr_5_coffeeline</sprite>
+        </sprites>
+        <sprites name="Shopkeeper5">
+          <sprite>sprites\spr_5_tembox</sprite>
+          <sprite>sprites\spr_5_tembody</sprite>
+          <sprite>sprites\spr_5_tembrows</sprite>
+          <sprite>sprites\spr_5_eyes1</sprite>
+          <sprite>sprites\spr_5_mouth1</sprite>
+          <sprite>sprites\spr_5_temexampl</sprite>
+        </sprites>
         <sprite>sprites\spr_shopkeeper1mouth</sprite>
         <sprite>sprites\spr_bpants_face</sprite>
-        <sprite>sprites\spr_5_temexampl</sprite>
         <sprite>sprites\spr_temhat</sprite>
       </sprites>
       <sprites name="Intro + Menu">
@@ -1115,6 +1144,7 @@
       <background>background\overlay_lightbeam</background>
       <background>background\bg_dunescave</background>
       <background>background\ts_darkruins_pillars</background>
+      <background>background\ts_snowdin_door_yellow</background>
     </backgrounds>
     <backgrounds name="UNDERTALE">
       <background>background\bg_firetiles</background>
@@ -1332,9 +1362,11 @@
         <script>scripts\scr_shop_draw_status.gml</script>
         <script>scripts\scr_shop_draw_talkmenu.gml</script>
         <script>scripts\scr_shop_draw_talktitle.gml</script>
+        <script>scripts\scr_shop_draw_talktitle_backup.gml</script>
         <script>scripts\scr_shop_draw_topmenu.gml</script>
         <script>scripts\scr_shop_draw_window.gml</script>
         <script>scripts\scr_shop_infobox_height.gml</script>
+        <script>scripts\scr_shop_infobox_height_backup.gml</script>
         <script>scripts\scr_cost.gml</script>
         <script>scripts\scr_itemvalue.gml</script>
       </scripts>
@@ -1493,7 +1525,9 @@
             <object>objects\obj_sweetcorn_body_backup</object>
             <objects name="Bullets">
               <object>objects\blt_homing_corn</object>
+              <object>objects\object498</object>
               <object>objects\blt_candycorn</object>
+              <object>objects\obj_candycorn_gen</object>
             </objects>
           </objects>
           <objects name="Dalv">
@@ -1589,6 +1623,9 @@
         <object>objects\obj_floweygreet_trigger_backup</object>
         <object>objects\obj_asgoremeet_event</object>
         <object>objects\obj_asgoremeet_yellow</object>
+      </objects>
+      <objects name="Shops">
+        <object>objects\obj_shop1_yellow</object>
       </objects>
       <object>objects\obj_yellowtitle</object>
       <object>objects\obj_readable_room1</object>
@@ -2008,12 +2045,14 @@
       </objects>
       <objects name="Shops">
         <object>objects\obj_shop1</object>
+        <object>objects\obj_shop1_backup</object>
+        <object>objects\obj_shopmouth1</object>
+        <object>objects\obj_shopeyes1</object>
         <object>objects\obj_shop2</object>
         <object>objects\obj_shop3</object>
         <object>objects\obj_shop4</object>
         <object>objects\obj_shop5</object>
         <object>objects\obj_shop5_body</object>
-        <object>objects\obj_shopmouth1</object>
         <object>objects\obj_burgerpants_body</object>
       </objects>
       <objects name="Debugging">
@@ -2134,13 +2173,19 @@
       <room>rooms\room_darkruins_08</room>
       <room>rooms\room_darkruins_08b</room>
       <room>rooms\room_darkruins_09</room>
+      <room>rooms\room_darkruins_09_backup3</room>
       <room>rooms\room_darkruins_09_backup2</room>
       <room>rooms\room_darkruins_09_backup</room>
       <room>rooms\room_darkruins_09b</room>
       <room>rooms\room_darkruins_10</room>
+      <room>rooms\room125</room>
+      <room>rooms\room124</room>
+      <room>rooms\room123</room>
+      <room>rooms\room122</room>
       <room>rooms\room_darkruins_11</room>
       <room>rooms\room_darkruins_12</room>
       <room>rooms\room_darkruins_13</room>
+      <room>rooms\room126</room>
       <room>rooms\room_darkruins_14</room>
       <room>rooms\room_darkruins_14b</room>
       <room>rooms\room_darkruins_15</room>
@@ -2236,6 +2281,9 @@
       <room>rooms\room_shop4</room>
       <room>rooms\room_shop5</room>
     </rooms>
+    <rooms name="Shops Yellow">
+      <room>rooms\room_shop1_yellow</room>
+    </rooms>
     <rooms name="Battles">
       <room>rooms\room_battle</room>
       <room>rooms\room_floweybattle</room>
@@ -2247,6 +2295,16 @@
       <room>rooms\room_darkruins_07_old</room>
       <room>rooms\room_darkruins_08_old</room>
       <room>rooms\room_darkruins_09_old</room>
+      <room>rooms\room_darkruins_10_old</room>
+      <room>rooms\room_darkruins_16_old</room>
+      <room>rooms\room_darkruins_17_old</room>
+    </rooms>
+    <rooms name="Snowdin Yellow Old">
+      <room>rooms\room_snowdin_01_yellow_old</room>
+      <room>rooms\room_snowdin_02_yellow_old</room>
+      <room>rooms\room_snowdin_03_yellow_old</room>
+      <room>rooms\room_snowdin_03b_yellow_old</room>
+      <room>rooms\room_snowdin_04_yellow_old</room>
     </rooms>
   </rooms>
   <help>

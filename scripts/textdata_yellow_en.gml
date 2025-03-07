@@ -1,4 +1,4 @@
-//SETTINGS MENU, may not be entirely Yellow-specific
+ //SETTINGS MENU, may not be entirely Yellow-specific
 
 ds_map_add(global.text_data_en, "settings_page1", "< PAGE 1 >")
 ds_map_add(global.text_data_en, "settings_page2", "< PAGE 2 >")
@@ -37,7 +37,7 @@ ds_map_add(global.text_data_en, "item_name_93", "Delta Rune Patch")
 ds_map_add(global.text_data_en, "item_name_94", "Honeydew Coffee")
 ds_map_add(global.text_data_en, "item_name_95", "Adult Soda")
 ds_map_add(global.text_data_en, "item_name_96", "Honeydew Pancake")
-ds_map_add(global.text_data_en, "item_name_97", "G.B. Bear")
+ds_map_add(global.text_data_en, "item_name_97", "Gingerbread Bear")
 ds_map_add(global.text_data_en, "item_name_98", "Hot Pop")
 ds_map_add(global.text_data_en, "item_name_99", "Lukewarm Pop")
 ds_map_add(global.text_data_en, "item_name_100", "Cold Pop")
@@ -263,6 +263,12 @@ ds_map_add(global.text_data_en, "item_use_70", "* (You are unable to sew the& Pa
 ds_map_add(global.text_data_en, "item_use_83", "* (You load the Nails&  into your gun.)/%%")
 ds_map_add(global.text_data_en, "item_use_127", "* You presented the poster.^2 &* Froggit's eyes widened with&  familiarity./%%")
 
+//Shops
+ds_map_add(global.text_data_en, "shop1_itemdesc_85", "Accessory:#Items heal#more HP.")
+ds_map_add(global.text_data_en, "shop1_itemdesc_94", "Heals 14HP#It'll warm you#right up!")
+ds_map_add(global.text_data_en, "shop1_itemdesc_96", "Heals 16HP#Comes with#honey-syrup!")
+ds_map_add(global.text_data_en, "shop1_itemdesc_97", "Heals 20HP#It's shaped#like my face!")
+
 //SAVE Room Names
 //Dark Ruins
 ds_map_add(global.text_data_en, "roomname_darkruins_03", "Dark Ruins - Entrance");
@@ -344,7 +350,7 @@ ds_map_add(global.text_data_en, "SCR_BATTLE_INTROTEXT_YELLOW_1", "* Flier is giv
 ds_map_add(global.text_data_en, "SCR_BATTLE_INTROTEXT_YELLOW_2", "* You are overwhelmed by&  depressing vibes.")
 ds_map_add(global.text_data_en, "SCR_BATTLE_INTROTEXT_YELLOW_3", "* Penilla draws near!")
 ds_map_add(global.text_data_en, "SCR_BATTLE_INTROTEXT_YELLOW_4", "* Penilla seems to be dreading#  this battle.")
-ds_map_add(global.text_data_en, "SCR_BATTLE_INTROTEXT_YELLOW_5", "* Sweet Corn hops up excitedly.")
+ds_map_add(global.text_data_en, "scr_battle_intro_yellow_5", "* Sweet Corn hops up excitedly.")
 ds_map_add(global.text_data_en, "SCR_BATTLE_INTROTEXT_YELLOW_6", "* You can already feel the&  cavities.")
 ds_map_add(global.text_data_en, "SCR_BATTLE_INTROTEXT_YELLOW_7", "* Penilla encounters you.&* Sweet Corn comes out of nowhere&  acting excited.")
 ds_map_add(global.text_data_en, "SCR_BATTLE_INTROTEXT_YELLOW_8", "* Crispy Scroll is looking for&  someone to talk to.")

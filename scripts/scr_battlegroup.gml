@@ -1600,7 +1600,9 @@ switch global.battlegroup
         global.monstertype[2] = 101
         global.batmusic = mus_prebattle1_yellow
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 3101
+        global.msc = 0
+        global.msg[0] = scr_gettext("SCR_BATTLE_INTROTEXT_YELLOW_2") // * You are overwhelmed by&  depressing vibes.
+        global.msg[1] = scr_gettext("SCR_BATTLETEXT_YELLOW_1") // %%%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
@@ -1639,7 +1641,9 @@ switch global.battlegroup
         global.monstertype[2] = 0
         global.batmusic = mus_prebattle1_yellow
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 3101
+        global.msc = 0
+        global.msg[0] = scr_gettext("scr_battle_intro_yellow_5") // * Sweet Corn hops up excitedly.
+        global.msg[1] = scr_gettext("SCR_BATTLETEXT_YELLOW_1") // %%%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0

@@ -61,6 +61,7 @@
     <instance objName="obj_door" x="140" y="-20" name="inst_03968794" locked="0" code="next_room = room_darkruins_01&#xA;next_x = 170&#xA;next_y = 160" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="320" y="100" name="inst_AEEF6612" locked="0" code="next_room = room_castle_finalshoehorn&#xA;next_x = 460&#xA;next_y = 128" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="-20" y="100" name="inst_2C766B3A" locked="0" code="next_room = room_darkruins_08&#xA;next_x = 180&#xA;next_y = 150" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="140" y="240" name="inst_39DB611C" locked="0" code="next_room = room_shop1_yellow&#xA;next_x = 0&#xA;next_y = 0&#xA;" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_ruinseasynam3" x="0" y="100" w="20" h="20" xo="0" yo="20" id="10017017" name="inst_AE90F996" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

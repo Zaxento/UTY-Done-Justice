@@ -427,8 +427,6 @@
     <tile bgName="bg_darkruins_corn" x="180" y="160" w="20" h="20" xo="40" yo="0" id="10064240" name="inst_EEF42B06" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="60" y="300" w="20" h="20" xo="40" yo="40" id="10064293" name="inst_722B1735" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="80" y="300" w="20" h="20" xo="40" yo="40" id="10064294" name="inst_4FFB0512" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins_corn" x="80" y="280" w="20" h="20" xo="40" yo="0" id="10064298" name="inst_EBA5C5FD" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins_corn" x="60" y="280" w="20" h="20" xo="40" yo="0" id="10064299" name="inst_8214DE0C" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="160" y="300" w="20" h="20" xo="20" yo="40" id="10064305" name="inst_244145C2" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="160" y="280" w="20" h="20" xo="20" yo="0" id="10064309" name="inst_096A1BBB" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="180" y="280" w="20" h="20" xo="40" yo="0" id="10064310" name="inst_D612DD3B" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -512,7 +510,6 @@
     <tile bgName="bg_darkruins_corn" x="120" y="60" w="20" h="20" xo="60" yo="0" id="10064498" name="inst_1FF80297" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="100" y="60" w="20" h="20" xo="40" yo="0" id="10064499" name="inst_9CBACD69" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="100" y="80" w="20" h="20" xo="40" yo="40" id="10064500" name="inst_AF8E31F4" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins_corn" x="100" y="280" w="20" h="20" xo="60" yo="0" id="10064561" name="inst_EFF27907" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="100" y="300" w="20" h="20" xo="60" yo="40" id="10064562" name="inst_7551488C" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="180" y="320" w="20" h="20" xo="140" yo="280" id="10064654" name="inst_EBF015ED" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="80" y="180" w="20" h="20" xo="0" yo="60" id="10064657" name="inst_60F4269C" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -536,6 +533,9 @@
     <tile bgName="bg_darkruins_corn" x="100" y="100" w="20" h="20" xo="120" yo="20" id="10064724" name="inst_BF5AD847" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="60" y="80" w="20" h="20" xo="120" yo="20" id="10064725" name="inst_572A61B9" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="60" y="100" w="20" h="20" xo="120" yo="20" id="10064726" name="inst_2A879080" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins_corn" x="100" y="280" w="20" h="20" xo="60" yo="0" id="10065694" name="inst_A36BFAD1" depth="-500" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins_corn" x="80" y="280" w="20" h="20" xo="40" yo="0" id="10065695" name="inst_D24F5459" depth="-500" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_darkruins_corn" x="60" y="280" w="20" h="20" xo="40" yo="0" id="10065696" name="inst_7D45BFDD" depth="-500" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
