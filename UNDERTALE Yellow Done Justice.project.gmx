@@ -1015,6 +1015,7 @@
           <sprite>sprites\spr_torielthrone</sprite>
           <sprite>sprites\spr_asgorethrone</sprite>
           <sprite>sprites\spr_garden_overlayshadow</sprite>
+          <sprite>sprites\spr_trashcan_tint</sprite>
         </sprites>
         <sprite>sprites\spr_npc_sign</sprite>
         <sprite>sprites\spr_chestbox</sprite>
@@ -2173,11 +2174,16 @@
       <room>rooms\room_darkruins_08</room>
       <room>rooms\room_darkruins_08b</room>
       <room>rooms\room_darkruins_09</room>
+      <room>rooms\room140</room>
+      <room>rooms\room136</room>
       <room>rooms\room_darkruins_09_backup3</room>
       <room>rooms\room_darkruins_09_backup2</room>
       <room>rooms\room_darkruins_09_backup</room>
       <room>rooms\room_darkruins_09b</room>
       <room>rooms\room_darkruins_10</room>
+      <room>rooms\room_darkruins_10_backup2</room>
+      <room>rooms\room_darkruins_10_backup</room>
+      <room>rooms\room137</room>
       <room>rooms\room125</room>
       <room>rooms\room124</room>
       <room>rooms\room123</room>

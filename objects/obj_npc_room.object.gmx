@@ -32,84 +32,7 @@ talkedto = 0
 image_speed = 0
 if (room == room_kitchen_final)
     sprite_index = spr_trashcan_tint
-if (room == room_water6)
-    sprite_index = spr_telescope
-if (room == room_water5A)
-    sprite_index = spr_bench
-if (room == room_water3A)
-{
-    sprite_index = spr_tutu
-    if (global.flag[105] == 1)
-        instance_destroy()
-}
-if (room == room_water_savepoint1)
-    sprite_index = spr_crystaltable
-if (room == room_water_shoe)
-{
-    sprite_index = spr_balletshoes
-    visible = false
-    if (global.flag[106] == 1)
-        instance_destroy()
-}
-if (room == room_tundra_sanshouse)
-    sprite_index = spr_signsock
-if (room == room_water_undyneyard)
-{
-    sprite_index = spr_dummy
-    if (global.flag[252] == 1)
-        instance_destroy()
-}
-if (room == room_water_farm)
-{
-    sprite_index = spr_snailr
-    if (scr_murderlv() &gt;= 9)
-        instance_destroy()
-}
-if (room == room_water7 &amp;&amp; global.plot &lt; 110)
-    instance_destroy()
-if (room == room_water11)
-{
-    sprite_index = spr_tonsildude
-    if (scr_murderlv() &gt;= 8)
-        instance_destroy()
-    y += 10
-}
-if (room == room_fire8)
-{
-    if (scr_murderlv() &gt;= 12)
-        instance_destroy()
-    sprite_index = spr_skateboardgirl
-    if (id == instance_find(object_index, 1))
-        sprite_index = spr_fukufire
-}
-if (room == room_fire9)
-{
-    if (scr_murderlv() &gt;= 12)
-        instance_destroy()
-    sprite_index = spr_businessdude
-    if (id == instance_find(object_index, 1))
-        sprite_index = spr_firecoffee
-}
-if (room == room_fire6A)
-{
-    sprite_index = spr_frypan
-    if (global.flag[110] == 1)
-        instance_destroy()
-}
-if (room == room_fire_apron)
-{
-    sprite_index = spr_apron
-    if (global.flag[111] == 1)
-        instance_destroy()
-}
-if (room == room_water_nicecream)
-{
-    sprite_index = spr_chestbox
-    x += 10
-    y += 20
-}
-if (room == room_fire_core_treasureleft || room == room_fire_core_treasureright)
-    sprite_index = spr_trashcan
+
 if (room == room_castle_exit)
 {
     q = 0
@@ -126,17 +49,6 @@ if (room == room_castle_exit)
     else
         instance_destroy()
 }
-if (room == room_fire_prelab)
-{
-    if (y &lt; 70)
-    {
-        if (scr_murderlv() &gt;= 12)
-            instance_destroy()
-        sprite_index = spr_royalguard_dragon_d
-        if (global.plot &gt;= 136)
-            instance_destroy()
-    }
-}
 if (room == room_asgoreroom)
     sprite_index = spr_trophy
 if (room == room_asrielroom_final)
@@ -145,86 +57,6 @@ if (room == room_truelab_bedroom)
 {
     image_blend = c_gray
     sprite_index = spr_dogbowl_empty
-}
-if (room == room_fire_mewmew2)
-    sprite_index = spr_microwave
-if (room == room_fire_spidershop)
-{
-    sprite_index = spr_donutscaredguy
-    if (scr_murderlv() &gt;= 12)
-        instance_destroy()
-}
-if (room == room_tundra_sansroom)
-{
-    sprite_index = spr_treadmill
-    tread = scr_marker(x, y, spr_treadmill)
-    with (tread)
-    {
-        scr_depth()
-        image_speed = 0.2
-    }
-    visible = false
-}
-if (room == room_water2)
-{
-    sprite_index = spr_fishnpc_echo
-    if (scr_murderlv() &gt;= 8)
-        instance_destroy()
-}
-if (room == room_tundra4)
-    sprite_index = spr_amalgam_fridgenpc
-if (room == room_water_blookyard)
-    sprite_index = spr_mettex_npc
-if (room == room_ice_dog)
-    sprite_index = spr_videogame
-if (room == room_fire_restaurant)
-{
-    if (x &gt; 500)
-        sprite_index = spr_npc_oni
-    if (x &gt; 600)
-        sprite_index = spr_npc_charles
-    if (x &gt; 780)
-        sprite_index = spr_hotel_receptionist2
-    if (scr_murderlv() &gt;= 12)
-        instance_destroy()
-}
-if (room == room_fire_pacing)
-{
-    sprite_index = spr_dresslion_a
-    if (global.flag[7] == 1)
-        sprite_index = spr_dresslion_b
-    if (scr_murderlv() &gt;= 12)
-        instance_destroy()
-    if (global.plot &lt; 167)
-        instance_destroy()
-}
-if (room == room_fire_hotellobby)
-{
-    sprite_index = spr_diamond_recep
-    if (scr_murderlv() &gt;= 12)
-        instance_destroy()
-}
-if (room == room_fire_hotdog)
-{
-    if (scr_murderlv() &gt;= 12)
-        instance_destroy()
-    if (global.flag[67] == 1)
-        instance_destroy()
-    sprite_index = spr_vulkinnpc_hotdog
-    if (x &gt; 160)
-        sprite_index = spr_hotdog_harpy
-}
-if (room == room_water_temvillage)
-{
-    sprite_index = spr_temmie_egg
-    if (scr_murderlv() &gt;= 10)
-        instance_destroy()
-}
-if (room == room_water_trashzone1)
-{
-    sprite_index = spr_ds_donationbox_trash
-    if (global.osflavor != 4 || scr_murderlv() &lt; 9)
-        instance_destroy()
 }
 </string>
           </argument>
