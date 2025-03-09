@@ -1444,6 +1444,8 @@
       <script>scripts\shotFail.gml</script>
       <script>scripts\scr_facechoice_yellow.gml</script>
       <script>scripts\scr_floweysave_text.gml</script>
+      <script>scripts\scr_lightpuzzle_on.gml</script>
+      <script>scripts\scr_lightpuzzle_off.gml</script>
     </scripts>
     <scripts name="Lolchick Engine">
       <script>scripts\scr_checkresolution.gml</script>
@@ -1611,7 +1613,11 @@
         <object>objects\obj_puzzleresetlever_backup</object>
         <object>objects\obj_mazelever</object>
         <object>objects\obj_spikes</object>
+        <object>objects\obj_puzzle2</object>
         <object>objects\obj_lightp</object>
+        <object>objects\object506</object>
+        <object>objects\object505</object>
+        <object>objects\object503</object>
         <object>objects\obj_lightp_backup</object>
         <object>objects\obj_lightp2</object>
         <object>objects\obj_plothole_yapper</object>

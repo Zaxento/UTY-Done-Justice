@@ -58,15 +58,10 @@ myinteract = 0
         audio_play_sound(snd_noise, 1, false)
         
         if (turn == true)
-        {
             turn = false;
-            scr_lightpuzzle_off()
-        }
         else if (turn == false)
-        {
             turn = true;
-            scr_lightpuzzle_on()
-        }
+        
         if (i == 1)
         {
             with (obj_lightp)
@@ -74,15 +69,9 @@ myinteract = 0
                 if (i == 2)
                 {
                     if (turn == true)
-                    {
                         turn = false;
-                        scr_lightpuzzle_off()
-                    }
                     else if (turn == false)
-                    {
                         turn = true;
-                        scr_lightpuzzle_on()
-                    }
                 }
             }
         }
@@ -94,15 +83,9 @@ myinteract = 0
                 if (i == 3 || i == 1)
                 {
                     if (turn == true)
-                    {
                         turn = false;
-                        scr_lightpuzzle_off()
-                    }
                     else if (turn == false)
-                    {
                         turn = true;
-                        scr_lightpuzzle_on()
-                    }
                 }
             }
         }
@@ -114,15 +97,9 @@ myinteract = 0
                 if (i == 4 || i == 2)
                 {
                     if (turn == true)
-                    {
                         turn = false;
-                        scr_lightpuzzle_off()
-                    }
                     else if (turn == false)
-                    {
                         turn = true;
-                        scr_lightpuzzle_on()
-                    }
                 }
             }
         }
@@ -134,15 +111,9 @@ myinteract = 0
                 if (i == 3 || i == 5)
                 {
                     if (turn == true)
-                    {
                         turn = false;
-                        scr_lightpuzzle_off()
-                    }
                     else if (turn == false)
-                    {
                         turn = true;
-                        scr_lightpuzzle_on()
-                    }
                 }
             }
         }
@@ -154,15 +125,9 @@ myinteract = 0
                 if (i == 4)
                 {
                     if (turn == true)
-                    {
                         turn = false;
-                        scr_lightpuzzle_off()
-                    }
                     else if (turn == false)
-                    {
                         turn = true;
-                        scr_lightpuzzle_on()
-                    }
                 }
             }
         }
@@ -174,6 +139,19 @@ if (turn == 1)
     image_index = 0
 if (turn == 0)
     image_index = 1
+
+//Increases the "Puzzle Counter". If the room's condition is satiated, the Puzzle is solved!
+if (turn == true &amp;&amp; waiter == 0)
+{
+    obj_puzzle2.puzzlecount += 1;
+    waiter = 1;
+}
+
+if (turn == false &amp;&amp; waiter == 1)
+{
+    obj_puzzle2.puzzlecount -= 1;
+    waiter = 0;
+}
 </string>
           </argument>
         </arguments>

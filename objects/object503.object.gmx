@@ -26,16 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>scr_depth()
-turn = true;
-image_speed = 0;
-waiter = 0;
+turn = 1
+image_speed = 0
+waiter = 0
 myinteract = 0
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="3" enumb="2">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -56,113 +56,72 @@ myinteract = 0
     if (global.plot &lt; 14) &amp;&amp; myinteract = 1
     {
         audio_play_sound(snd_noise, 1, false)
-        
-        if (turn == true)
-        {
-            turn = false;
-            scr_lightpuzzle_off()
-        }
-        else if (turn == false)
-        {
-            turn = true;
-            scr_lightpuzzle_on()
-        }
+        if (turn == 1)
+            turn = 0
+        else if (turn == 0)
+            turn = 1
         if (i == 1)
         {
             with (obj_lightp)
             {
                 if (i == 2)
                 {
-                    if (turn == true)
-                    {
-                        turn = false;
-                        scr_lightpuzzle_off()
-                    }
-                    else if (turn == false)
-                    {
-                        turn = true;
-                        scr_lightpuzzle_on()
-                    }
+                    if (turn == 1)
+                        turn = 0
+                    else if (turn == 0)
+                        turn = 1
                 }
             }
         }
-        
         if (i == 2)
         {
             with (obj_lightp)
             {
                 if (i == 3 || i == 1)
                 {
-                    if (turn == true)
-                    {
-                        turn = false;
-                        scr_lightpuzzle_off()
-                    }
-                    else if (turn == false)
-                    {
-                        turn = true;
-                        scr_lightpuzzle_on()
-                    }
+                    if (turn == 1)
+                        turn = 0
+                    else if (turn == 0)
+                        turn = 1
                 }
             }
         }
-        
         if (i == 3)
         {
             with (obj_lightp)
             {
                 if (i == 4 || i == 2)
                 {
-                    if (turn == true)
-                    {
-                        turn = false;
-                        scr_lightpuzzle_off()
-                    }
-                    else if (turn == false)
-                    {
-                        turn = true;
-                        scr_lightpuzzle_on()
-                    }
+                    if (turn == 1)
+                        turn = 0
+                    else if (turn == 0)
+                        turn = 1
                 }
             }
         }
-        
         if (i == 4)
         {
             with (obj_lightp)
             {
                 if (i == 3 || i == 5)
                 {
-                    if (turn == true)
-                    {
-                        turn = false;
-                        scr_lightpuzzle_off()
-                    }
-                    else if (turn == false)
-                    {
-                        turn = true;
-                        scr_lightpuzzle_on()
-                    }
+                    if (turn == 1)
+                        turn = 0
+                    else if (turn == 0)
+                        turn = 1
                 }
             }
         }
-        
         if (i == 5)
         {
             with (obj_lightp)
             {
                 if (i == 4)
                 {
-                    if (turn == true)
-                    {
-                        turn = false;
-                        scr_lightpuzzle_off()
-                    }
-                    else if (turn == false)
-                    {
-                        turn = true;
-                        scr_lightpuzzle_on()
-                    }
+                    if (turn == 1)
+                        turn = 0
+                    else if (turn == 0)
+                        turn = 1
                 }
             }
         }
@@ -174,6 +133,28 @@ if (turn == 1)
     image_index = 0
 if (turn == 0)
     image_index = 1
+
+//Increases the "Puzzle Counter". If the room's condition is satiated, the Puzzle is solved!
+if (turn == 1 &amp;&amp; waiter == 0)
+{
+    obj_mainchara.puzzlecount += 1
+    waiter = 1
+}
+if (turn == 0 &amp;&amp; waiter == 1)
+{
+    obj_mainchara.puzzlecount -= 1
+    waiter = 0
+}
+
+//If the switches hit a sufficient amount of colored blocks, the puzzle is solved!
+
+if (obj_mainchara.puzzlecount == 5) &amp;&amp; room_darkruins_06 &amp;&amp; global.plot &lt; 14
+{
+    global.plot = 14
+    audio_play_sound(snd_dumbvictory, 1, false)
+    obj_mainchara.puzzlecount++
+    obj_spikes.image_index = 1
+}
 </string>
           </argument>
         </arguments>
