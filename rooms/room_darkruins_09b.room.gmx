@@ -54,7 +54,7 @@
     <instance objName="obj_solidsmall" x="60" y="160" name="inst_474D769B" locked="0" code="" scaleX="1" scaleY="9" colour="4294967295" rotation="0"/>
     <instance objName="obj_mainchara" x="140" y="300" name="inst_27C6B067" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="20" y="0" name="inst_6DB7F7B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_npc_room" x="149" y="250" name="inst_3C1433DF" locked="0" code="if global.flag[600] = 1&#xA;{&#xA;    instance_destroy()&#xA;    exit&#xA;}&#xA;sprite_index = spr_pebbles" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_npc_room" x="149" y="250" name="inst_3C1433DF" locked="0" code="if global.flag_yellow[1] = 1&#xA;{&#xA;    instance_destroy()&#xA;    exit&#xA;}&#xA;sprite_index = spr_pebbles" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="100" y="380" name="inst_C930F9A9" locked="0" code="next_x = 50&#xA;next_y = 80&#xA;next_room = room_darkruins_09&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="240" y="160" name="inst_2A86EC17" locked="0" code="" scaleX="1" scaleY="9" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="80" y="340" name="inst_BD5D6BD2" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>

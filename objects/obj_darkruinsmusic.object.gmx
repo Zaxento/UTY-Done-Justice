@@ -29,15 +29,23 @@
 
 if (audio_is_playing(global.currentsong) != 1)
 {
-    if (global.flag[221] == 0)
+    if room = room_darkruins_11
     {
-        global.currentsong = mus_darkruins
+        global.currentsong = mus_wind
         caster_loop(global.currentsong, 1, 1);
     }
     else
     {
-        global.currentsong = mus_darkruins
-        caster_loop(global.currentsong, 1, 1);
+        if (global.flag[221] == 0)
+        {
+            global.currentsong = mus_darkruins
+            caster_loop(global.currentsong, 1, 1);
+        }
+        else
+        {
+            global.currentsong = mus_darkruins
+            caster_loop(global.currentsong, 1, 1);
+        }
     }
 }
 </string>

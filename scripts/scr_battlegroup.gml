@@ -1716,13 +1716,13 @@ switch global.battlegroup
         global.monstertype[0] = 106
         global.monstertype[1] = 0
         global.monstertype[2] = 0
-        global.batmusic = mus_prebattle1_yellow
+        global.batmusic = mus_decibat_yellow
         caster_loop(global.batmusic, 0.5, 1)
         global.msc = 3101
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
-        global.monsterinstance[0] = instance_create(18, 18, obj_flier)
+        global.monsterinstance[0] = instance_create(100, 100, obj_decibat)
         break
     case 320: //Dalv
         global.monstertype[0] = 107

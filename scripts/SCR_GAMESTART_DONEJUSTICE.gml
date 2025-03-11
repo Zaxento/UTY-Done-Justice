@@ -10,6 +10,9 @@ global.damagebonus_effect = 0 //A Bonus Effect that appears on hit. Exists solel
 global.artstyle_yellow = "Yellow"
 
 global.flag[28] = 0 //Allows you to skip text with C
-global.flag[700] = 0
+//global.flag_yellow exists just in case UT's global.flag contents are used. UTY is really adjacent to Undertale so much of the same events can occur.
 for (i = 0; i < 20; i += 1)
+{
+    global.flag_yellow[i] = 0
     global.flowey_flag[i] = 0 //Made a dedicated variable for this like UTY did, since it's likely I will need to have this on hand for a lot of Flowey Save Dialogue.
+}

@@ -53,11 +53,6 @@ if (room == room_asgoreroom)
     sprite_index = spr_trophy
 if (room == room_asrielroom_final)
     sprite_index = spr_presentbox
-if (room == room_truelab_bedroom)
-{
-    image_blend = c_gray
-    sprite_index = spr_dogbowl_empty
-}
 </string>
           </argument>
         </arguments>
@@ -151,16 +146,12 @@ talkedto += 1
             <kind>1</kind>
             <string>scr_depth(0, 0, 0, 0, 0)
 scr_npc_anim()
-if (sprite_index == spr_fukufire)
-    image_speed = 0.2
-if (sprite_index == spr_hotdog_harpy)
-    image_speed = 0.2
     
 //UNDERTALE Yellow
 
 if (room == room_darkruins_09b &amp;&amp; instance_exists(OBJ_WRITER) == 0)
 {
-    if (global.flag[600] == 1)
+    if (global.flag_yellow[1] == 1)
     {
         global.interact = 0
         instance_destroy()

@@ -55,13 +55,14 @@
     <instance objName="obj_mainchara" x="160" y="108" name="inst_A7FE4F71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_knife_pickup" x="96" y="200" name="inst_17A37470" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ribbon_pickup" x="43" y="200" name="inst_06BDB254" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="241" y="38" name="inst_73241056" locked="0" code="//global.battlegroup = 300 //Flier UTY&#xA;global.battlegroup = 304 //Sweet Corn UTY&#xA;//global.battlegroup = 320 //Dalv UTY&#xA;//global.battlegroup = 92 //Undying&#xA;//global.battlegroup = 100 //Asgore&#xA;//global.battlegroup = 13&#xA;//next_room = room_battlebordertest&#xA;next_room = room_battle&#xA;next_x = 100&#xA;next_y = 300&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="241" y="38" name="inst_73241056" locked="0" code="//global.battlegroup = 300 //Flier UTY&#xA;//global.battlegroup = 304 //Sweet Corn UTY&#xA;global.battlegroup = 310 //Decibat UTY&#xA;//global.battlegroup = 320 //Dalv UTY&#xA;//global.battlegroup = 92 //Undying&#xA;//global.battlegroup = 100 //Asgore&#xA;//global.battlegroup = 13&#xA;//next_room = room_battlebordertest&#xA;next_room = room_battle&#xA;next_x = 100&#xA;next_y = 300&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sansbox" x="286" y="191" name="inst_FD934F15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="0" y="0" name="inst_689065AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="140" y="-20" name="inst_03968794" locked="0" code="next_room = room_darkruins_01&#xA;next_x = 170&#xA;next_y = 160" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="320" y="100" name="inst_AEEF6612" locked="0" code="next_room = room_castle_finalshoehorn&#xA;next_x = 460&#xA;next_y = 128" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="-20" y="100" name="inst_2C766B3A" locked="0" code="next_room = room_darkruins_08&#xA;next_x = 180&#xA;next_y = 150" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="140" y="240" name="inst_39DB611C" locked="0" code="next_room = room_shop1_yellow&#xA;next_x = 0&#xA;next_y = 0&#xA;" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="140" y="240" name="inst_39DB611C" locked="0" code="next_room = room_shop1_yellow&#xA;next_x = 0&#xA;next_y = 0" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="60" y="-20" name="inst_D7B0BF1D" locked="0" code="next_room = room_darkruins_10&#xA;next_x = 100&#xA;next_y = 120" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_ruinseasynam3" x="0" y="100" w="20" h="20" xo="0" yo="20" id="10017017" name="inst_AE90F996" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -155,8 +156,6 @@
     <tile bgName="bg_ruinseasynam3" x="120" y="20" w="20" h="20" xo="0" yo="40" id="10017124" name="inst_07A02FCC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="120" y="0" w="20" h="20" xo="0" yo="40" id="10017125" name="inst_0CADDA7E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="100" y="0" w="20" h="20" xo="0" yo="40" id="10017126" name="inst_CA2CFAB1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_ruinseasynam3" x="80" y="0" w="20" h="20" xo="0" yo="40" id="10017127" name="inst_0B2D9FCD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_ruinseasynam3" x="60" y="0" w="20" h="20" xo="0" yo="40" id="10017128" name="inst_CABBF543" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="40" y="0" w="20" h="20" xo="0" yo="40" id="10017129" name="inst_136FA48C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="20" y="0" w="20" h="20" xo="0" yo="40" id="10017130" name="inst_7306842C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="0" y="0" w="20" h="20" xo="0" yo="40" id="10017131" name="inst_9AC51B4E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -164,12 +163,8 @@
     <tile bgName="bg_ruinseasynam3" x="0" y="40" w="20" h="20" xo="0" yo="40" id="10017133" name="inst_A6D1719C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="20" y="40" w="20" h="20" xo="0" yo="40" id="10017134" name="inst_2549E335" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="40" y="40" w="20" h="20" xo="0" yo="40" id="10017135" name="inst_8A6BACEC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_ruinseasynam3" x="60" y="40" w="20" h="20" xo="0" yo="40" id="10017136" name="inst_E3395E4F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_ruinseasynam3" x="80" y="40" w="20" h="20" xo="0" yo="40" id="10017137" name="inst_E025B0E6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="100" y="40" w="20" h="20" xo="0" yo="40" id="10017138" name="inst_8B5B145A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="100" y="20" w="20" h="20" xo="0" yo="40" id="10017139" name="inst_5E40B162" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_ruinseasynam3" x="80" y="20" w="20" h="20" xo="0" yo="40" id="10017140" name="inst_5CAC5080" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_ruinseasynam3" x="60" y="20" w="20" h="20" xo="0" yo="40" id="10017141" name="inst_2E68A678" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="40" y="20" w="20" h="20" xo="0" yo="40" id="10017142" name="inst_FCA82308" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="20" y="20" w="20" h="20" xo="0" yo="40" id="10017143" name="inst_A1933791" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="100" y="60" w="20" h="20" xo="0" yo="40" id="10017144" name="inst_758F2F3E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -232,11 +227,7 @@
     <tile bgName="bg_ruinseasynam3" x="280" y="200" w="20" h="20" xo="0" yo="40" id="10017213" name="inst_CFE42B4D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="200" y="220" w="20" h="20" xo="0" yo="40" id="10017214" name="inst_617913C9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="80" y="220" w="20" h="20" xo="0" yo="40" id="10017216" name="inst_53BA7778" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_ruinseasynam3" x="60" y="60" w="20" h="20" xo="0" yo="40" id="10017224" name="inst_58A99FCC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_ruinseasynam3" x="80" y="60" w="20" h="20" xo="0" yo="40" id="10017225" name="inst_AD4E20B2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="100" y="80" w="20" h="20" xo="0" yo="40" id="10017226" name="inst_235E83D2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_ruinseasynam3" x="80" y="80" w="20" h="20" xo="0" yo="40" id="10017227" name="inst_94C9FB65" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_ruinseasynam3" x="60" y="80" w="20" h="20" xo="0" yo="40" id="10017228" name="inst_D314A8E7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="40" y="80" w="20" h="20" xo="0" yo="40" id="10017229" name="inst_A2D81B1A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="20" y="80" w="20" h="20" xo="0" yo="40" id="10017230" name="inst_14D62F83" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="120" y="80" w="20" h="20" xo="0" yo="40" id="10017232" name="inst_106CDD3F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -253,6 +244,16 @@
     <tile bgName="bg_ruinseasynam3" x="160" y="180" w="20" h="20" xo="0" yo="20" id="10017243" name="inst_20F4D300" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="160" y="200" w="20" h="20" xo="0" yo="20" id="10017244" name="inst_8CB56A43" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_ruinseasynam3" x="240" y="40" w="40" h="40" xo="0" yo="60" id="10017245" name="inst_7216D083" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="60" y="0" w="20" h="20" xo="0" yo="20" id="10066415" name="inst_3EE1AEEA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="60" y="20" w="20" h="20" xo="0" yo="20" id="10066416" name="inst_82E6023D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="60" y="40" w="20" h="20" xo="0" yo="20" id="10066417" name="inst_67A6E714" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="60" y="60" w="20" h="20" xo="0" yo="20" id="10066418" name="inst_6B54EF79" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="60" y="80" w="20" h="20" xo="0" yo="20" id="10066419" name="inst_89A5B371" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="80" y="80" w="20" h="20" xo="0" yo="20" id="10066420" name="inst_69344429" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="80" y="60" w="20" h="20" xo="0" yo="20" id="10066421" name="inst_802245FC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="80" y="40" w="20" h="20" xo="0" yo="20" id="10066422" name="inst_E6D1D0E7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="80" y="20" w="20" h="20" xo="0" yo="20" id="10066423" name="inst_1F328EA9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_ruinseasynam3" x="80" y="0" w="20" h="20" xo="0" yo="20" id="10066424" name="inst_E6408234" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

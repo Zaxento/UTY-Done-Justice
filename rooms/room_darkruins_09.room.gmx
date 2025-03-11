@@ -53,9 +53,8 @@
   <instances>
     <instance objName="obj_solidsmall" x="0" y="80" name="inst_474D769B" locked="0" code="" scaleX="1" scaleY="13" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="100" y="360" name="inst_C5951E04" locked="0" code="next_x = 190&#xA;next_y = 100&#xA;next_room = room_darkruins_08&#xA;next_dir = 2&#xA;" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="300" y="80" name="inst_FA6DBCBC" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_10&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="300" y="80" name="inst_FA6DBCBC" locked="0" code="next_x = 20&#xA;next_y = 100&#xA;next_room = room_darkruins_10&#xA;next_dir = 2&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="40" y="60" name="inst_155CC77D" locked="0" code="next_x = 30&#xA;next_y = 170&#xA;next_room = room_darkruins_09b&#xA;next_dir = 2" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mazelever" x="200" y="60" name="inst_1C4F35F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="180" y="320" name="inst_C8C3C03D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_mainchara" x="260" y="220" name="inst_2E62A159" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="20" y="0" name="inst_50977A2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -85,6 +84,8 @@
     <instance objName="obj_solidsmall" x="140" y="360" name="inst_1CCA723E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="80" y="360" name="inst_9B737F35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="20" y="340" name="inst_93521E8E" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_plotswitch_yellow" x="200" y="60" name="inst_397A7E63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_npc_room" x="200" y="220" name="inst_FDA1CCDF" locked="0" code="if global.flag_yellow[1] = 1&#xA;{&#xA;    instance_destroy()&#xA;    exit&#xA;}&#xA;sprite_index = spr_candycorn_item" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_darkruins" x="0" y="0" w="20" h="20" xo="100" yo="60" id="10005770" name="inst_ACBAA3DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -486,7 +487,6 @@
     <tile bgName="bg_darkruins_corn" x="40" y="100" w="20" h="20" xo="120" yo="20" id="10064726" name="inst_2A879080" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="60" y="260" w="20" h="20" xo="20" yo="40" id="10065730" name="inst_E60BCDEB" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="40" y="260" w="20" h="20" xo="120" yo="20" id="10066399" name="inst_9CC66063" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_darkruins_corn" x="300" y="120" w="20" h="20" xo="120" yo="20" id="10066400" name="inst_BDECED08" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="220" y="220" w="20" h="20" xo="60" yo="40" id="10066402" name="inst_384B2CAE" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="80" y="280" w="20" h="20" xo="60" yo="0" id="10065694" name="inst_A36BFAD1" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_darkruins_corn" x="60" y="280" w="20" h="20" xo="40" yo="0" id="10065695" name="inst_D24F5459" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

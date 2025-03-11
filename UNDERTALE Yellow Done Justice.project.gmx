@@ -271,6 +271,7 @@
         <sound>sound\mus_smallshock</sound>
         <sound>sound\mus_chokedup</sound>
         <sound>sound\mus_musicbox</sound>
+        <sound>sound\mus_wind</sound>
       </sounds>
       <sounds name="YELLOW">
         <sounds name="Menu">
@@ -528,6 +529,7 @@
         <sprites name="Item Pickups">
           <sprite>sprites\spr_pebbles</sprite>
           <sprite>sprites\spr_featheritem</sprite>
+          <sprite>sprites\spr_candycorn_item</sprite>
         </sprites>
         <sprite>sprites\spr_poster</sprite>
         <sprite>sprites\spr_fog_darkruins</sprite>
@@ -1533,6 +1535,10 @@
               <object>objects\obj_candycorn_gen</object>
             </objects>
           </objects>
+          <objects name="Decibat">
+            <object>objects\obj_decibat</object>
+            <object>objects\obj_decibat_body</object>
+          </objects>
           <objects name="Dalv">
             <object>objects\obj_dalv</object>
             <objects name="Bullets">
@@ -1590,6 +1596,7 @@
         </objects>
         <objects name="Dalv">
           <object>objects\obj_dalvoverworld1</object>
+          <object>objects\obj_dalvoverworld2</object>
         </objects>
         <objects name="Martlet">
           <object>objects\obj_martlet_npc</object>
@@ -1612,6 +1619,7 @@
         <object>objects\obj_puzzle_resetter</object>
         <object>objects\obj_puzzleresetlever_backup</object>
         <object>objects\obj_mazelever</object>
+        <object>objects\obj_plotswitch_yellow</object>
         <object>objects\obj_spikes</object>
         <object>objects\obj_puzzle2</object>
         <object>objects\obj_lightp</object>
@@ -1624,6 +1632,8 @@
         <object>objects\obj_poster</object>
         <object>objects\obj_poster_backup</object>
         <object>objects\obj_darkruins_fog</object>
+        <object>objects\obj_decibat_cutscene</object>
+        <object>objects\obj_decibat_cutscene_backup</object>
       </objects>
       <objects name="Trigger">
         <object>objects\obj_floweygreet_trigger</object>
@@ -2195,6 +2205,7 @@
       <room>rooms\room123</room>
       <room>rooms\room122</room>
       <room>rooms\room_darkruins_11</room>
+      <room>rooms\room142</room>
       <room>rooms\room_darkruins_12</room>
       <room>rooms\room_darkruins_13</room>
       <room>rooms\room126</room>

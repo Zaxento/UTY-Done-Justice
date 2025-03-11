@@ -859,10 +859,14 @@ ds_map_add(global.text_data_en, "scr_text_dalvscene1_10", "* Who...?/")
 ds_map_add(global.text_data_en, "scr_text_dalvscene1_11", "* I must be seeing things.../%%") //Removed Dalv's stutter here, since he does not seem to have this as a nervous tick like Alphys does.
 //Dalv moves backwards and then moves into the next room, where the camera then returns to Clover.
 
+ds_map_add(global.text_data_en, "scr_text_dalvscene2_1", "* Is it wrong to hold doubt in&  my actions?/%%")
 
-ds_map_add(global.text_data_en, "scr_text_dalvscene2_1", "* I enjoyed life before...^2 &* I did... but I can't go back./")
 ds_map_add(global.text_data_en, "scr_text_dalvscene2_2", "* What happened that day would&  only repeat./&&")
 ds_map_add(global.text_data_en, "scr_text_dalvscene2_3", "* .../%%")
+
+//ds_map_add(global.text_data_en, "scr_text_dalvscene2_1", "* I enjoyed life before...^2 &* I did... but I can't go back./")
+//ds_map_add(global.text_data_en, "scr_text_dalvscene2_2", "* What happened that day would&  only repeat./&&")
+//ds_map_add(global.text_data_en, "scr_text_dalvscene2_3", "* .../%%")
 //Dalv turns around and sees Clover from Undertale Yellow again.
 //Dalv does a exclamation mark in textbox originally, but that has been omitted for redundancy as the balloon icons already exist to fill that purpose.
 ds_map_add(global.text_data_en, "scr_text_dalvscene2_4", "* What is this?/")

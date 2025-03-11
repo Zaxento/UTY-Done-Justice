@@ -44,7 +44,7 @@ switch argument0
             if (noroom == 0)
             {
                 global.msg[0] = scr_gettext("SCR_TEXT_YELLOW_33") // * (Obtained Pebbles!)/%%
-                global.flag[600] = 1
+                global.flag_yellow[1] = 1
             }
             if (noroom == 1)
                 global.msg[0] = scr_gettext("SCR_TEXT_YELLOW_34") // * (Not enough space.)/%%
@@ -77,7 +77,7 @@ switch argument0
             if (noroom == 0)
             {
                 global.msg[0] = scr_gettext("SCR_TEXT_YELLOW_33") // * (Obtained Pebbles!)/%%
-                global.flag[600] = 1
+                global.flag_yellow[1] = 1
             }
             if (noroom == 1)
                 global.msg[0] = scr_gettext("SCR_TEXT_YELLOW_34") // * (Not enough space.)/%%
