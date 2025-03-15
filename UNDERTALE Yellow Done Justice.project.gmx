@@ -1221,6 +1221,7 @@
     </paths>
     <paths name="Undertale Yellow">
       <path>paths\path_flier</path>
+      <path>paths\path_decibat_alt</path>
       <path>paths\path_toriplothole</path>
       <path>paths\path_cloverjump</path>
     </paths>
@@ -1537,7 +1538,16 @@
           </objects>
           <objects name="Decibat">
             <object>objects\obj_decibat</object>
+            <object>objects\obj_decibat_backup</object>
             <object>objects\obj_decibat_body</object>
+            <object>objects\obj_decibat_body2</object>
+            <object>objects\obj_decibat_body_backup</object>
+            <objects name="Bullets">
+              <object>objects\obj_batwave_gen</object>
+              <object>objects\blt_batwave_blue</object>
+              <object>objects\blt_batwave_miniblue</object>
+              <object>objects\blt_batwave_orange</object>
+            </objects>
           </objects>
           <objects name="Dalv">
             <object>objects\obj_dalv</object>
@@ -2207,6 +2217,9 @@
       <room>rooms\room_darkruins_11</room>
       <room>rooms\room142</room>
       <room>rooms\room_darkruins_12</room>
+      <room>rooms\room144</room>
+      <room>rooms\room143</room>
+      <room>rooms\room_darkruins_12_old</room>
       <room>rooms\room_darkruins_13</room>
       <room>rooms\room126</room>
       <room>rooms\room_darkruins_14</room>
