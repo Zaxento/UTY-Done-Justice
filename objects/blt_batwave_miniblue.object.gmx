@@ -25,12 +25,17 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_xscale = 0.2;
-image_yscale = 0.2;
-image_scale_increase = 0.1;
-y_speed = 6;
-fade = false;
-alarm[0] = 40;
+            <string>image_alpha = 0
+image_angle = 270
+image_xscale = 1.5
+image_yscale = 1.5
+image_angle_min = 225
+image_angle_max = 315
+move_speed = 4
+can_move = false
+change_type = false
+audio_play_sound(snd_decibat3bigwaves, 20, 0)
+wave_color = 1 // 1 = Blue. 2 = Orange. Useful for combining both orange and blue miniwaves into one, and the damage calculation script. Slightly more optimal than checking the sprite to determine the damage type, which would be an alternative way to go about this.
 
 dmg = 4;
 
@@ -39,30 +44,6 @@ if (global.enemy_attack == "Decibat Wave Blue")
     audio_play_sound(snd_decibat3bigwaves, 20, 0);
 else
     audio_play_sound(snd_decibat1bigwave, 20, 0);
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>fade = true;
 
 </string>
           </argument>
@@ -93,28 +74,92 @@ else
     instance_destroy()
 }
 
-if (image_alpha &lt; 1 &amp;&amp; fade == false)
+if (image_alpha &lt; 1)
 {
-    image_alpha += 0.2;
-    
-    if (image_alpha &gt; 1)
-        image_alpha = 1;
+    image_alpha += 0.1
+    if (image_alpha &gt;= 1)
+    {
+        image_alpha = 1
+        can_move = true
+        angle = irandom_range(image_angle_min, image_angle_max)
+        image_angle = angle
+        audio_play_sound(snd_decibatbouncewave1, 20, 0)
+    }
 }
-
-image_xscale += image_scale_increase;
-image_yscale += image_scale_increase;
-y += y_speed;
-
-if (image_alpha &gt; 0 &amp;&amp; fade == true)
+if (can_move == true)
 {
-    image_alpha -= 0.2;
-    
-    if (image_alpha &lt; 0)
-        image_alpha = 0;
-    
-    if (image_alpha == 0)
-        instance_destroy();
+    x += lengthdir_x(move_speed, angle)
+    y += lengthdir_y(move_speed, angle)
+    var x_move = lengthdir_x(move_speed, angle)
+    var y_move = lengthdir_y(move_speed, angle)
+    if (bbox_left &lt;= (global.idealborder[0] + 4) &amp;&amp; x_move &lt; 0)
+    {
+        while (bbox_left &lt;= (global.idealborder[0] + 4))
+            x += 1
+        angle = irandom_range((image_angle_min + 90), (image_angle_max + 90))
+        image_angle = angle
+        change_type = true
+    }
+    if (bbox_right &gt;= (global.idealborder[1] - 4) &amp;&amp; x_move &gt; 0)
+    {
+        while (bbox_right &gt;= (global.idealborder[1] - 4))
+            x -= 1
+        angle = irandom_range((image_angle_min - 90), (image_angle_max - 90))
+        image_angle = angle
+        change_type = true
+    }
+    if (bbox_top &lt;= (global.idealborder[2] + 4) &amp;&amp; y_move &lt; 0)
+    {
+        while (bbox_top &lt;= (global.idealborder[2].bbox_top + 4))
+            y += 1
+        angle = irandom_range(image_angle_min, image_angle_max)
+        image_angle = angle
+        change_type = true
+    }
+    if (bbox_bottom &gt;= (global.idealborder[3] - 4) &amp;&amp; y_move &gt; 0)
+    {
+        while (bbox_bottom &gt;= (global.idealborder[3] - 4))
+            y -= 1
+        angle = irandom_range((image_angle_min - 180), (image_angle_max - 180))
+        image_angle = angle
+        change_type = true
+    }
+    if (change_type == true)
+    {
+        change_type = false
+        if wave_color = 1
+        {
+            wave_color = 2
+        }
+        else
+        {
+            wave_color = 1
+        }
+    }
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_heart">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>scr_damage_nobonus(wave_color, 0, 0, 0, 0)
 </string>
           </argument>
         </arguments>

@@ -1449,6 +1449,7 @@
       <script>scripts\scr_floweysave_text.gml</script>
       <script>scripts\scr_lightpuzzle_on.gml</script>
       <script>scripts\scr_lightpuzzle_off.gml</script>
+      <script>scripts\scr_damage_nobonus.gml</script>
     </scripts>
     <scripts name="Lolchick Engine">
       <script>scripts\scr_checkresolution.gml</script>
@@ -1538,12 +1539,16 @@
           </objects>
           <objects name="Decibat">
             <object>objects\obj_decibat</object>
+            <object>objects\obj_decibat_backup2</object>
             <object>objects\obj_decibat_backup</object>
             <object>objects\obj_decibat_body</object>
             <object>objects\obj_decibat_body2</object>
             <object>objects\obj_decibat_body_backup</object>
             <objects name="Bullets">
-              <object>objects\obj_batwave_gen</object>
+              <object>objects\obj_batwave_bluegen</object>
+              <object>objects\obj_batwave_orangegen</object>
+              <object>objects\obj_batwave_blangegen</object>
+              <object>objects\obj_batwave_minigen</object>
               <object>objects\blt_batwave_blue</object>
               <object>objects\blt_batwave_miniblue</object>
               <object>objects\blt_batwave_orange</object>

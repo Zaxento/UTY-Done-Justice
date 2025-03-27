@@ -738,9 +738,34 @@ ds_map_add(global.text_data_en, "obj_readable_room2_darkruins6_2", "* Make what 
 
 ds_map_add(global.text_data_en, "obj_readable_room1_darkruins7_1", "* Private property. &* No trespassing./%%")
 
+//Interact with Flowers outside of Genocide
+ds_map_add(global.text_data_en, "obj_readable_room2_darkruins7_1", "* (A bed of well-attended&  flowers.)/")
+ds_map_add(global.text_data_en, "obj_readable_room2_darkruins7_2", "* (They smell nice.)/%%")
+
+//Interact with the Flowers in Genocide
+ds_map_add(global.text_data_en, "obj_readable_room2_darkruins7_3", "* (Some flowers.)/%%")
+
+//Corn Maze Sign
 ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_1", "* Friend:^2 &* I planted these for you./")
 ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_2", "* It isn't much but I hope it&  brightens your day./")
 ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_3", "* It always brightened mine./%%")
+
+
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins10_1", "* Friend: &* Do not fear the unknown. &* Sometimes they're nice./%%")
+
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins14_1", "* I seem to recall&  what I once saw so often.../%%")
+
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins14_2", "* What I remembered...&* It seems is now forgotten.../%%")
+
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins14_3", "* So then nevermind I guess./%%")
+
+//ds_map_add(global.text_data_en, "obj_readable_room1_darkruins15_1", "* Property of \PDalv&  (That monster in the cloak.)&* NO TRESPASSING!/%%")
+
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins16_1", "* Property of \PDalv&  (That monster in the cloak.)&* NO TRESPASSING!/%%")
+
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins17_1", "* Don't step on the flowers./%%")
+
+ds_map_add(global.text_data_en, "obj_readable_room1_darkruins14_3", "* So then nevermind I guess./%%")
 
 //Cutscenes//
 

@@ -26,8 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 1
-global.border = 54
 wavecount = 0
+y_spawn = (global.idealborder[3] - global.idealborder[2]) / 2
+waveside = false
 </string>
           </argument>
         </arguments>
@@ -50,7 +51,17 @@ wavecount = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>wavecount += 1
+            <string>audio_play_sound(snd_decibat3bigwaves,0,false)
+if waveside = false
+{
+    instance_create(global.idealborder[0] - 40, global.idealborder[2] + y_spawn, blt_batwave_orange);
+}
+else if waveside = true
+{
+    instance_create(global.idealborder[1] + 40, global.idealborder[2] + y_spawn, blt_batwave_orange);
+}
+
+wavecount += 1
 
 if wavecount &lt; 3
 {
@@ -61,10 +72,8 @@ else
     
     alarm[0] = 30
     wavecount = 0
+    waveside = !waveside
 }
-
-audio_play_sound(snd_decibat3bigwaves,0,false)
-instance_create(obj_decibat.x, obj_decibat.y - 10, blt_batwave_blue);
 </string>
           </argument>
         </arguments>

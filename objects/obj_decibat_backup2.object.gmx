@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>scr_monstersetup(0, 0, 0, 0, 0)
 image_speed = 0.5
-//mypart1 = instance_create(x + 120, y, obj_decibat_body);
+mypart1 = instance_create(x + 120, y, obj_decibat_body);
 hurtanim = 0
 hurtsound = snd_ehurt1
 talked = false
@@ -43,13 +43,9 @@ ht = 100
 wd = 100
 siner = 0
 
-obj_battlebg.image_index = 1
-
-//y += 17
-//starting_y = y;
+y += 17
 
 //gross uty anim variables
-anim = 0;
 starting_point_x = x;
 starting_point_y = 126;
 draw_position_x = starting_point_x;
@@ -154,9 +150,7 @@ global.msg[1] = scr_gettext("obj_whimsun_203") // %%%
 global.typer = 2
 blconwd = instance_create((blcon.x + 15), (blcon.y + 10), OBJ_NOMSCWRITER)
 //blconwd = instance_create((obj_blconwdflowey.x + 36), (obj_blconwdflowey.y + 10), OBJ_NOMSCWRITER)
-//global.border = 3
-//global.border = 53
-global.border = 54
+global.border = 3
 obj_heart.x = (round(((global.idealborder[0] + global.idealborder[1]) / 2)) - 8)
 obj_heart.y = (round(((global.idealborder[2] + global.idealborder[3]) / 2)) - 8)
 </string>
@@ -326,11 +320,9 @@ if (global.mnfight == 2)
     {
         global.turntimer = 200
         if (mycommand &gt;= 0 &amp;&amp; mycommand &lt;= 50)
-            //gen = instance_create(0, 0, obj_batwave_bluegen)
-            //gen = instance_create(0, 0, obj_batwave_orangegen)
-            gen = instance_create(0, 0, obj_batwave_blangegen)
+            gen = instance_create(0, 0, obj_batwave_gen)
         else
-            gen = instance_create(0, 0, obj_batwave_blangegen)
+            gen = instance_create(0, 0, obj_batwave_gen)
         gen.myself = myself
         if (mycommand &gt;= 0)
             global.msg[0] = scr_gettext("SCR_BATTLE_DEFAULTTEXT_YELLOW_1") // * Everything has that new car&amp;  smell with a faint whiff of&amp;  bodyspray.
@@ -460,7 +452,9 @@ if (global.myfight == 4)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>        game_maker_cannot_do_math = power((time_elapsed / ((time_max / 2) * (1 / sqrt(max_rise)))) - sqrt(max_rise), 2);
+            <string>siner += 1;
+image_speed = 1 + (sin(siner / 6) * 1)
+/*        game_maker_cannot_do_math = power((time_elapsed / ((time_max / 2) * (1 / sqrt(max_rise)))) - sqrt(max_rise), 2);
         animation_disjoint_y = sign_modifier * (max_rise - round(game_maker_cannot_do_math));
         game_maker_cannot_do_math = power((time_elapsed / ((time_max / 2) * (1 / sqrt(max_rise_wing)))) - sqrt(max_rise_wing), 2);
         wing_speed_modifier = sign_modifier * (max_rise_wing - round(game_maker_cannot_do_math));
@@ -481,12 +475,23 @@ if (global.myfight == 4)
         
         image_speed = wing_speed_default + wing_speed_modifier + wing_speed_add;
 
-draw_sprite_ext(spr_decibat_body, image_index, x, y, 2, 2, 0, c_white, 1);
+//if (pause == 1)
+//{
+//    siner = 0;
+//    x = parent.x;
+//}
+*/
+draw_sprite_ext(spr_decibat_body, image_index, x, y + (sin(siner / 12) * 21), 2, 2, 0, c_white, 1);
+
+//if (pause == 0)
+    draw_sprite_ext(spr_decibat_head, 0, x, y + (sin(siner / 12) * 21), 2, 2, 0, c_white, 1);
+
+//if (pause == 1)
+//    draw_sprite_ext(spr_finalfroggit_head_hurt, 0, offx + x + (sin(siner / 6) * 10), offy + y + (sin(siner / 3) * 4), 2, 2, -sin(siner / 6) * 2, c_white, 1);
+
+/*draw_sprite_ext(spr_decibat_body, image_index, x, y, 2, 2, 0, c_white, 1);
 
 draw_sprite_ext(spr_decibat_head, 0, x, y, 2, 2, 0, c_white, 1);
-
-siner += 1;
-anim += 1;
 </string>
           </argument>
         </arguments>

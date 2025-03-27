@@ -1,0 +1,9 @@
+This doesn't cover all of Undertale's flags, go to this site if you want to find out what they do: https://pcy.ulyssis.be/undertale/flags
+
+As for UTY Done Justice Flags? Those are here.
+
+global.flag_yellow[0] is set when you interact with the switch in room_darkruins_09. Because the switch is technically optional, it does not rely on the global.plot value.
+global.flag_yellow[1] is set when the pebbles are taken. They will no longer appear once done so.
+global.flag_yellow[2] is set when the candy corn taken. It will no longer appear once done so.
+
+global.flowey_flag[0] is set when you talk to Flowey six times before solving the first puzzle or gaining anything from a monster. Save Points stop showing up during this time, but this flag is ignored once you have global.plot higher than 12.
