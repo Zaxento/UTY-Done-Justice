@@ -1588,7 +1588,8 @@ switch global.battlegroup
         global.monstertype[2] = 0
         global.batmusic = mus_prebattle1_yellow
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 3100
+        global.msg[0] = scr_gettext("scr_battle_intro_yellow_1") // * Flier is giving fighting a try!
+        global.msg[1] = scr_gettext("scr_battletext_yellow_1") // %%%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
@@ -1601,8 +1602,8 @@ switch global.battlegroup
         global.batmusic = mus_prebattle1_yellow
         caster_loop(global.batmusic, 0.5, 1)
         global.msc = 0
-        global.msg[0] = scr_gettext("SCR_BATTLE_INTROTEXT_YELLOW_2") // * You are overwhelmed by&  depressing vibes.
-        global.msg[1] = scr_gettext("SCR_BATTLETEXT_YELLOW_1") // %%%
+        global.msg[0] = scr_gettext("scr_battle_intro_yellow_2") // * You are overwhelmed by&  depressing vibes
+        global.msg[1] = scr_gettext("scr_battletext_yellow_1") // %%%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
@@ -1616,7 +1617,8 @@ switch global.battlegroup
         global.monstertype[2] = 0
         global.batmusic = mus_prebattle1_yellow
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 3101
+        global.msg[0] = scr_gettext("scr_battle_intro_yellow_3") // * Penilla draws near!
+        global.msg[1] = scr_gettext("scr_battletext_yellow_1") // %%%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
@@ -1628,7 +1630,8 @@ switch global.battlegroup
         global.monstertype[2] = 0
         global.batmusic = mus_prebattle1_yellow
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 3101
+        global.msg[0] = scr_gettext("scr_battle_intro_yellow_4") // * Penilla seems to be dreading#  this battle."
+        global.msg[1] = scr_gettext("scr_battletext_yellow_1") // %%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
@@ -1643,7 +1646,7 @@ switch global.battlegroup
         caster_loop(global.batmusic, 0.5, 1)
         global.msc = 0
         global.msg[0] = scr_gettext("scr_battle_intro_yellow_5") // * Sweet Corn hops up excitedly.
-        global.msg[1] = scr_gettext("SCR_BATTLETEXT_YELLOW_1") // %%%
+        global.msg[1] = scr_gettext("scr_battletext_yellow_1") // %%%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
@@ -1655,12 +1658,13 @@ switch global.battlegroup
         global.monstertype[2] = 0
         global.batmusic = mus_prebattle1_yellow
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 3101
+        global.msg[0] = scr_gettext("scr_battle_intro_yellow_6") // * You can already feel the&  cavities.
+        global.msg[1] = scr_gettext("scr_battletext_yellow_1") // %%%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
-        global.monsterinstance[0] = instance_create(18, 18, obj_flier)
-        global.monsterinstance[1] = instance_create(220, 18, obj_flier)
+        global.monsterinstance[0] = instance_create(18, 18, obj_sweetcorn)
+        global.monsterinstance[1] = instance_create(220, 18, obj_sweetcorn)
         break
     case 306: //Sweet Corn Penilla Duo
         global.monstertype[0] = 103
@@ -1668,7 +1672,8 @@ switch global.battlegroup
         global.monstertype[2] = 0
         global.batmusic = mus_prebattle1_yellow
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 3101
+        global.msg[0] = scr_gettext("scr_battle_intro_yellow_7") // * Penilla encounters you.&* Sweet Corn comes out of nowhere&  acting excited.
+        global.msg[1] = scr_gettext("scr_battletext_yellow_1") // %%%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
@@ -1681,7 +1686,8 @@ switch global.battlegroup
         global.monstertype[2] = 0
         global.batmusic = mus_prebattle1_yellow
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 3101
+        global.msg[0] = scr_gettext("scr_battle_intro_yellow_8") // * Crispy Scroll is looking for&  someone to talk to.
+        global.msg[1] = scr_gettext("scr_battletext_yellow_1") // %%%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
@@ -1693,7 +1699,8 @@ switch global.battlegroup
         global.monstertype[2] = 0
         global.batmusic = mus_prebattle1_yellow
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 3101
+        global.msg[0] = scr_gettext("scr_battle_intro_yellow_9") // * A powerful lone warrior and his&  pencil companion encounter you!
+        global.msg[1] = scr_gettext("scr_battletext_yellow_1") // %%%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
@@ -1706,7 +1713,8 @@ switch global.battlegroup
         global.monstertype[2] = 0
         global.batmusic = mus_prebattle1_yellow
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 3101
+        global.msg[0] = scr_gettext("scr_battle_intro_yellow_10") // * It's a mirror match!
+        global.msg[1] = scr_gettext("scr_battletext_yellow_1") // %%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
@@ -1718,7 +1726,8 @@ switch global.battlegroup
         global.monstertype[2] = 0
         global.batmusic = mus_decibat_yellow
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 3101
+        global.msg[0] = scr_gettext("scr_battle_intro_yellow_11") // * Decibat makes his presence&  known.
+        global.msg[1] = scr_gettext("scr_battletext_yellow_1") // %%%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
@@ -1730,7 +1739,8 @@ switch global.battlegroup
         global.monstertype[2] = 0
         global.batmusic = mus_dalvbattle
         caster_loop(global.batmusic, 0.5, 1)
-        global.msc = 3100
+        global.msg[0] = scr_gettext("scr_battle_intro_yellow_13") // * Dalv musters his fighting&  spirit.
+        global.msg[1] = scr_gettext("scr_battletext_yellow_1") // %%%
         global.battlelv = 0
         global.actfirst = 0
         global.extraintro = 0
