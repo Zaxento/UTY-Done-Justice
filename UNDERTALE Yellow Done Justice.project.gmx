@@ -2288,6 +2288,23 @@
     </rooms>
     <rooms name="Dunes">
       <room>rooms\room_dunes_19</room>
+      <room>rooms\room154</room>
+      <room>rooms\room153</room>
+      <room>rooms\room152</room>
+      <room>rooms\room_dunes_19_old</room>
+      <room>rooms\room_dunes_19B</room>
+      <room>rooms\room_dunes_20</room>
+      <room>rooms\room_dunes_24</room>
+    </rooms>
+    <rooms name="Steamworks">
+      <room>rooms\room_steamworks_05b</room>
+      <room>rooms\room_steamworks_chem_01</room>
+      <room>rooms\room_steamworks_chem_hermit</room>
+      <room>rooms\room149</room>
+    </rooms>
+    <rooms name="Mansion">
+      <room>rooms\room_mansion_entrance</room>
+      <room>rooms\room_mansion_kotatsu</room>
     </rooms>
     <rooms name="Flowey's World">
       <room>rooms\room_flashback_01</room>
