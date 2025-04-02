@@ -51,6 +51,7 @@ x_spawn = (global.idealborder[1] - global.idealborder[0]) / 2
           <argument>
             <kind>1</kind>
             <string>wavecount += 1
+alarm[0] = 25
 
 var random_wave = irandom_range(0, 1)
 if (random_wave == 0)
@@ -59,7 +60,10 @@ if (random_wave == 0)
 }
 else
 {
-    instance_create(x_spawn, global.idealborder[2] - 20, blt_batwave_miniblue);
+    with (instance_create(x_spawn, global.idealborder[2] - 20, blt_batwave_miniblue))
+    {
+        wave_color = 2
+    }
 }
 audio_play_sound(snd_decibat3bigwaves, 20, 0)
 

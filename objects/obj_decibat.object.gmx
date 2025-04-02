@@ -156,7 +156,7 @@ blconwd = instance_create((blcon.x + 15), (blcon.y + 10), OBJ_NOMSCWRITER)
 //blconwd = instance_create((obj_blconwdflowey.x + 36), (obj_blconwdflowey.y + 10), OBJ_NOMSCWRITER)
 //global.border = 3
 //global.border = 53
-global.border = 54
+global.border = 54 //Batwave Mini
 obj_heart.x = (round(((global.idealborder[0] + global.idealborder[1]) / 2)) - 8)
 obj_heart.y = (round(((global.idealborder[2] + global.idealborder[3]) / 2)) - 8)
 </string>

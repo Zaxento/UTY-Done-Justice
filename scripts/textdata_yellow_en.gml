@@ -521,21 +521,52 @@ ds_map_add(global.text_data_en, "SCR_BATTLE_MERCYTEXT_YELLOW_28", "* Crispy Mode
 
 //Monster Status Text
 
-//Idle Monster Chatter
-ds_map_add(global.text_data_en, "SCR_BATTLE_IDLE_SPEECH_YELLOW_0", "I'm looking to&buy a boat!^2 Know&anyone selling?")
-ds_map_add(global.text_data_en, "SCR_BATTLE_IDLE_SPEECH_YELLOW_1", "You know&anyone&selling&a boat?")
-ds_map_add(global.text_data_en, "SCR_BATTLE_IDLE_SPEECH_YELLOW_2", "Yeah, I&might be&working&out ;)")
-ds_map_add(global.text_data_en, "SCR_BATTLE_IDLE_SPEECH_YELLOW_3", "That new&rock&band is&great!")
+//[Monster Quotes]
+//Flier Default Quotes
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_0", "I'm looking to&buy a boat!^2 Know&anyone selling?")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_1", "You know&anyone&selling&a boat?")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_2", "Yeah, I&might be&working&out ;)")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_3", "That new&rock&band is&great!")
+//Flier Response Quotes
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_4", "I... This&isn't&really me...")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_5", "Something&needs to& change.")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_6", "Don't&come&near me!")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_7", "That's&right!^2 I&knew you&noticed!")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_8", "Yeah,^1 I&totally&agree.")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_9", "I don't&accept.")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_10", "Don't come near&me!")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_11", "That was my bro!")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_12", "She was my friend&(I think)")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_13", "Right back at&you.")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_14", "You just have no&sense of modern&fashion trends!")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_15", "Just gotta keep&it... cool.")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_16", "So this is how it&ends?")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_17", "Who wants to have&a cookout?")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_18", "Hey guys, check&out my new ride&B)")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_19", "Finally! Monsters&that get me!")
+ds_map_add(global.text_data_en, "scr_battle_quote_flier_20", "Is art what the kids&are into these days?")
 
-//Act Monster Chatter
-ds_map_add(global.text_data_en, "SCR_BATTLE_ACT_SPEECH_YELLOW_1", "I... This&isn't&really me...")
-ds_map_add(global.text_data_en, "SCR_BATTLE_ACT_SPEECH_YELLOW_2", "Something&needs to& change.")
-ds_map_add(global.text_data_en, "SCR_BATTLE_ACT_SPEECH_YELLOW_3", "Don't&come&near me!")
-ds_map_add(global.text_data_en, "SCR_BATTLE_ACT_SPEECH_YELLOW_4", "That's&right!^2 I&knew you&noticed!")
-ds_map_add(global.text_data_en, "SCR_BATTLE_ACT_SPEECH_YELLOW_5", "Yeah,^1 I&totally&agree.")
-ds_map_add(global.text_data_en, "SCR_BATTLE_ACT_SPEECH_YELLOW_6", "I don't&accept.")
-ds_map_add(global.text_data_en, "SCR_BATTLE_ACT_SPEECH_YELLOW_7", "Don't come near&me!")
-ds_map_add(global.text_data_en, "SCR_BATTLE_ACT_SPEECH_YELLOW_8", "Don't come near&me!")
+//Decibat Default Quotes
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_0", "NO NO! NOISE&HURTS! NOISE&HURTS!") //Low HP
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_1", "Getting too loud&here! HUSHH&HUSHH!")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_2", "Sweet silence...")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_3", "That new&rock&band is&great!")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_4", "I... This&isn't&really me...")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_5", "Something&needs to& change.")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_6", "Don't&come&near me!")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_7", "That's&right!^2 I&knew you&noticed!")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_8", "Yeah,^1 I&totally&agree.")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_9", "I don't&accept.")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_10", "Don't come near&me!")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_11", "Getting too loud&here! HUSHH&HUSHH!")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_12", "Sweet silence...")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_13", "That new&rock&band is&great!")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_14", "I... This&isn't&really me...")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_15", "Something&needs to& change.")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_16", "Don't&come&near me!")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_17", "That's&right!^2 I&knew you&noticed!")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_18", "Yeah,^1 I&totally&agree.")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_19", "I don't&accept.")
 
 //Check Text
 
