@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 1
-wavecount = 0
 //x_spawn = (global.idealborder[1] - global.idealborder[0]) /// 2
 </string>
           </argument>
@@ -50,15 +49,11 @@ wavecount = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>wavecount += 1
+            <string>x_spawn = irandom_range((global.idealborder[0] + 5), (global.idealborder[1] - 5))
 
-instance_create(320, global.idealborder[2] - 30, blt_batwave_miniblue);
-audio_play_sound(snd_decibat3bigwaves, 20, 0)
+instance_create(x_spawn, global.idealborder[2] + 5, blt_stalagmite);
 
-if wavecount &lt; 3
-{
-    alarm[0] = 25
-}
+alarm[0] = 15
 </string>
           </argument>
         </arguments>

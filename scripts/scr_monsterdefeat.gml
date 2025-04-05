@@ -45,7 +45,7 @@ if (killed == 1)
         with (ddd)
             scr_newvapordata(8)
     }
-    if (object_index == obj_papyrusdeadbody)
+/*    if (object_index == obj_papyrusdeadbody)
     {
         with (ddd)
             scr_newvapordata(9)
@@ -54,7 +54,7 @@ if (killed == 1)
     {
         with (ddd)
             scr_newvapordata(10)
-    }
+    }*/
     if (object_index == obj_shyren)
     {
         with (ddd)

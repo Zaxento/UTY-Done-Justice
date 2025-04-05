@@ -432,6 +432,7 @@
             <sprite>sprites\spr_decibat_hit</sprite>
             <sprite>sprites\spr_decibat_spared</sprite>
             <sprite>sprites\spr_decibat_dead</sprite>
+            <sprite>sprites\sprite649</sprite>
             <sprite>sprites\spr_decibat_wave</sprite>
             <sprite>sprites\spr_decibat_wave_blue</sprite>
             <sprite>sprites\spr_decibat_wave_orange</sprite>
@@ -1544,19 +1545,27 @@
           </objects>
           <objects name="Decibat">
             <object>objects\obj_decibat</object>
+            <object>objects\obj_decibat_backup4</object>
+            <object>objects\obj_decibat_backup3</object>
             <object>objects\obj_decibat_backup2</object>
             <object>objects\obj_decibat_backup</object>
             <object>objects\obj_decibat_body</object>
+            <object>objects\object528</object>
             <object>objects\obj_decibat_body2</object>
             <object>objects\obj_decibat_body_backup</object>
+            <object>objects\obj_decibat_body_backup2</object>
+            <object>objects\obj_decibat_body_backup3</object>
+            <object>objects\obj_decibat_body_backup4</object>
             <objects name="Bullets">
               <object>objects\obj_batwave_bluegen</object>
               <object>objects\obj_batwave_orangegen</object>
               <object>objects\obj_batwave_blangegen</object>
               <object>objects\obj_batwave_minigen</object>
+              <object>objects\obj_stalagmitegen</object>
               <object>objects\blt_batwave_blue</object>
-              <object>objects\blt_batwave_miniblue</object>
               <object>objects\blt_batwave_orange</object>
+              <object>objects\blt_batwave_miniblue</object>
+              <object>objects\blt_stalagmite</object>
             </objects>
           </objects>
           <objects name="Dalv">

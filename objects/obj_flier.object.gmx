@@ -334,7 +334,7 @@ if (global.myfight == 2)
             if (whatiheard == 0)
             {
                 global.msc = 0
-                global.msg[0] = scr_gettext("SCR_BATTLE_CHECKYELLOW_1") // * FLIER - ATK 4 DEF 2&amp; * Flier feels nothing./^
+                global.msg[0] = scr_gettext("obj_flier_check_1") // * FLIER - ATK 4 DEF 2&amp; * Flier feels nothing./^
                 if instance_exists(OBJ_WRITER)
                 {
                 OBJ_WRITER.halt = 3
