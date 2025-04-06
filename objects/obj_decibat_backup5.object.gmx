@@ -178,8 +178,7 @@ impress = 0
 global.msg[1] = scr_gettext("obj_finalfroggit_240") // %%%
 global.typer = 2
 blconwd = instance_create((blcon.x + 15), (blcon.y + 10), OBJ_NOMSCWRITER)
-//global.border = 3
-global.border = 53
+global.border = 3
 obj_heart.x = (round(((global.idealborder[0] + global.idealborder[1]) / 2)) - 8)
 obj_heart.y = (round(((global.idealborder[2] + global.idealborder[3]) / 2)) - 8)
 
@@ -211,8 +210,7 @@ with (blcon)
     instance_destroy()
 talked = false
 global.mnfight = 2
-//global.border = 3
-global.border = 53
+global.border = 3
 </string>
           </argument>
         </arguments>
@@ -406,7 +404,7 @@ if (global.myfight == 2)
             if (whatiheard == 0)
             {
                 global.msc = 0
-                global.msg[0] = scr_gettext("obj_decibat_check_1") // * FINAL FROGGIT - ATK 30 DEF 24&amp;* Its future looks brighter and&amp;  brighter./^
+                global.msg[0] = scr_gettext("obj_finalfroggit_480") // * FINAL FROGGIT - ATK 30 DEF 24&amp;* Its future looks brighter and&amp;  brighter./^
                 if instance_exists(OBJ_WRITER)
                 {
                 OBJ_WRITER.halt = 3

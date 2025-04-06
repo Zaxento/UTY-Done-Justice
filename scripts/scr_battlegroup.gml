@@ -1732,7 +1732,7 @@ switch global.battlegroup
         global.actfirst = 0
         global.extraintro = 0
         //global.monsterinstance[0] = instance_create(318, 126, obj_decibat)
-        global.monsterinstance[0] = instance_create(250, 62, obj_decibat)
+        global.monsterinstance[0] = instance_create(252, 52, obj_decibat)
         break
     case 320: //Dalv
         global.monstertype[0] = 107

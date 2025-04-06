@@ -1039,10 +1039,10 @@ if (global.monstertype[myself] == 105)
 if (global.monstertype[myself] == 106)
 {
     global.monstername[myself] = scr_gettext("monstername_106") // Decibat
-    global.monstermaxhp[myself] = 25
-    global.monsterhp[myself] = 30
-    global.monsteratk[myself] = 4
-    global.monsterdef[myself] = 2
+    global.monstermaxhp[myself] = 6
+    global.monsterhp[myself] = 6
+    global.monsteratk[myself] = 5
+    global.monsterdef[myself] = -100
     global.xpreward[myself] = 2
     global.goldreward[myself] = 2
     global.itemrewardid = 1

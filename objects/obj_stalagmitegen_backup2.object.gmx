@@ -26,8 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = 1
-previous_x = 0
-previous_x2 = 0
 //x_spawn = (global.idealborder[1] - global.idealborder[0]) /// 2
 </string>
           </argument>
@@ -51,21 +49,9 @@ previous_x2 = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if previous_x &gt; 0
-{
-    previous_x = x_spawn
-}
-x_spawn = irandom_range((global.idealborder[0] + 5), (global.idealborder[1] - 5))
+            <string>x_spawn = irandom_range((global.idealborder[0] + 5), (global.idealborder[1] - 5))
 
-while previous_x &gt; x_spawn - 16 &amp;&amp; previous_x &lt; x_spawn + 16 &amp;&amp; previous_x2 &gt; x_spawn - 16 &amp;&amp; previous_x2 &lt; x_spawn + 16
-{
-    x_spawn = irandom_range((global.idealborder[0] + 5), (global.idealborder[1] - 5))
-    previous_x2 = previous_x
-    previous_x = x_spawn
-}
-
-instance_create(x_spawn, global.idealborder[2] - 24, blt_stalagmite);
-//instance_create(x_spawn, global.idealborder[2] + 5, blt_stalagmite);
+instance_create(x_spawn, global.idealborder[2] - 15, blt_stalagmite);
 
 alarm[0] = 15
 </string>

@@ -28,16 +28,45 @@
             <string>dmg = 4;
 image_speed = 0
 image_index = 0
-image_alpha = 0
 hsp = 0
 vsp = 0
 grav = 0.5
 terminal_velocity = 10
+//can_move = true
 can_move = false
 while (bbox_left &lt; (global.idealborder[0] + 4))
     x += 1
 while (bbox_right &gt; (global.idealborder[1] - 4))
     x -= 1
+    
+appear = 0
+
+x_spawn = x
+//shake = (random(shaker * 2)
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>appear = 30
+can_move = true
 </string>
           </argument>
         </arguments>
@@ -60,14 +89,23 @@ while (bbox_right &gt; (global.idealborder[1] - 4))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>    if (image_alpha &lt; 1 &amp;&amp; can_move == false)
-    {
-        image_alpha += 0.1
-        if (image_alpha &gt; 1)
-            image_alpha = 1
-        if (image_alpha == 1)
-            can_move = true
-    }
+            <string>if appear &lt; 28 //29
+{
+    y += 2
+    appear += 2
+}
+
+if appear = 28
+{
+    appear = 29
+    alarm[0] = 16
+}
+
+if appear = 29
+{
+    x = x_spawn + random(1) - random(1)
+}
+
     if (can_move == true)
     {
         x += hsp
@@ -122,6 +160,30 @@ while (bbox_right &gt; (global.idealborder[1] - 4))
           <argument>
             <kind>1</kind>
             <string>instance_destroy()
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self_border_true(0, 0)
+scr_bordercross(29)
 </string>
           </argument>
         </arguments>

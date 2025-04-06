@@ -440,6 +440,7 @@
             <sprite>sprites\spr_decibat_wave_mini_orange</sprite>
             <sprite>sprites\spr_decibat_wave_mini_blue</sprite>
             <sprite>sprites\spr_decibat_stalagmite</sprite>
+            <sprite>sprites\spr_decibat_stalagmite_backup</sprite>
           </sprites>
           <sprites name="Dalv">
             <sprite>sprites\spr_dalv_neck</sprite>
@@ -1545,6 +1546,7 @@
           </objects>
           <objects name="Decibat">
             <object>objects\obj_decibat</object>
+            <object>objects\obj_decibat_backup5</object>
             <object>objects\obj_decibat_backup4</object>
             <object>objects\obj_decibat_backup3</object>
             <object>objects\obj_decibat_backup2</object>
@@ -1562,10 +1564,14 @@
               <object>objects\obj_batwave_blangegen</object>
               <object>objects\obj_batwave_minigen</object>
               <object>objects\obj_stalagmitegen</object>
+              <object>objects\obj_stalagmitegen_backup2</object>
+              <object>objects\obj_stalagmitegen_backup</object>
               <object>objects\blt_batwave_blue</object>
               <object>objects\blt_batwave_orange</object>
               <object>objects\blt_batwave_miniblue</object>
               <object>objects\blt_stalagmite</object>
+              <object>objects\blt_stalagmite_backup2</object>
+              <object>objects\blt_stalagmite_backup</object>
             </objects>
           </objects>
           <objects name="Dalv">
