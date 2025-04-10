@@ -56,7 +56,7 @@ if wavecount % 2 = 1
 {
     alarm[0] = 30
     audio_play_sound(snd_decibat1bigwave,0,false)
-    instance_create(obj_decibat.x, obj_decibat.y - 10, blt_batwave_blue);
+    instance_create(obj_decibat_body.x + 68, obj_decibat_body.y - 10, blt_batwave_blue);
 }
 else if wavecount = 2
 {

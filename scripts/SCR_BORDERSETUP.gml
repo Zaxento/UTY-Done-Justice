@@ -324,3 +324,27 @@ if (global.border == 54) //Dalv Lightning Vertical
     global.idealborder[2] = 250
     global.idealborder[3] = 385
 }
+
+if (global.border == 56) //Decibat Stalagmite
+{
+    global.idealborder[0] = 255
+    global.idealborder[1] = 378
+    global.idealborder[2] = 250
+    global.idealborder[3] = 385
+}
+if (global.border == 55)
+{
+    global.idealborder[0] = 258
+    global.idealborder[1] = 378
+    global.idealborder[2] = 250
+    global.idealborder[3] = 385
+}
+
+/*
+if (global.border == 55)
+{
+    global.idealborder[0] = 258
+    global.idealborder[1] = 378
+    global.idealborder[2] = 250
+    global.idealborder[3] = 385
+}

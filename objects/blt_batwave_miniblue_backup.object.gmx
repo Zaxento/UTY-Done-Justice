@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_angle = 270
+            <string>image_alpha = 0
+image_angle = 270
 image_xscale = 1.5
 image_yscale = 1.5
 image_angle_min = 225
@@ -34,11 +35,6 @@ move_speed = 4
 can_move = false
 change_type = false
 audio_play_sound(snd_decibat3bigwaves, 20, 0)
-
-angle = irandom_range(image_angle_min, image_angle_max)
-image_angle = angle
-audio_play_sound(snd_decibatbouncewave1, 20, 0)
-
 wave_color = irandom_range(1, 2) // 1 = Blue. 2 = Orange. Useful for combining both orange and blue miniwaves into one, and the damage calculation script. Slightly more optimal than checking the sprite to determine the damage type, which would be an alternative way to go about this.
 if wave_color &lt; 1.51
 {
@@ -88,6 +84,18 @@ else
     instance_destroy()
 }
 
+if (image_alpha &lt; 1)
+{
+    image_alpha += 0.1
+    if (image_alpha &gt;= 1)
+    {
+        image_alpha = 1
+        can_move = true
+        angle = irandom_range(image_angle_min, image_angle_max)
+        image_angle = angle
+        audio_play_sound(snd_decibatbouncewave1, 20, 0)
+    }
+}
 if (can_move == true)
 {
     x += lengthdir_x(move_speed, angle)

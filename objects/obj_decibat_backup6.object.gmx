@@ -385,56 +385,31 @@ if (global.mnfight == 2)
 {
     if (attacked == 0)
     {
-        if turns &gt; 2
-        {
-            global.turntimer = 200
-        }
-        else
-        {
-            global.turntimer = 115
-        }
+        global.turntimer = 150
         if turns == 1
         {
             gen = instance_create(x, y, obj_batwave_bluegen)
             gen.dmg = global.monsteratk[myself]
         }
-        if turns == 2
+        else if turns == 2
         {
             gen = instance_create(x, y, obj_batwave_orangegen)
             gen.dmg = global.monsteratk[myself]
         }
-        if turns == 3
+        else if turns == 3
         {
             gen = instance_create(x, y, obj_batwave_blangegen)
             gen.dmg = global.monsteratk[myself]
         }
-        if turns == 4
+        else if turns == 4
         {
             gen = instance_create(x, y, obj_batwave_minigen)
             gen.dmg = global.monsteratk[myself]
         }
-        if turns == 5
+        else
         {
             gen = instance_create(x, y, obj_stalagmitegen)
             gen.dmg = global.monsteratk[myself]
-        }
-        if turns &gt; 5
-        {
-            if (mycommand &lt; 30)
-            {
-                gen = instance_create(x, y, obj_batwave_blangegen)
-                gen.dmg = global.monsteratk[myself]
-            }
-            else if (mycommand &lt; 60)
-            {
-                gen = instance_create(x, y, obj_batwave_minigen)
-                gen.dmg = global.monsteratk[myself]
-            }
-            else
-            {
-                gen = instance_create(x, y, obj_stalagmitegen)
-                gen.dmg = global.monsteratk[myself]
-            }
         }
         if (mycommand &gt;= 0)
             global.msg[0] = scr_gettext("obj_finalfroggit_440") // * Final Froggit knows exactly&amp;  why it's here.

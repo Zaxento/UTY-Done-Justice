@@ -63,7 +63,7 @@ else
 }
 
 audio_play_sound(snd_decibat3bigwaves,0,false)
-instance_create(obj_decibat.x, obj_decibat.y - 10, blt_batwave_blue);
+instance_create(obj_decibat_body.x + 68, obj_decibat_body.y - 10, blt_batwave_blue);
 </string>
           </argument>
         </arguments>

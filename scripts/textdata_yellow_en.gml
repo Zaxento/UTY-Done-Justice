@@ -547,16 +547,20 @@ ds_map_add(global.text_data_en, "scr_battle_quote_flier_19", "Finally! Monsters&
 ds_map_add(global.text_data_en, "scr_battle_quote_flier_20", "Is art what the kids&are into these days?")
 
 //Decibat Default Quotes
+
+//Decibat Turn Quotes
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_turn1", "Don't move.^2 &Don't make a&sound.") //Low HP
+
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_0", "NO NO! NOISE&HURTS! NOISE&HURTS!") //Low HP
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_1", "Getting too loud&here! HUSHH&HUSHH!")
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_2", "Sweet silence...")
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_3", "That new&rock&band is&great!")
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_4", "I... This&isn't&really me...")
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_5", "Something&needs to& change.")
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_6", "Don't&come&near me!")
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_7", "That's&right!^2 I&knew you&noticed!")
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_8", "Yeah,^1 I&totally&agree.")
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_9", "I don't&accept.")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_1", "Getting too loud&here! HUSHH&HUSHH!") //Annoy Decibat 5 times?
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_2", "Sweet silence...") //Watch Decibat 5 times?
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_3", "You hhear that?&No? Good...") //Watch Decibat 4 times?
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_4", "More quiet&please...") //Watch Decibat 3 times?
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_5", "Don't&move.^2 &Don't&make a&sound.") //Decibat blue waves attack
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_6", "Move in&silence&hush&hush!") //Decibat orange waves attack
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_7", "Don't&shhy away.^2 &Hushh&hushh!") //Random dialogue 1
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_8", "Whispers&only&please.^2 &Hushh&hushh!") //Random dialogue 2
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_9", "Hushh&puppy!") //Random dialogue 3
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_10", "Don't come near&me!")
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_11", "Getting too loud&here! HUSHH&HUSHH!")
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_12", "Sweet silence...")
