@@ -1223,7 +1223,31 @@ if (inwater == 1)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(0,0,obj_musfadein)
+            <string>if debug_mode != false
+{
+    global.charname = "Clover"
+    dsprite = spr_mainclover_down
+    rsprite = spr_mainclover_right
+    usprite = spr_mainclover_up
+    lsprite = spr_mainclover_left
+    global.weapon = 74
+    global.wstrength = 0
+    global.weapon2 = 66
+    global.w2strength = 0
+    global.armor = 76
+    global.adef = 0
+    global.armor2 = 65
+    global.a2def = 0
+    global.flag[22] = 2
+    global.bp = 36
+    global.maxbp = 36
+    global.lv = 20
+    global.xp = 0
+    global.maxhp = 99
+    global.hp = global.maxhp
+    global.at = (8 + (global.lv * 2))
+    global.df = (9 + ceil((global.lv / 4)))
+}
 </string>
           </argument>
         </arguments>

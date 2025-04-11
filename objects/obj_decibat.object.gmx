@@ -161,10 +161,18 @@ with (mypart1)
 gg = floor(random(3))
 mycommand = round(random(100))
 turns += 1
-if (global.monsterhp[myself] &lt; (global.monstermaxhp[myself] / 3)) &amp;&amp; mycommand &gt;= 0
-    global.msg[0] = scr_gettext("SCR_BATTLE_LOWHPTEXT_YELLOW_1") // * Flier is reconsidering his life&amp;  choices.
+if mycommand &gt;= 0
+    global.msg[0] = scr_gettext("scr_battle_quote_decibat_7") // Don't&amp;shhy away.^2 &amp;Hushh&amp;hushh!
+if mycommand &gt;= 30
+    global.msg[0] = scr_gettext("scr_battle_quote_decibat_8") // Whispers&amp;only&amp;please.^2 &amp;Hushh&amp;hushh!
+if mycommand &gt;= 60
+    global.msg[0] = scr_gettext("scr_battle_quote_decibat_9") // Hushh&amp;puppy!
 if turns == 1
-    global.msg[0] = scr_gettext("scr_battle_quote_decibat_turn1") // Robbit,&amp;robbit.
+    global.msg[0] = scr_gettext("scr_battle_quote_decibat_5") // Don't&amp;move.^2 &amp;Don't&amp;make a&amp;sound.
+if turns == 2
+    global.msg[0] = scr_gettext("scr_battle_quote_decibat_6") // Move in&amp;silence&amp;hush&amp;hush!
+if (global.monsterhp[myself] &lt; (global.monstermaxhp[myself] / 3)) &amp;&amp; mycommand &gt;= 0
+    global.msg[0] = scr_gettext("scr_battle_quote_decibat_0") // NO NO! NOISE&amp;HURTS! NOISE&amp;HURTS!
 /*if (mycommand &gt;= 30 &amp;&amp; mycommand &lt; 50)
     global.msg[0] = scr_gettext("obj_finalfroggit_210") // Creak,&amp;creak.
 if (mycommand &gt;= 50 &amp;&amp; mycommand &lt; 80)
@@ -466,7 +474,7 @@ if (global.myfight == 2)
             if (whatiheard == 0)
             {
                 global.msc = 0
-                global.msg[0] = scr_gettext("obj_decibat_check_1") // * FINAL FROGGIT - ATK 30 DEF 24&amp;* Its future looks brighter and&amp;  brighter./^
+                global.msg[0] = scr_gettext("obj_decibat_check_1") // * DECIBAT - ATK 10 DEF 6&amp;* Missing his quiet solitude./^
                 if instance_exists(OBJ_WRITER)
                 {
                 OBJ_WRITER.halt = 3

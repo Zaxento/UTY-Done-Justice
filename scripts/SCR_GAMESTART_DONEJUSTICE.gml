@@ -6,6 +6,10 @@ global.armor2 = 65 //Like Weapon2, but for armors.
 global.a2def = 0 //Armor value of the Secondary Armor.
 global.damagebonus_effect = 0 //A Bonus Effect that appears on hit. Exists solely because of UTY Ammos
 
+//Bullet Points UTY Reloaded
+global.bp = 6
+global.maxbp = 6
+
 //SETTINGS PROTOTYPE! May be relocated.
 global.artstyle_yellow = "Yellow"
 

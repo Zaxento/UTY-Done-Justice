@@ -457,6 +457,9 @@
             </sprites>
           </sprites>
         </sprites>
+        <sprites name="UI">
+          <sprite>sprites\spr_bpname</sprite>
+        </sprites>
         <sprite>sprites\spr_fightbt_yellow</sprite>
         <sprite>sprites\spr_heartgtfo_yellow</sprite>
         <sprite>sprites\spr_torieldisapprove_yellow</sprite>
@@ -1345,6 +1348,9 @@
         <script>scripts\scr_battlemenu_cursor_y.gml</script>
         <script>scripts\scr_gameoverb.gml</script>
         <script>scripts\scr_binfowrite.gml</script>
+        <script>scripts\scr_binfowrite_backup2.gml</script>
+        <script>scripts\scr_binfowrite_backup.gml</script>
+        <script>scripts\scr_binfowrite_original.gml</script>
         <script>scripts\scr_attack.gml</script>
         <script>scripts\scr_attackcalc.gml</script>
         <script>scripts\scr_runaway.gml</script>
@@ -1519,6 +1525,7 @@
             <object>objects\obj_shot_medium_fake</object>
             <object>objects\obj_shot_strong_fake</object>
           </objects>
+          <object>objects\obj_bpname</object>
         </objects>
         <objects name="Monsters">
           <objects name="Flier">
@@ -1591,9 +1598,11 @@
         <object>objects\obj_toy_gun_battle_circle</object>
         <object>objects\obj_toy_gun_battle_circle_backup</object>
         <object>objects\obj_toy_gun_circle</object>
+        <object>objects\obj_toy_gun_circle_BPless</object>
         <object>objects\obj_toy_gun_circle_backup</object>
         <object>objects\obj_toy_gun_circle_backup2</object>
         <object>objects\obj_toy_gun_circle_multi</object>
+        <object>objects\obj_toy_gun_circle_multi_BPless</object>
         <object>objects\obj_wild_revolver_battle_outline</object>
         <object>objects\obj_wild_revolver_battle_outline_backup2</object>
         <object>objects\obj_wild_revolver_battle_outline_backup</object>
@@ -1904,6 +1913,7 @@
           </objects>
           <object>objects\obj_btparent</object>
           <object>objects\obj_fightbt</object>
+          <object>objects\obj_fightbt_original</object>
           <object>objects\obj_talkbt</object>
           <object>objects\obj_itembt</object>
           <object>objects\obj_sparebt</object>
@@ -2371,6 +2381,7 @@
     </rooms>
     <rooms name="Battles">
       <room>rooms\room_battle</room>
+      <room>rooms\room_battle_original</room>
       <room>rooms\room_floweybattle</room>
       <room>rooms\room_fastbattle</room>
     </rooms>

@@ -39,15 +39,6 @@ if (global.bmenucoord[0] == 0)
         obj_heart.y = (y + 14)
     }
 }
-
-if global.bp &lt; 1 || global.fightmode = 0
-{
-    sprite_index = spr_fightbt   
-}
-else
-{
-    sprite_index = spr_fightbt_yellow
-}
 </string>
           </argument>
         </arguments>

@@ -153,7 +153,6 @@ if (image_speed == 0)
         }
         else if (outline &lt;= (small_circle * 0.25))
         {
-            global.bp -= 1
             shot_type = "strong"
             hit_object = obj_shot_strong
             if global.weapon2 = 82
@@ -180,14 +179,12 @@ if (image_speed == 0)
         }
         else if ((outline &lt;= (small_circle * 0.6)) &amp;&amp; (outline &gt; (small_circle * 0.25)))
         {
-            global.bp -= 1
             shot_type = "medium"
             hit_object = obj_shot_medium
             global.damage = round((global.damage * (2 - outline * 0.012)))
         }
         else if ((outline &lt; small_circle) &amp;&amp; (outline &gt; (small_circle * 0.6)))
         {
-            global.bp -= 1
             shot_type = "weak"
             hit_object = obj_shot_weak
             global.damage = round((global.damage * (2 - outline * 0.0145)))

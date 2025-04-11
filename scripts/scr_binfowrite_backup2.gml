@@ -30,13 +30,13 @@ if (global.flag[271] == 0)
     //UTY Reloaded BP
     draw_set_color(c_white)
     draw_set_font(fnt_curs)
-    draw_sprite(spr_bpname, 0, 415 + (global.maxhp * 1.2), 400)
+    draw_sprite(spr_bpname, 0, 515, 400)
     bpwrite = string(global.bp)
     if (global.bp < 10)
         bpwrite = ("0" + string(global.bp))
     if (global.bp < 0)
         bpwrite = "0"
-    draw_text(455 + (global.maxhp * 1.2), 400, bpwrite)
+    draw_text(555, 400, bpwrite)
 }
 else
 {
