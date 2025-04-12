@@ -2,7 +2,7 @@ if (argument0 >= 0)
     global.item[argument0] = global.weapon2
 global.weapon2 = argument1
 if (global.weapon2 == 66) //Rubber Ammo
-    global.w2strength = 0
+    global.w2strength = 1
 if (global.weapon2 == 68) //Pebbles
     global.w2strength = 3
 if (global.weapon2 == 78) //Ice Pellets

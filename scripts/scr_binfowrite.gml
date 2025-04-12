@@ -28,15 +28,24 @@ if (global.flag[271] == 0)
         hpwrite = "00.0000000001"
     draw_text((290 + (global.maxhp * 1.2)), 400, ((hpwrite + " / ") + string(global.maxhp)))
     //UTY Reloaded BP
-    draw_set_color(c_white)
+    if global.bp < 1 || global.fightmode = 0
+    {
+        draw_set_color(c_gray)
+        draw_sprite_ext(spr_bpname, 0, 415 + (global.maxhp * 1.2), 400, image_xscale, image_yscale, 0, c_gray, 1)
+    }
+    else
+    {
+        draw_set_color(c_white)
+        draw_sprite(spr_bpname, 0, 415 + (global.maxhp * 1.2), 400)
+    }
     draw_set_font(fnt_curs)
-    draw_sprite(spr_bpname, 0, 415 + (global.maxhp * 1.2), 400)
     bpwrite = string(global.bp)
     if (global.bp < 10)
         bpwrite = ("0" + string(global.bp))
     if (global.bp < 0)
         bpwrite = "0"
     draw_text(455 + (global.maxhp * 1.2), 400, bpwrite)
+    draw_set_color(c_white)
 }
 else
 {

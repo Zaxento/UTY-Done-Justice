@@ -28,6 +28,7 @@
             <string>selected3 = 0
 saved = 0
 buffer = 0
+global.bp = global.maxbp
 </string>
           </argument>
         </arguments>
@@ -180,8 +181,8 @@ if (global.interact == 5)
         draw_text(stat_x, name_y, scr_gettext("stat_menu_name"))
         draw_text(stat_x + 84, lv_y - 5, scr_gettext("stat_menu_lv", string(global.lv)))
         draw_text(stat_x, hp_y - 21, scr_gettext("stat_menu_hp", string(global.hp), string(global.maxhp)))
-        draw_text(stat_x, at_y - 37, scr_gettext("stat_menu_at", string((global.at - 10)), string(global.w2strength)))
-        draw_text(stat_x, df_y - 37, scr_gettext("stat_menu_df", string((global.df - 10)), string(global.a2def)))
+        draw_text(stat_x, at_y - 37, scr_gettext("stat_menu_at", string((global.at - 10)), string(global.w2strength + global.wstrength)))
+        draw_text(stat_x, df_y - 37, scr_gettext("stat_menu_df", string((global.df - 10)), string(global.a2def + global.adef)))
         draw_text(stat_x, weapon_y - 40, scr_gettext("stat_menu_weapon", scr_gettext(("item_name_" + string(global.weapon)))))
         draw_text(stat_x, weapon_y, scr_gettext("stat_menu_weapon2", scr_gettext(("item_name_" + string(global.weapon2)))))
         armorname = scr_gettext(("item_name_" + string(global.armor)))

@@ -2,6 +2,8 @@ if (global.armor == 48)
     global.wstrength -= 5
 if (global.armor == 64)
     global.wstrength -= 10
+if (global.armor == 76)
+    global.wstrength -= 3
 if (argument0 >= 0)
     global.item[argument0] = global.armor
 global.armor = argument1
@@ -30,6 +32,11 @@ if (global.armor == 64)
 {
     global.adef = 20
     global.wstrength += 10
+}
+if (global.armor == 76)
+{
+    global.adef = 5
+    global.wstrength += 3
 }
 script_execute(scr_itemnameb)
 script_execute(scr_itemname)

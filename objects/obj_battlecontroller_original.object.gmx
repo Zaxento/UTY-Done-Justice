@@ -416,12 +416,6 @@ if ((global.mnfight == 0) &amp;&amp; (global.myfight == 0))
                     control_clear(0)
                 }
             }
-            if control_check_pressed(2) &amp;&amp; global.bp &gt; 0
-            {
-                global.fightmode = !global.fightmode
-                audio_play_sound(snd_item,80,false)
-                control_clear(2)
-            }
         }
     }
     if ((active == true))

@@ -1,7 +1,7 @@
 global.door_warp = 0 //This tells the door object where to take you. Right now? Nowhere.
 global.chemg_god_mode = false //I think this like, determines if you are immortal or something. Lolchick Debugger thing.
 global.weapon2 = 66 //Secondary Weapon, for in case you decide to have one for whatever reason.
-global.w2strength = 0 //Strength value of the Secondary Weapon.
+global.w2strength = 1 //Strength value of the Secondary Weapon.
 global.armor2 = 65 //Like Weapon2, but for armors.
 global.a2def = 0 //Armor value of the Secondary Armor.
 global.damagebonus_effect = 0 //A Bonus Effect that appears on hit. Exists solely because of UTY Ammos
@@ -9,6 +9,7 @@ global.damagebonus_effect = 0 //A Bonus Effect that appears on hit. Exists solel
 //Bullet Points UTY Reloaded
 global.bp = 6
 global.maxbp = 6
+global.fightmode = 1
 
 //SETTINGS PROTOTYPE! May be relocated.
 global.artstyle_yellow = "Yellow"

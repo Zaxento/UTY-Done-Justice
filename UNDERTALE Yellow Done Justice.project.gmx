@@ -852,6 +852,7 @@
           <sprite>sprites\spr_frypan_star</sprite>
           <sprite>sprites\spr_frypan_impact</sprite>
           <sprite>sprites\spr_gunshot_stab</sprite>
+          <sprite>sprites\spr_gunshot_remnant</sprite>
         </sprites>
         <sprites name="Heart">
           <sprite>sprites\spr_heart</sprite>
@@ -1910,6 +1911,8 @@
             <object>objects\obj_lightpunch</object>
             <object>objects\obj_strongpunch</object>
             <object>objects\obj_gunshot_stab</object>
+            <object>objects\obj_gunshot_star</object>
+            <object>objects\obj_gunshot_2</object>
           </objects>
           <object>objects\obj_btparent</object>
           <object>objects\obj_fightbt</object>
@@ -1920,6 +1923,7 @@
           <object>objects\obj_anybt</object>
           <object>objects\obj_hpname</object>
           <object>objects\obj_target</object>
+          <object>objects\obj_target_original</object>
           <object>objects\obj_targetchoice</object>
           <object>objects\obj_targetchoicefist</object>
           <object>objects\obj_targetchoiceHITSEVERYONE</object>
@@ -1985,6 +1989,7 @@
         <object>objects\obj_gameoverbg</object>
         <object>objects\obj_borderparent</object>
         <object>objects\obj_battlecontroller</object>
+        <object>objects\obj_battlecontroller_original</object>
         <object>objects\obj_battlecontroller_backup</object>
         <object>objects\obj_vaporized_new</object>
         <object>objects\obj_vaporized_new_backup</object>
