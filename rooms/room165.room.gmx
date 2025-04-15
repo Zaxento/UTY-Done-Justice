@@ -53,7 +53,7 @@ if !audio_is_playing(mus_ruins){audio_play_sound(mus_ruins,1,true)}</code>
   </views>
   <instances>
     <instance objName="obj_solidsmall" x="-80" y="0" name="inst_474D769B" locked="0" code="" scaleX="1" scaleY="14" colour="4294967295" rotation="0"/>
-    <instance objName="obj_solidsmall" x="320" y="-20" name="inst_022F6BB4" locked="0" code="" scaleX="1" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="obj_solidsmall" x="500" y="0" name="inst_022F6BB4" locked="0" code="" scaleX="1" scaleY="14" colour="4294967295" rotation="0"/>
     <instance objName="obj_mainchara" x="150" y="160" name="inst_F6FE9A05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="20" y="0" name="inst_F88F8E2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bigrock_snowdin" x="80" y="40" name="inst_FA5F9842" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -174,26 +174,6 @@ if !audio_is_playing(mus_ruins){audio_play_sound(mus_ruins,1,true)}</code>
     <tile bgName="bg_tundratiles" x="0" y="40" w="20" h="20" xo="40" yo="420" id="10069213" name="inst_DB76A829" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tundratiles" x="0" y="20" w="20" h="20" xo="40" yo="420" id="10069214" name="inst_0FEF5FBE" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tundratiles" x="0" y="0" w="20" h="20" xo="40" yo="380" id="10069215" name="inst_65B697AF" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="0" y="0" w="40" h="40" xo="80" yo="500" id="10069225" name="inst_FF132CCA" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="20" y="40" w="20" h="20" xo="100" yo="540" id="10069226" name="inst_61992341" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="40" y="0" w="20" h="60" xo="100" yo="500" id="10069230" name="inst_4ED5A1C1" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="60" y="0" w="20" h="60" xo="100" yo="500" id="10069231" name="inst_BBA25BEA" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="80" y="0" w="20" h="60" xo="100" yo="500" id="10069232" name="inst_0FCC640B" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="100" y="0" w="40" h="60" xo="100" yo="500" id="10069234" name="inst_2C9EF5AA" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="180" y="0" w="40" h="60" xo="80" yo="500" id="10069236" name="inst_1D6D6A51" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="220" y="0" w="20" h="60" xo="100" yo="500" id="10069237" name="inst_F7EF4C8F" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="240" y="0" w="20" h="60" xo="100" yo="500" id="10069238" name="inst_AD8739A4" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="260" y="0" w="20" h="60" xo="100" yo="500" id="10069239" name="inst_607732CB" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="280" y="0" w="20" h="20" xo="0" yo="0" id="10069250" name="inst_72E638AA" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="300" y="0" w="20" h="20" xo="0" yo="0" id="10069251" name="inst_DB09C215" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="280" y="20" w="20" h="20" xo="40" yo="580" id="10069261" name="inst_285398B9" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="280" y="40" w="20" h="20" xo="40" yo="620" id="10069262" name="inst_3A02E2EA" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="280" y="100" w="40" h="80" xo="80" yo="480" id="10069267" name="inst_6A497AAE" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="280" y="80" w="40" h="20" xo="80" yo="480" id="10069272" name="inst_2154AD3C" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="280" y="60" w="40" h="20" xo="80" yo="480" id="10069273" name="inst_515266AC" depth="999998" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="280" y="40" w="40" h="20" xo="80" yo="480" id="10069274" name="inst_4897EBF2" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="280" y="38" w="20" h="20" xo="80" yo="480" id="10069291" name="inst_250D3886" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tundratiles" x="300" y="20" w="20" h="20" xo="100" yo="480" id="10069292" name="inst_1F1AC6AA" depth="999997" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tundratiles" x="0" y="200" w="40" h="40" xo="20" yo="860" id="10069131" name="inst_53F323F7" depth="900" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tundratiles" x="40" y="200" w="40" h="40" xo="20" yo="860" id="10069132" name="inst_88613E38" depth="900" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tundratiles" x="80" y="200" w="40" h="40" xo="20" yo="860" id="10069133" name="inst_D3F76C1B" depth="900" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

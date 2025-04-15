@@ -540,6 +540,7 @@
         </sprites>
         <sprites name="Snowdin">
           <sprite>sprites\spr_icecube_lavapuzzle</sprite>
+          <sprite>sprites\spr_bigrock_snowdin</sprite>
         </sprites>
         <sprite>sprites\spr_poster</sprite>
         <sprite>sprites\spr_fog_darkruins</sprite>
@@ -1685,6 +1686,7 @@
         </objects>
         <objects name="Snowdin">
           <object>objects\obj_icecube_lavapuzzle</object>
+          <object>objects\obj_bigrock_snowdin</object>
         </objects>
       </objects>
       <objects name="Trigger">
@@ -2288,6 +2290,13 @@
       <room>rooms\room_snowdin_01_yellow</room>
       <room>rooms\room_snowdin_02_yellow_old</room>
       <room>rooms\room_snowdin_03_yellow</room>
+      <room>rooms\room165</room>
+      <room>rooms\room164</room>
+      <room>rooms\room163</room>
+      <room>rooms\room162</room>
+      <room>rooms\room161</room>
+      <room>rooms\room160</room>
+      <room>rooms\room159</room>
       <room>rooms\room_snowdin_03b_yellow</room>
       <room>rooms\room_snowdin_04_yellow</room>
       <room>rooms\room_snowdin_05_yellow</room>
