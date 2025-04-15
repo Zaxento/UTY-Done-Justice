@@ -1173,6 +1173,7 @@
       <background>background\bg_sanscorridor</background>
       <background>background\bg_ruins_tint</background>
       <background>background\bg_greyruinsplaceholder</background>
+      <background>background\bg_icewater</background>
     </backgrounds>
     <background>background\bg_floweyglow</background>
     <background>background\bg_startarea_tileset</background>
@@ -2290,6 +2291,7 @@
       <room>rooms\room_snowdin_01_yellow</room>
       <room>rooms\room_snowdin_02_yellow_old</room>
       <room>rooms\room_snowdin_03_yellow</room>
+      <room>rooms\room166</room>
       <room>rooms\room165</room>
       <room>rooms\room164</room>
       <room>rooms\room163</room>
@@ -2299,6 +2301,7 @@
       <room>rooms\room159</room>
       <room>rooms\room_snowdin_03b_yellow</room>
       <room>rooms\room_snowdin_04_yellow</room>
+      <room>rooms\room169</room>
       <room>rooms\room_snowdin_05_yellow</room>
       <room>rooms\room_snowdin_06_yellow</room>
       <room>rooms\room_snowdin_07_yellow</room>
@@ -2324,6 +2327,8 @@
       <room>rooms\room_snowdin_20_yellow</room>
       <room>rooms\room_snowdin_21_yellow</room>
       <room>rooms\room_snowdin_22_yellow</room>
+      <room>rooms\room172</room>
+      <room>rooms\room171</room>
       <room>rooms\room_snowdin_martlets_house</room>
       <room>rooms\room_snowdin_secret_to_everybody</room>
     </rooms>
@@ -2415,6 +2420,7 @@
       <room>rooms\room_snowdin_03_yellow_old</room>
       <room>rooms\room_snowdin_03b_yellow_old</room>
       <room>rooms\room_snowdin_04_yellow_old</room>
+      <room>rooms\room_snowdin_22_yellow_old</room>
     </rooms>
   </rooms>
   <help>

@@ -56,7 +56,6 @@ if !audio_is_playing(mus_ruins){audio_play_sound(mus_ruins,1,true)}</code>
     <instance objName="obj_solidsmall" x="300" y="0" name="inst_022F6BB4" locked="0" code="" scaleX="1" scaleY="14" colour="4294967295" rotation="0"/>
     <instance objName="obj_mainchara" x="140" y="260" name="inst_8ABA6E66" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_overworldcontroller" x="20" y="0" name="inst_97CEC7E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sansbox" x="440" y="140" name="inst_EBA8CDB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_snowdin_01_yellow" x="500" y="280" w="20" h="20" xo="420" yo="100" id="10013710" name="inst_0AB8C02F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
