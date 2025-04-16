@@ -814,6 +814,10 @@ ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_1", "* Friend:^2 
 ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_2", "* It isn't much but I hope it&  brightens your day./")
 ds_map_add(global.text_data_en, "obj_readable_room1_darkruins9_3", "* It always brightened mine./%%")
 
+//Candy Corn text
+ds_map_add(global.text_data_en, "obj_npc_room1_darkruins9_1", "* Friend:^2 &* I planted these for you./")
+ds_map_add(global.text_data_en, "obj_npc_room1_darkruins9_2", "* It isn't much but I hope it&  brightens your day./")
+ds_map_add(global.text_data_en, "obj_npc_room1_darkruins9_3", "* It always brightened mine./%%")
 
 ds_map_add(global.text_data_en, "obj_readable_room1_darkruins10_1", "* Friend: &* Do not fear the unknown. &* Sometimes they're nice./%%")
 
@@ -970,6 +974,74 @@ ds_map_add(global.text_data_en, "scr_text_dalvscene3_2", "* I thought I made it 
 ds_map_add(global.text_data_en, "scr_text_dalvscene3_3", "* I don't understand...^2 &* You... you look just like them./")
 ds_map_add(global.text_data_en, "scr_text_dalvscene3_4", "* Is this some sort of haunting?^2 &  Or have you come to finish the job?/")
 
+//room_snowdin_secret_to_everybody
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda1_1", "* Hehe,^1 haaaiii!!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda1_2", "* Are you here to bring me home??/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda1_3", "* Did Mikey send you??/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda1_4", "* Huh??^2 Huh???/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda1_5", "* Doesn't matter because I won't&  go!/%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda2_1", "* This is just like Mikey!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda2_2", "* Instead of talking face to face&  he sends a little weird guy to&  stare at me!/%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda3_1", "* Hehe omg!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda3_2", "* Sorry for calling you weirdddd!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda3_3", "* I tend to bully small children&  when I get moody!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda3_4", "* My b!!/%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda4_1", "* Mikey never paid any attention&  to me^1 you know??/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda4_2", "* I wanted to teach him a big ol'&  lesson!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda4_3", "* So I'm playing hard to get by&  wandering into the woods and&  maybe dying???/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda4_4", "* I think he'd care a lot if that&  happened!!/%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda5_1", "* Standing out here in this&  fridigy climate starts to get&  to you!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda5_2", "* Starts to make you question&  things!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda5_3", "* Like..^1 who's Mikey???/%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda6_1", "* I've never met a Mikey in my&  life!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda6_2", "* Wouldn't it be funny if I did&  tho???/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda6_3", "* I'd like,^1 be his gf and he'd&  like,^1 ignore me and I'd like,^1 &  wander into the woods!/%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda7_1", "* I'm so lost,^1 hehe!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda7_2", "* Woopsyyy!!!/%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda8_1", "* You think there's a search&  squad looking for me??/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda8_2", "* Omg that would make me feel so&  special!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda8_3", "* What if they send out a&  helicopter??/") //Does the Monster Shadow Government have helicopters in the underground? Maybe they're like those controllable toy helicopters your cool grandpa owns?
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda8_4", "* Ah!!^2 You prooobably don't know&  what a helicopter is!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda8_5", "* It's okay!!^2 I won't bore you&  with that forbidden knowledge!/%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda9_1", "* This is the ninth time you've&  talked to me!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda9_2", "* Fun!!!/%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda10_1", "* Fun Wanda fact!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda10_2", "* They don't let me in most&  restaurants anymore./%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda11_1", "* Oh shoot!!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda11_2", "* Did I just name drop??/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda11_3", "* Omgggg that's so like me!!/%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda12_1", "* Hm!^2 Hm!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda12_2", "* I'm getting a Wanda Signal!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda12_3", "* .../")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda12_4", "* GASP!!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda12_5", "* I only have one more thing I&  can say to you after this!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda12_6", "* Noooooo!!!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda12_7", "* Well,^1 better make it count!/%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda13_1", "* Hehe,^1 haaaiii!!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda13_2", "* Are you here to bring me home??/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda13_3", "* Did Mikey send you??/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda13_4", "* Huh??^2 Huh???/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda13_5", "* Doesn't matter because I won't&  go!/%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda14_1", "* One.../")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda14_2", "* Two.../")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda14_3", "* Three.../")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda14_4", "* Four.../")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda14_5", "* RATS!!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda14_6", "* No one EVER TOLD ME what comes&  after four!!!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda14_7", "* Lemme start over!!/%%")
 
 //Dune your mom
 

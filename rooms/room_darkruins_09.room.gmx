@@ -85,7 +85,7 @@
     <instance objName="obj_solidsmall" x="80" y="360" name="inst_9B737F35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_solidsmall" x="20" y="340" name="inst_93521E8E" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_plotswitch_yellow" x="200" y="60" name="inst_397A7E63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_npc_room" x="200" y="220" name="inst_FDA1CCDF" locked="0" code="if global.flag_yellow[1] = 1&#xA;{&#xA;    instance_destroy()&#xA;    exit&#xA;}&#xA;sprite_index = spr_candycorn_item" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_npc_room" x="200" y="240" name="inst_FDA1CCDF" locked="0" code="if global.flag_yellow[1] = 1&#xA;{&#xA;    instance_destroy()&#xA;    exit&#xA;}&#xA;sprite_index = spr_candycorn_item" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_darkruins" x="0" y="0" w="20" h="20" xo="100" yo="60" id="10005770" name="inst_ACBAA3DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

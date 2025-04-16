@@ -104,20 +104,88 @@ if (room == room_kitchen_final)
 }
 if (room == room_asgoreroom)
     global.msg[0] = scr_gettext("obj_npc_room_277") // * (It's a trophy.^1)&amp;* (Number 1 Nose-Nuzzle&amp;  Champs '98!)/%%
-if (room == room_water2)
-{
-    global.msg[0] = scr_gettext("obj_npc_room_282") // * This is an Echo Flower^1.&amp;* It repeats the last thing&amp;  it heard^1, over and over.../%%
-    if (talkedto &gt; 0)
-        global.msg[0] = scr_gettext("obj_npc_room_283") // * Neat^1, huh?/%%
-    if (obj_echoflower.v == 1)
-        global.msg[0] = scr_gettext("obj_npc_room_284") // * Never trust a flower..^1.&amp;* That's one of the constants&amp;  of this world./%%
-}
 //Epic cool YELLOW stuff
 
 if (room == room_test_undertale)
     global.msc = 262
+if (room == room_darkruins_09)
+{
+    global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+    global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%
+}
 if (room == room_darkruins_09b)
     global.msc = 3030
+if (room == room_snowdin_secret_to_everybody)
+{
+    global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+    global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%
+    
+    if talkedto = 1
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+    if talkedto = 2
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+    if talkedto = 3
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+    if talkedto = 4
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+    if talkedto = 5
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+    if talkedto = 6
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+    if talkedto = 7
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+    if talkedto = 8
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+    if talkedto = 9
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+    if talkedto = 10
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+    if talkedto = 11
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+    if talkedto = 12
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+    if talkedto = 13
+    {
+        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
+        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+    }
+}
 
 //This isn't related to Jaundice don't touch it unless you're gay
 mydialoguer = instance_create(0, 0, obj_dialoguer)

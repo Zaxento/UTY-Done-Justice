@@ -83,6 +83,8 @@
     <instance objName="obj_dalvoverworld2" x="370" y="56" name="inst_B4E4F5CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_plotswitch_yellow" x="180" y="60" name="inst_A75237E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_darkruinsmusic" x="20" y="0" name="inst_0191C334" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_readable_room1" x="40" y="80" name="inst_AC65F40D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_readable_room1" x="60" y="80" name="inst_0A742836" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_darkruins" x="273" y="100" w="20" h="20" xo="180" yo="180" id="10018981" name="inst_827EA504" depth="1000001" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

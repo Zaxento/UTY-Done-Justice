@@ -87,6 +87,10 @@ if (room == room_darkruins_09)
     global.msg[1] = scr_gettext("obj_readable_room1_darkruins9_2") // * It isn't much but I hope it&amp;  brightens your day./
     global.msg[2] = scr_gettext("obj_readable_room1_darkruins9_3") // * It always brightened mine./%%
 }
+if (room == room_darkruins_10)
+{
+    global.msg[0] = scr_gettext("obj_readable_room1_darkruins10_1") // * Friend: &amp;* Do not fear the unknown. &amp;* Sometimes they're nice./%%
+}
 
 read += 1;
 

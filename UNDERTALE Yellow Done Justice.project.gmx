@@ -530,8 +530,11 @@
           </sprites>
         </sprites>
         <sprites name="NPCs">
-          <sprite>sprites\spr_gilbert</sprite>
-          <sprite>sprites\spr_angie</sprite>
+          <sprites name="Dunes">
+            <sprite>sprites\spr_angie</sprite>
+            <sprite>sprites\spr_gilbert</sprite>
+          </sprites>
+          <sprite>sprites\spr_wanda</sprite>
         </sprites>
         <sprites name="Item Pickups">
           <sprite>sprites\spr_pebbles</sprite>
