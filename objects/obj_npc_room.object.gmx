@@ -117,73 +117,99 @@ if (room == room_darkruins_09b)
     global.msc = 3030
 if (room == room_snowdin_secret_to_everybody)
 {
-    global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-    global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%
-    
+    global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda1_1") // * Hehe,^1 haaaiii!!!/
+    global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda1_2") // * Are you here to bring me home??/
+    global.msg[2] = scr_gettext("obj_npc_room1_secret_wanda1_3") // * Did Mikey send you??/
+    global.msg[3] = scr_gettext("obj_npc_room1_secret_wanda1_4") // * Huh??^2 Huh???/
+    global.msg[4] = scr_gettext("obj_npc_room1_secret_wanda1_5") // * Doesn't matter because I won't&amp;  go!/%%
+
     if talkedto = 1
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda2_1") // * This is just like Mikey!/
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda2_2") // * Instead of talking face to face&amp;  he sends a little weird guy to&amp;  stare at me!/%%
     }
     if talkedto = 2
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda3_1") // * Hehe,^1 haaaiii!!!/
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda3_2") // * Are you here to bring me home??/
+        global.msg[2] = scr_gettext("obj_npc_room1_secret_wanda3_3") // * Did Mikey send you??/
+        global.msg[3] = scr_gettext("obj_npc_room1_secret_wanda3_4") // * Huh??^2 Huh???/
     }
     if talkedto = 3
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda4_1") // * Mikey never paid any attention&amp;  to me,^1 you know??/
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda4_2") // * I wanted to teach him a big ol'&amp;  lesson!/
+        global.msg[2] = scr_gettext("obj_npc_room1_secret_wanda4_3") // * So I'm playing hard to get by&amp;  wandering into the woods and&amp;  maybe dying???/
+        global.msg[3] = scr_gettext("obj_npc_room1_secret_wanda4_4") // * I think he'd care a lot if that&amp;  happened!!/%%
     }
     if talkedto = 4
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda5_1") // * Standing out here in this&amp;  fridigy climate starts to get&amp;  to you!
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda5_2") // * Starts to make you question&amp;  things!!/
+        global.msg[2] = scr_gettext("obj_npc_room1_secret_wanda5_3") // * Like..^1 who's Mikey???/%%
     }
     if talkedto = 5
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda6_1") // * I've never met a Mikey in my&amp;  life!/
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda6_2") // * Wouldn't it be funny if I did&amp;  tho???/
+        global.msg[2] = scr_gettext("obj_npc_room1_secret_wanda6_3") // * I'd like,^1 be his gf and he'd&amp;  like,^1 ignore me and I'd like,^1 &amp;  wander into the woods!/%%
     }
     if talkedto = 6
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda7_1") // * I'm so lost,^1 hehe!/
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda7_2") // * Woopsyyy!!!/%%
     }
     if talkedto = 7
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda8_1") // * You think there's a search&amp;  squad looking for me??/
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda8_2") // * Omg that would make me feel so&amp;  special!!/
+        global.msg[2] = scr_gettext("obj_npc_room1_secret_wanda8_3") // * What if they send out a&amp;  helicopter??/
+        global.msg[3] = scr_gettext("obj_npc_room1_secret_wanda8_4") // * Ah!!^2 You prooobably don't know&amp;  what a helicopter is!!/
+        global.msg[4] = scr_gettext("obj_npc_room1_secret_wanda8_5") // * It's okay!!^2 I won't bore you&amp;  with that forbidden knowledge!/%% 
     }
     if talkedto = 8
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda9_1") // * This is the ninth time you've&amp;  talked to me!/
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda9_2") // * Fun!!!/%%  
     }
     if talkedto = 9
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda10_1") // * I think we've made fast&amp;  friends,^1 don't you???
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda10_2") // * Wait! How fast can you run??/
+        global.msg[2] = scr_gettext("obj_npc_room1_secret_wanda10_3") // * Because I am a speed demon!!!/
+        global.msg[3] = scr_gettext("obj_npc_room1_secret_wanda10_4") // * Aww,^1 you know what??/
+        global.msg[4] = scr_gettext("obj_npc_room1_secret_wanda10_5") // * I'd race you,^1 but I kiiiinda&amp;  stopped believing in myself&amp;  recently!/%%
     }
     if talkedto = 10
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda11_1") // * Fun Wanda fact!!/
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda11_2") // * They don't let me in most&amp;  restaurants anymore./%%
     }
     if talkedto = 11
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda12_1") // * Oh shoot!!!/
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda12_2") // * Did I just name drop??/
+        global.msg[2] = scr_gettext("obj_npc_room1_secret_wanda12_3") // * Omgggg that's so like me!!/%%
     }
     if talkedto = 12
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda13_1") // * Hm!^2 Hm!!/
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda13_2") // * I'm getting a Wanda Signal!!/
+        global.msg[2] = scr_gettext("obj_npc_room1_secret_wanda13_3") // * .../
+        global.msg[3] = scr_gettext("obj_npc_room1_secret_wanda13_4") // * GASP!!!/
+        global.msg[4] = scr_gettext("obj_npc_room1_secret_wanda13_5") // * I only have one more thing I&amp;  can say to you after this!!/
+        global.msg[5] = scr_gettext("obj_npc_room1_secret_wanda13_6") // * Noooooo!!!!/
+        global.msg[6] = scr_gettext("obj_npc_room1_secret_wanda13_7") // * Well,^1 better make it count!/%%
     }
-    if talkedto = 13
+    if talkedto &gt; 12
     {
-        global.msg[0] = scr_gettext("obj_npc_room_271") // * (It's a trash can.)/
-        global.msg[1] = scr_gettext("obj_npc_room_272") // * (It's full of crumpled-up&amp;  recipes for butterscotch&amp;  pie.)/%%      
+        global.msg[0] = scr_gettext("obj_npc_room1_secret_wanda14_1") // * One.../
+        global.msg[1] = scr_gettext("obj_npc_room1_secret_wanda14_2") // * Two.../
+        global.msg[2] = scr_gettext("obj_npc_room1_secret_wanda14_3") // * Three.../
+        global.msg[3] = scr_gettext("obj_npc_room1_secret_wanda14_4") // * Four.../
+        global.msg[4] = scr_gettext("obj_npc_room1_secret_wanda14_5") // * RATS!!!/
+        global.msg[5] = scr_gettext("obj_npc_room1_secret_wanda14_6") // * No one EVER TOLD ME what comes&amp;  after four!!!/
+        global.msg[6] = scr_gettext("obj_npc_room1_secret_wanda14_7") // * Lemme start over!!/%%
     }
 }
 
