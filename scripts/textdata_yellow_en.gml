@@ -520,6 +520,12 @@ ds_map_add(global.text_data_en, "SCR_BATTLE_MERCYTEXT_YELLOW_27", "* Crispy Mode
 ds_map_add(global.text_data_en, "SCR_BATTLE_MERCYTEXT_YELLOW_28", "* Crispy Mode 2k!!")
 
 //Monster Status Text
+//[Flavor Text]
+//Decibat Flavor Text
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_0", "* Decibat accuses you of having a noisemaker inside your hat.")
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_1", "* Decibat agonizes over the clicking of buttons.")
+ds_map_add(global.text_data_en, "scr_battle_flavor_deicbat_2", "* Decibat looks slightly more at&  ease.")
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_3", "That new&rock&band is&great!")
 
 //[Monster Quotes]
 //Flier Default Quotes
@@ -659,7 +665,7 @@ ds_map_add(global.text_data_en, "SCR_BATTLE_ACTSLIST_YELLOW_2", "   * Check     
 ds_map_add(global.text_data_en, "SCR_BATTLE_ACTSLIST_YELLOW_3", "   * Check         * Lick&   * Compliment    * Criticize")
 ds_map_add(global.text_data_en, "SCR_BATTLE_ACTSLIST_YELLOW_4", "   * Check         * Transform&   * Compliment    * Criticize")
 ds_map_add(global.text_data_en, "SCR_BATTLE_ACTSLIST_YELLOW_5", "   * Check         * Adjust&   * Compliment    * Criticize")
-ds_map_add(global.text_data_en, "scr_actlist_decibat", "   * Check         * Reload&   * Talk        * Watch&   * Shoo")
+ds_map_add(global.text_data_en, "scr_actlist_decibat", "   * Check         * Reload&   * Talk          * Watch&   * Shoo")
 ds_map_add(global.text_data_en, "scr_actlist_decibat_old", "   * Check         * Talk&   * Watch         * Shoo")
 ds_map_add(global.text_data_en, "SCR_BATTLE_ACTSLIST_YELLOW_7", "   * Check         * Compliment&   * Compliment    * Criticize")
 ds_map_add(global.text_data_en, "SCR_BATTLE_ACTSLIST_YELLOW_8", "   * Check         * Lick&   * Compliment    * Criticize")
@@ -720,8 +726,24 @@ ds_map_add(global.text_data_en, "SCR_BATTLE_ACTSLIST_YELLOW_59", "   * Check    
 ds_map_add(global.text_data_en, "SCR_BATTLE_ACTSTEXT_1", "* You inform Flier that his life&  isn't half over,^1 he has a whole&  half left to go!/^")
 ds_map_add(global.text_data_en, "SCR_BATTLE_ACTSTEXT_2", "* You inform Flier that his life&  isn't half over,^1 he has a whole&  half left to go!/^")
 
+ds_map_add(global.text_data_en, "obj_decibat_act_talk_1", "* Decibat seems to have given up&  hope./^")
+ds_map_add(global.text_data_en, "obj_decibat_act_talk_2", "* Decibat is in too much pain to&  care./^")
+ds_map_add(global.text_data_en, "obj_decibat_act_talk_3", "* You open your mouth to speak.^2 &* Decibat covers your mouth./^")
+ds_map_add(global.text_data_en, "obj_decibat_act_talk_4", "* Decibat hushes you furiously./^")
+
+ds_map_add(global.text_data_en, "obj_decibat_act_watch_1", "* Decibat is making too much&  noise to notice your silence./^")
+ds_map_add(global.text_data_en, "obj_decibat_act_watch_2", "* You watch Decibat in silence.^2 &* He seems to appreciate it./^")
+
+ds_map_add(global.text_data_en, "obj_decibat_act_shoo_1", "* You move towards Decibat.^2 &* He lands happily on your&  shoulder./^")
+ds_map_add(global.text_data_en, "obj_decibat_act_shoo_2", "* You shout and jump around&  trying to scare Decibat away.^2 &* He isn't pleased./^")
+
 //Misc Text, Typically Boss Monologues
 ds_map_add(global.text_data_en, "scr_battletext_yellow_1", "%%%")
+
+//Reload da GUN!!!
+
+ds_map_add(global.text_data_en, "scr_battlereload_1", "* You recover your expended ammo./^")
+ds_map_add(global.text_data_en, "scr_battlereload_2", "* You spill out the ammo in your& gun and pick them back up./^")
 
 //Item Pickups
 ds_map_add(global.text_data_en, "SCR_TEXT_YELLOW_30", "* (A little pile of conveniently&  bullet shaped pebbles.)/")
@@ -989,7 +1011,29 @@ ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe1_7", "* Not the fi
 ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe1_8", "* Throughout history,^1 a few&  strange stories have popped up./")
 ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe1_9", "* Doors appearing suddenly...^2 &* Impossible geography...^2 &* Monsters straying from a set&  path and losing sense of direction.../") //Put Jane Doe's yapping about these various incidents into one box and shortened part of it. //I also think this dialogue is funny in the context of UTY.
 ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe1_10", "* Wild stuff./")
-ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe1_10", "* I'm the type that needs hard&  evidence to believe something./") //Hehe
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe1_11", "* I'm the type that needs hard&  evidence to believe something./") //Hehe
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe1_12", "* But that doesn't mean it didn't&  pique my curiosity./")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe1_13", "* So when I heard about this&  missing monster,^1 I had to&  investigate!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe1_14", "* Wasn't a few minutes before my&  compass stopped working and.../")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe1_15", "* Well...^2 I became a believer,^1 &  heh!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe1_16", "* What to do,^1 what to do.../%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe2_1", "* There's gotta be something or&  someone behind all this,^1 no?/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe2_2", "* Even though monsterkind has&  lived in the Underground for&  millenia,^1 there's still so much mystery&  to it all./") //Wait wait... Decades??? Weren't Monsterkind in the underground for at least a millenia, if not more? It was even stated by Catty and Bratty. I had to do a doubletake reading the original line. Decades is an understatement for the gap between modern day to times where Swords and Sorcery would have been relevant, yet alone the very likely case of Undertale being set in the future. Also combined with next line.
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe2_3", "* Hmm.../")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe2_4", "* I know what you're thinking,^1 &  and it was my first hypothesis&  as well./")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe2_5", "* It's just magic,^1 right?/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe2_6", "* The Underground is full of the&  stuff!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe2_7", "* Well,^1 obviously it's gotta be./")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe2_8", "* But I don't know.../")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe2_9", "* Some of these sightings seem&  intentional./")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe2_10", "* I have got to solve this as&  soon as I'm out of these woods./%%")
+
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe3_1", "* Don't worry about sticking&  around if you got places&  to be - I'll be fine!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe3_2", "* Still have plenty of snacks in&  my bag../")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe3_3", "* When it's time to go,^1 I'll just&  start walking in one direction./")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe3_4", "* Should make my way out,^1 easy&  peasy!/")
+ds_map_add(global.text_data_en, "obj_npc_room1_secret_janedoe3_5", "* Really wanna find who I'm&  looking for first,^1 though./")
 
 //Wanda
 ds_map_add(global.text_data_en, "obj_npc_room1_secret_wanda1_1", "* Hehe,^1 haaaiii!!!/")

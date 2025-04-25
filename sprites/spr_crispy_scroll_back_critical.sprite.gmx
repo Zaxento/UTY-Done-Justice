@@ -8,17 +8,17 @@
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
-  <bbox_right>113</bbox_right>
+  <bbox_right>56</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>51</bbox_bottom>
+  <bbox_bottom>25</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>114</width>
-  <height>52</height>
+  <width>57</width>
+  <height>26</height>
   <frames>
     <frame index="0">images\spr_crispy_scroll_back_critical_0.png</frame>
   </frames>

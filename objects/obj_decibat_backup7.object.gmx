@@ -46,7 +46,6 @@ wd = 146
 
 turns = 0
 headstate = 0
-outside = 0
 
 obj_battlebg.image_index = 1
 </string>
@@ -71,28 +70,7 @@ obj_battlebg.image_index = 1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (outside == 0)
-{
-    global.flag[14] = 1
-    global.flag[12] = 1
-    global.vaporspeed = 0
-    global.monstersprite = sprite_index
-    ddd = instance_create(x, y, obj_vaporized_new)
-    with (ddd)
-        scr_newvapordata(23)
-    ddd.sprite_index = sprite_index
-    ddd.ht = ht
-    ddd.wd = wd
-    ddd.image_speed = 0
-    ddd.image_index = 1
-    global.monster[myself] = false
-}
-with (mypart1)
-    instance_destroy()
-
-scr_youwon_alt()    
-
-/*if (global.flag[6] == 0)
+            <string>if (global.flag[6] == 0)
 {
     if (mercymod &gt; 10 &amp;&amp; global.monsterhp[myself] == global.monstermaxhp[myself])
     {
@@ -228,16 +206,9 @@ else
 {
     global.border = 55
 }
+obj_heart.x = (round(((global.idealborder[0] + global.idealborder[1]) / 2)) - 8)
+obj_heart.y = (round(((global.idealborder[2] + global.idealborder[3]) / 2)) - 8)
 
-if mercymod &gt; 0
-{
-    global.border = 0
-}
-else
-{
-    obj_heart.x = (round(((global.idealborder[0] + global.idealborder[1]) / 2)) - 8)
-    obj_heart.y = (round(((global.idealborder[2] + global.idealborder[3]) / 2)) - 8)
-}
 </string>
           </argument>
         </arguments>
@@ -267,11 +238,7 @@ with (blcon)
 talked = false
 global.mnfight = 2
 //global.border = 3
-if mercymod &gt; 0
-{
-    global.border = 0
-}
-else if turns &lt; 4
+if turns &lt; 4
 {
     global.border = 53
 }
@@ -330,38 +297,6 @@ if (shudder == 0)
 }
 alarm[3] = 2
 
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="2">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>OBJ_WRITER.halt = 3
-global.monster[myself] = false
-if (global.mnfight == 2)
-    global.mnfight = 1
-outside = 1
-instance_destroy()
-global.flag[13] = 1
-global.flag[14] = 3
-
-//
 </string>
           </argument>
         </arguments>
@@ -459,58 +394,55 @@ if (global.mnfight == 2)
 {
     if (attacked == 0)
     {
-        if mercymod &lt; 100 //Decibat's spare conditions have been fulfilled = no more bullets
+        if turns &gt; 2
         {
-            if turns &gt; 2
-            {
-                global.turntimer = 200
-            }
-            else
-            {
-                global.turntimer = 115
-            }
-            if turns == 1
-            {
-                gen = instance_create(x, y, obj_batwave_bluegen)
-                gen.dmg = global.monsteratk[myself]
-            }
-            if turns == 2
-            {
-                gen = instance_create(x, y, obj_batwave_orangegen)
-                gen.dmg = global.monsteratk[myself]
-            }
-            if turns == 3
+            global.turntimer = 200
+        }
+        else
+        {
+            global.turntimer = 115
+        }
+        if turns == 1
+        {
+            gen = instance_create(x, y, obj_batwave_bluegen)
+            gen.dmg = global.monsteratk[myself]
+        }
+        if turns == 2
+        {
+            gen = instance_create(x, y, obj_batwave_orangegen)
+            gen.dmg = global.monsteratk[myself]
+        }
+        if turns == 3
+        {
+            gen = instance_create(x, y, obj_batwave_blangegen)
+            gen.dmg = global.monsteratk[myself]
+        }
+        if turns == 4
+        {
+            gen = instance_create(x, y, obj_batwave_minigen)
+            gen.dmg = global.monsteratk[myself]
+        }
+        if turns == 5
+        {
+            gen = instance_create(x, y, obj_stalagmitegen)
+            gen.dmg = global.monsteratk[myself]
+        }
+        if turns &gt; 5
+        {
+            if (mycommand &lt; 30)
             {
                 gen = instance_create(x, y, obj_batwave_blangegen)
                 gen.dmg = global.monsteratk[myself]
             }
-            if turns == 4
+            else if (mycommand &lt; 60)
             {
                 gen = instance_create(x, y, obj_batwave_minigen)
                 gen.dmg = global.monsteratk[myself]
             }
-            if turns == 5
+            else
             {
                 gen = instance_create(x, y, obj_stalagmitegen)
                 gen.dmg = global.monsteratk[myself]
-            }
-            if turns &gt; 5
-            {
-                if (mycommand &lt; 30)
-                {
-                    gen = instance_create(x, y, obj_batwave_blangegen)
-                    gen.dmg = global.monsteratk[myself]
-                }
-                else if (mycommand &lt; 60)
-                {
-                    gen = instance_create(x, y, obj_batwave_minigen)
-                    gen.dmg = global.monsteratk[myself]
-                }
-                else
-                {
-                    gen = instance_create(x, y, obj_stalagmitegen)
-                    gen.dmg = global.monsteratk[myself]
-                }
             }
         }
         if (mycommand &gt;= 0)
@@ -525,20 +457,6 @@ if (global.mnfight == 2)
             global.msg[0] = scr_gettext("obj_finalfroggit_444") // * Final Froggit seems reluctant&amp;  to fight you.
         if (global.monsterhp[myself] &lt; (global.monstermaxhp[myself] / 4))
             global.msg[0] = scr_gettext("obj_finalfroggit_445") // * Final Froggit stands its&amp;  ground.
-        if (mercymod = 100)
-        {
-            if (outside == 0)
-            {
-                global.turntimer = 1
-                global.msg[0] = scr_gettext("obj_dummymonster_400") // * Dummy tires of your&amp;  aimless shenanigans.
-                global.flag[13] = 1
-                obj_decibat_body.alarm[7] = 2
-                global.mnfight = 2
-                global.typer = 1
-                global.msc = 0
-                iii = instance_create(global.idealborder[0], global.idealborder[2], OBJ_WRITER)
-            }
-        }
         attacked = 1
     }
     if (mercymod == 999999)
