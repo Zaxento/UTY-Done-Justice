@@ -737,6 +737,10 @@ ds_map_add(global.text_data_en, "obj_decibat_act_watch_2", "* You watch Decibat 
 ds_map_add(global.text_data_en, "obj_decibat_act_shoo_1", "* You move towards Decibat.^2 &* He lands happily on your&  shoulder./^")
 ds_map_add(global.text_data_en, "obj_decibat_act_shoo_2", "* You shout and jump around&  trying to scare Decibat away.^2 &* He isn't pleased./^")
 
+//Alternate "You Won!" text.
+ds_map_add(global.text_data_en, "obj_decibat_victory_1", "* Sweet silence...")
+ds_map_add(global.text_data_en, "obj_decibat_victory_2", "* Decibat flaps away to find&  someplace quieter.")
+
 //Misc Text, Typically Boss Monologues
 ds_map_add(global.text_data_en, "scr_battletext_yellow_1", "%%%")
 

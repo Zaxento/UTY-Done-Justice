@@ -1,4 +1,6 @@
-                won = 1
+//argument0 = "You won!" replacement.
+//argument1 = Silent levelup.
+                obj_battlecontroller.won = 1
                 global.xp += global.xpreward[3]
                 global.gold += global.goldreward[3]
                 tlvl = global.lv
@@ -9,8 +11,8 @@
                 }
                 global.border = 0
                 SCR_BORDERSETUP()
-                global.msg[0] = scr_gettext("obj_battlecontroller_286", string(global.xpreward[3]), string(global.goldreward[3]))
-                if ((tlvl != global.lv))
+                global.msg[0] = scr_gettext(argument0)
+                if (tlvl != global.lv && argument1 = 0)
                 {
                     global.msg[0] += scr_gettext("obj_battlecontroller_287") // &* Your LOVE increased.
                     audio_play_sound(snd_levelup,80,false)
@@ -30,6 +32,6 @@
                     obj_heart.x = -200
                 }
                 global.msc = 0
-                writer = instance_create(global.idealborder[0], global.idealborder[2], OBJ_WRITER)
-                writer.writingxend += 20
+                obj_battlecontroller.writer = instance_create(global.idealborder[0], global.idealborder[2], OBJ_WRITER)
+                obj_battlecontroller.writer.writingxend += 20
                 exit

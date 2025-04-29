@@ -68,7 +68,7 @@ bingus = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>action_move("000000010", 8)
+            <string>action_move("000000010", 4.5)
 pause = 2
 </string>
           </argument>
