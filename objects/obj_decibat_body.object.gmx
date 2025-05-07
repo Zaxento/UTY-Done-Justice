@@ -141,7 +141,7 @@ pause = 2
             <string>if bingus = 0
 {
     bingus = 1
-    obj_decibat.alarm[2] = 20
+    obj_decibat.alarm[10] = 20
 }
 </string>
           </argument>

@@ -565,7 +565,7 @@ ds_map_add(global.text_data_en, "scr_battle_quote_decibat_6", "Move in&silence.^
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_7", "Don't&shhy away.^2 &Hushh&hushh!") //Random dialogue 1
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_8", "Whispers&only&please.^2 &Hushh&hushh!") //Random dialogue 2
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_9", "Hushh&puppy!") //Random dialogue 3
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_10", "Don't come near&me!")
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_10", "Ow ow&ow!^1 &Hushh&hushh&HUSHH!") //Decibat Flee Dialogue after being annoyed too much.
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_11", "Getting too loud&here! HUSHH&HUSHH!")
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_12", "Sweet silence...")
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_13", "That new&rock&band is&great!")
@@ -739,7 +739,8 @@ ds_map_add(global.text_data_en, "obj_decibat_act_shoo_2", "* You shout and jump 
 
 //Alternate "You Won!" text.
 ds_map_add(global.text_data_en, "obj_decibat_victory_1", "* Sweet silence...")
-ds_map_add(global.text_data_en, "obj_decibat_victory_2", "* Decibat flaps away to find&  someplace quieter.")
+ds_map_add(global.text_data_en, "obj_decibat_victory_2", "* Decibat departs for someplace&  quieter.")
+//ds_map_add(global.text_data_en, "obj_decibat_victory_2", "* Decibat flaps away to find&  someplace quieter.") //This line wasn't bad, though Decibat flew away too quickly for the text to render so I had to make something shorter.
 
 //Misc Text, Typically Boss Monologues
 ds_map_add(global.text_data_en, "scr_battletext_yellow_1", "%%%")

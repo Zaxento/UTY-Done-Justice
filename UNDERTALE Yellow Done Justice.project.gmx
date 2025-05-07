@@ -1562,6 +1562,7 @@
           </objects>
           <objects name="Decibat">
             <object>objects\obj_decibat</object>
+            <object>objects\obj_decibat_backup9</object>
             <object>objects\obj_decibat_backup8</object>
             <object>objects\obj_decibat_backup7</object>
             <object>objects\obj_decibat_backup6</object>
@@ -1637,6 +1638,7 @@
         <object>objects\obj_circleparent_test</object>
         <object>objects\obj_circleparent_test_backup</object>
         <object>objects\obj_battlecontroller_decibat</object>
+        <object>objects\obj_battlecontroller_decibat_backup</object>
       </objects>
       <objects name="Faces">
         <object>objects\obj_face_dalv</object>
@@ -2006,6 +2008,7 @@
         <object>objects\obj_gameoverbg</object>
         <object>objects\obj_borderparent</object>
         <object>objects\obj_battlecontroller</object>
+        <object>objects\obj_battlecontroller_backup2</object>
         <object>objects\obj_battlecontroller_original</object>
         <object>objects\obj_battlecontroller_backup</object>
         <object>objects\obj_vaporized_new</object>

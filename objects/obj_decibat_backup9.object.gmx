@@ -49,7 +49,8 @@ headstate = 0
 outside = 0
 sfxcounter = 0
 
-mycommand = 0
+oldcoord = 0
+fakecoord = 0
 
 obj_battlebg.image_index = 1
 </string>
@@ -114,38 +115,6 @@ scr_monsterdefeat(0, 0, 0, 0, 0)
 with (mypart1)
     instance_destroy()
 
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="10">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>OBJ_WRITER.halt = 3
-global.monster[myself] = false
-if (global.mnfight == 2)
-    global.mnfight = 1
-outside = 1
-instance_destroy()
-global.flag[13] = 1
-global.flag[14] = 3
-
-//
 </string>
           </argument>
         </arguments>
@@ -229,13 +198,9 @@ if mycommand &gt;= 60
 if turns == 1
     global.msg[0] = scr_gettext("scr_battle_quote_decibat_5") // Don't&amp;move.^2 &amp;Don't&amp;make a&amp;sound.
 if turns == 2
-    global.msg[0] = scr_gettext("scr_battle_quote_decibat_6") // Move in&amp;silence&amp;hush&amp;hush!
-if headstate = 9
-    global.msg[0] = scr_gettext("scr_battle_quote_decibat_1") // Getting too loud&amp;here! HUSHH&amp;HUSHH!
+    global.msg[0] = scr_gettext("scr_battle_quote_decibat_6") // Move in&amp;silence&amp;hush&amp;hush!  
 if (global.monsterhp[myself] &lt; (global.monstermaxhp[myself] / 3)) &amp;&amp; mycommand &gt;= 0
     global.msg[0] = scr_gettext("scr_battle_quote_decibat_0") // NO NO! NOISE&amp;HURTS! NOISE&amp;HURTS!
-if headstate = 10
-    global.msg[0] = scr_gettext("scr_battle_quote_decibat_10") // Ow ow ow!^1 Hushh&amp;hushh HUSHH!
 /*if (mycommand &gt;= 30 &amp;&amp; mycommand &lt; 50)
     global.msg[0] = scr_gettext("obj_finalfroggit_210") // Creak,&amp;creak.
 if (mycommand &gt;= 50 &amp;&amp; mycommand &lt; 80)
@@ -370,6 +335,38 @@ if (shudder == 0)
 }
 alarm[3] = 2
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>OBJ_WRITER.halt = 3
+global.monster[myself] = false
+if (global.mnfight == 2)
+    global.mnfight = 1
+outside = 1
+instance_destroy()
+global.flag[13] = 1
+global.flag[14] = 3
+
+//
 </string>
           </argument>
         </arguments>
@@ -539,10 +536,6 @@ if (global.mnfight == 2)
             if (outside == 0)
             {
                 global.turntimer = 1
-                if instance_exists(OBJ_WRITER)
-                {
-                    OBJ_WRITER.halt = 3
-                }
                 global.msg[0] = scr_gettext("obj_decibat_victory_2") // * Decibat flaps away to find&amp;  someplace quieter.
                 global.flag[13] = 1
                 obj_decibat_body.alarm[7] = 2
@@ -715,9 +708,6 @@ if (global.myfight == 0)
         if headstate = 10
         {
             mercymod = 100 //Decibat should flee. Put code here later.
-            global.mnfight = 1
-            obj_heart.visible = 0 //Probably shouldn't have issues, maybe aside from modding shenanigans where somebody tries to get Decibat in a fight with multiple monsters.
-            obj_heart.movement = 0
         }
         obj_battlecontroller_decibat.sfxcounter = 0
     }

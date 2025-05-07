@@ -531,6 +531,11 @@ if currentplace &lt; global.bmenuno
 }
 if ((global.debug == true) &amp;&amp; (keyboard_check_pressed(vk_space) == 1))
     global.turntimer = 2
+    
+if global.myfight != 0
+{
+    sfxcounter = 0
+}
 </string>
           </argument>
         </arguments>
