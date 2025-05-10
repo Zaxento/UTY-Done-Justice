@@ -522,10 +522,21 @@ ds_map_add(global.text_data_en, "SCR_BATTLE_MERCYTEXT_YELLOW_28", "* Crispy Mode
 //Monster Status Text
 //[Flavor Text]
 //Decibat Flavor Text
-ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_0", "* Decibat accuses you of having a noisemaker inside your hat.")
-ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_1", "* Decibat agonizes over the clicking of buttons.")
-ds_map_add(global.text_data_en, "scr_battle_flavor_deicbat_2", "* Decibat looks slightly more at&  ease.")
-ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_3", "That new&rock&band is&great!")
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_0", "* Decibat accuses you of having a&  noisemaker inside your hat.") //Annoy/Neutral Random Text?
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_1", "* Decibat agonizes over the&  clicking of buttons.") //Annoy/Neutral Random Text 2?
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_2", "* Decibat looks slightly more at&  ease.") //Watch Decibat once
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_3", "* Decibat gives you a nod of&  approval.") //Watch Decibat twice
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_4", "* Decibat is enjoying the&  silence.") //Watch Decibat thrice //Didn't need to be spaced with an "&", though it did so automatically because of the "." Very unfortunate.
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_5", "* Decibat is being lulled to&  sleep.") //Watch Decibat 4 times
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_6", "* Decibat twitches his large ears.") //Annoy Decibat once
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_7", "* Decibat is losing his patience&  with you.") //Annoy Decibat twice
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_8", "* Decibat can't hear himself&  think.") //Annoy Decibat thrice
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_9", "* Decibat grinds his teeth&  angrily and flinches at the&  ruckus he caused.") //Annoy Decibat 4 times
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_10", "* Decibat is shaking with anger.") //Annoy Decibat 5 times
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_11", "* Decibat is willing to look past&  your previous disturbances.") //Watch Decibat Random Text
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_12", "* Decibat is ready to return to&  sleep.") //Decibat when made sparable from Watching.
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_13", "* Decibat is not enjoying the&  music.") //The default flavor text from UTY
+ds_map_add(global.text_data_en, "scr_battle_flavor_decibat_14", "* Decibat's cries betray their quiet nature.") //I just needed low HP text.
 
 //[Monster Quotes]
 //Flier Default Quotes
@@ -556,12 +567,12 @@ ds_map_add(global.text_data_en, "scr_battle_quote_flier_20", "Is art what the ki
 
 //Decibat Turn Quotes
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_0", "NO NO! NOISE&HURTS! NOISE&HURTS!") //Low HP
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_1", "Getting too loud&here! HUSHH&HUSHH!") //Annoy Decibat 5 times?
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_2", "Sweet silence...") //Watch Decibat 5 times?
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_3", "You hhear that?&No? Good...") //Watch Decibat 4 times?
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_1", "Getting too&loud here!^1& HUSHH&HUSHH!") //Annoy Decibat 5 times?
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_2", "Sweet&silence...") //Watch Decibat 5 times?
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_3", "You hhear&that?^2 &No?^2 &Good...") //Watch Decibat 4 times?
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_4", "More quiet&please...") //Watch Decibat 3 times?
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_5", "Don't&move.^2 &Don't&make a&sound.") //Decibat blue waves attack
-ds_map_add(global.text_data_en, "scr_battle_quote_decibat_6", "Move in&silence.^2 &hush&hush!") //Decibat orange waves attack
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_5", "Don't move.^2 &Don't make&a sound.") //Decibat blue waves attack
+ds_map_add(global.text_data_en, "scr_battle_quote_decibat_6", "Move in&silence.^2 &hush hush!") //Decibat orange waves attack
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_7", "Don't&shhy away.^2 &Hushh&hushh!") //Random dialogue 1
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_8", "Whispers&only&please.^2 &Hushh&hushh!") //Random dialogue 2
 ds_map_add(global.text_data_en, "scr_battle_quote_decibat_9", "Hushh&puppy!") //Random dialogue 3
@@ -1000,6 +1011,19 @@ ds_map_add(global.text_data_en, "scr_text_dalvscene3_2", "* I thought I made it 
 //Pause for a bit, then Dalv turns to see Clover Undertale Yellow once more.
 ds_map_add(global.text_data_en, "scr_text_dalvscene3_3", "* I don't understand...^2 &* You... you look just like them./")
 ds_map_add(global.text_data_en, "scr_text_dalvscene3_4", "* Is this some sort of haunting?^2 &  Or have you come to finish the job?/")
+
+//room_snowdin_01_yellow
+ds_map_add(global.text_data_en, "obj_readable_room1_snowdinyellow1_1", "* (The original text of this sign&  was crossed out.)/")
+ds_map_add(global.text_data_en, "obj_readable_room1_snowdinyellow1_2", '* (Now it reads "\BEntry Forbidden\W"&  in blue crayon.)/%%')
+
+//room_snowdin_03_yellow
+ds_map_add(global.text_data_en, "obj_readable_room1_snowdinyellow3_1", "* (The back is far more&  interesting than the front.)/%%")
+
+//EVIL Clover has ORDINARY DIALOGUE about a ROCK!
+ds_map_add(global.text_data_en, "obj_readable_room2_snowdinyellow3_1_1", '* (A large rock with a symbol&  carved into it.)/%%')
+
+ds_map_add(global.text_data_en, "obj_readable_room2_snowdinyellow3_2_1", '* (There appears to be something#  interesting on this rock.)/')
+ds_map_add(global.text_data_en, "obj_readable_room2_snowdinyellow3_2_2", '* (Touch it?)/')
 
 //room_snowdin_secret_to_everybody
 

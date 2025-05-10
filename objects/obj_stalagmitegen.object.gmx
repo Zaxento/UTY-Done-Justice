@@ -68,6 +68,11 @@ instance_create(x_spawn, global.idealborder[2] - 24, blt_stalagmite);
 //instance_create(x_spawn, global.idealborder[2] + 5, blt_stalagmite);
 
 alarm[0] = 15
+
+if obj_decibat.headstate == 9 //Annoying Decibat to this point causes their attacks to become much more difficult. Just to be extra evil the wavecount will be removed mwuhahaha
+{
+    alarm[0] = 10
+}
 </string>
           </argument>
         </arguments>

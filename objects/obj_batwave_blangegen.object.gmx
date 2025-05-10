@@ -71,6 +71,11 @@ else
     audio_play_sound(snd_decibat1bigwave,0,false)
     instance_create(global.idealborder[1] + 40, global.idealborder[2] + y_spawn, blt_batwave_orange);
 }
+
+if obj_decibat.headstate == 9 //Annoying Decibat to this point causes their attacks to become much more difficult. Just to be extra evil the wavecount will be removed mwuhahaha
+{
+    alarm[0] = 20
+}
 </string>
           </argument>
         </arguments>

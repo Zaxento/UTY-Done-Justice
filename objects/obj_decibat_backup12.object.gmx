@@ -52,10 +52,6 @@ whatiheard_prev = -1
 
 mycommand = 0
 
-//If I end up doing a code cleanup, I should replace the turns variables here with the global turns.
-//Oh yeah Zax you handsome devil add flag stuff when this is implemented into the overworld proper.
-//Add that thing where Decibat has harder attacks if they are annoyed enough, sorta like Napstablook and Undyne.
-
 obj_battlebg.image_index = 1
 </string>
           </argument>
@@ -240,6 +236,7 @@ if headstate = 9
     global.msg[0] = scr_gettext("scr_battle_quote_decibat_1") // Getting too loud&amp;here! HUSHH&amp;HUSHH!
 if (global.monsterhp[myself] &lt; (global.monstermaxhp[myself] / 3)) &amp;&amp; mycommand &gt;= 0
     global.msg[0] = scr_gettext("scr_battle_quote_decibat_0") // NO NO! NOISE&amp;HURTS! NOISE&amp;HURTS!
+    
 //Watch Branch
 if headstate = 3 &amp;&amp; whatiheard = 4
     global.msg[0] = scr_gettext("scr_battle_quote_decibat_4") // More quiet&amp;please...
@@ -250,6 +247,21 @@ if headstate = 5
 //Annoyed Decibat too much
 if headstate = 10
     global.msg[0] = scr_gettext("scr_battle_quote_decibat_10") // Ow ow ow!^1 Hushh&amp;hushh HUSHH!
+/*if (mycommand &gt;= 30 &amp;&amp; mycommand &lt; 50)
+    global.msg[0] = scr_gettext("obj_finalfroggit_210") // Creak,&amp;creak.
+if (mycommand &gt;= 50 &amp;&amp; mycommand &lt; 80)
+    global.msg[0] = scr_gettext("obj_finalfroggit_211") // Skip,&amp;jump.
+if (mycommand &gt;= 80 &amp;&amp; mycommand &lt;= 100)
+    global.msg[0] = scr_gettext("obj_finalfroggit_212") // Woof.
+if (whatiheard == 1)
+    global.msg[0] = scr_gettext("obj_finalfroggit_222") // Shudder,&amp;shudder.
+if (whatiheard == 3)
+    global.msg[0] = scr_gettext("obj_finalfroggit_227") // Nod,&amp;nod.
+if (whatiheard == 4)
+    global.msg[0] = scr_gettext("obj_finalfroggit_231") // (Thought&amp;-ful&amp;croak)
+if (impress == 1)
+    global.msg[0] = scr_gettext("obj_finalfroggit_235") // (Impress&amp;-ed&amp;ribbit)
+    */
 impress = 0
 global.msg[1] = scr_gettext("obj_finalfroggit_240") // %%%
 global.typer = 2
@@ -259,7 +271,7 @@ if turns &lt; 4
 {
     global.border = 53
 }
-else if turns == 4 || (mycommand &gt; 59 &amp;&amp; turns &gt; 5)
+else if turns == 4
 {
     global.border = 54
 }
@@ -496,12 +508,12 @@ if (global.mnfight == 2)
             }
             else if (mycommand &lt; 60)
             {
-                gen = instance_create(x, y, obj_stalagmitegen)
+                gen = instance_create(x, y, obj_batwave_minigen)
                 gen.dmg = global.monsteratk[myself]
             }
             else
             {
-                gen = instance_create(x, y, obj_batwave_minigen)
+                gen = instance_create(x, y, obj_stalagmitegen)
                 gen.dmg = global.monsteratk[myself]
             }
         }
@@ -510,18 +522,22 @@ if (global.mnfight == 2)
             global.turntimer = -1
             global.mnfight = 3
         }
-    }       
+    }
         if (mycommand &gt;= 0)
-            global.msg[0] = scr_gettext("scr_battle_flavor_decibat_0") // * Decibat accuses you of having a noisemaker inside your hat.
-        if (mycommand &gt;= 40)
-            global.msg[0] = scr_gettext("scr_battle_flavor_decibat_1") // * Decibat agonizes over the clicking of buttons.
-        if (mycommand &gt;= 70)
-            global.msg[0] = scr_gettext("scr_battle_flavor_decibat_13") // * Decibat is not enjoying the&amp;  music.
+            global.msg[0] = scr_gettext("obj_finalfroggit_440") // * Final Froggit knows exactly&amp;  why it's here.
+        if (mycommand &gt;= 30)
+            global.msg[0] = scr_gettext("obj_finalfroggit_441") // * Final Froggit jumps ominously&amp;  up and down.
+        if (mycommand &gt;= 60)
+            global.msg[0] = scr_gettext("obj_finalfroggit_442") // * The battlefield is filled&amp;  with the smell of mustard&amp;  seed.
+        if (mycommand &gt;= 80)
+            global.msg[0] = scr_gettext("obj_finalfroggit_443") // * You are intimidated by&amp;  Final Froggit's strength^4.&amp;* Truly.
+        if (mercymod &gt; 100)
+            global.msg[0] = scr_gettext("obj_finalfroggit_444") // * Final Froggit seems reluctant&amp;  to fight you.
         if (global.monsterhp[myself] &lt; (global.monstermaxhp[myself] / 4))
-            global.msg[0] = scr_gettext("scr_battle_flavor_decibat_14") // * Decibat's cries betray their quiet nature.
+            global.msg[0] = scr_gettext("obj_finalfroggit_445") // * Final Froggit stands its&amp;  ground.
         //Decibat Watch Branch
         if headstate &gt; 0 &amp;&amp; headstate &lt; 6
-            global.msg[0] = scr_gettext("scr_battle_flavor_decibat_11") // * Decibat is willing to look past&amp;  your previous disturbances.
+            global.msg[0] = scr_gettext("scr_battle_flavor_decibat_11") //        
         if whatiheard_prev = 4 &amp;&amp; headstate = 1
             global.msg[0] = scr_gettext("scr_battle_flavor_decibat_2") // * Decibat looks slightly more at&amp;  ease.
         if whatiheard_prev = 4 &amp;&amp; headstate = 2
@@ -532,7 +548,7 @@ if (global.mnfight == 2)
             global.msg[0] = scr_gettext("scr_battle_flavor_decibat_5") // * Decibat is being lulled to&amp;  sleep.
         if mercymod = 200
             global.msg[0] = scr_gettext("scr_battle_flavor_decibat_12") // * Decibat is ready to return to&amp;  sleep.
-        if (mercymod == -100)
+        if (mercymod = 100)
         {
             if (outside == 0)
             {
@@ -551,6 +567,11 @@ if (global.mnfight == 2)
             }
         }
         attacked = 1
+    if (mercymod == 999999)
+    {
+        global.turntimer = -1
+        global.mnfight = 3
+    }
 }
 if (global.myfight == 2)
 {
@@ -695,26 +716,19 @@ if (global.myfight == 2)
 
 if (global.myfight == 0)
 {
-    if (obj_battlecontroller_decibat.sfxcounter &gt; 32) &amp;&amp; headstate != 5 //Not fully sure what numbers to go for, so feedback on too much or too little will be appreciated.
+    if (obj_battlecontroller_decibat.sfxcounter &gt; 29)
     {
         if headstate &lt; 6
         {
-            if headstate == 5
-            {
-                mercymod = -100 //Decibat should flee. Put code here later.
-                global.mnfight = 1
-                obj_heart.visible = 0 //Probably shouldn't have issues, maybe aside from modding shenanigans where somebody tries to get Decibat in a fight with multiple monsters.
-                obj_heart.movement = 0
-            }
             headstate = 6
         }
         else
         {
             headstate += 1
         }
-        if headstate == 10
+        if headstate = 10
         {
-            mercymod = -100 //Decibat should flee. Put code here later.
+            mercymod = 100 //Decibat should flee. Put code here later.
             global.mnfight = 1
             obj_heart.visible = 0 //Probably shouldn't have issues, maybe aside from modding shenanigans where somebody tries to get Decibat in a fight with multiple monsters.
             obj_heart.movement = 0
