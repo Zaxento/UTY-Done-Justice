@@ -1545,6 +1545,9 @@
             <object>objects\blt_flierbullet_carry</object>
             <object>objects\blt_flierbullet_dumbbell</object>
           </objects>
+          <objects name="Penilla">
+            <object>objects\obj_penilla</object>
+          </objects>
           <objects name="Sweet Corn">
             <object>objects\obj_sweetcorn</object>
             <object>objects\obj_sweetcorn_body</object>
@@ -1559,6 +1562,13 @@
               <object>objects\blt_candycorn</object>
               <object>objects\obj_candycorn_gen</object>
             </objects>
+          </objects>
+          <objects name="Rorrim">
+            <object>objects\obj_rorrim</object>
+            <object>objects\obj_rorrim_body</object>
+          </objects>
+          <objects name="Crispy Scroll">
+            <object>objects\obj_crispyscroll</object>
           </objects>
           <objects name="Decibat">
             <object>objects\obj_decibat</object>
@@ -1609,6 +1619,9 @@
               <object>objects\blt_dalvlightning_vertical</object>
               <object>objects\blt_dalvlightning_vertical_backup</object>
             </objects>
+          </objects>
+          <objects name="Micro Froggit">
+            <object>objects\obj_microfroggit</object>
           </objects>
         </objects>
         <objects name="Toy Gun">

@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_monstersetup(0, 0, 0, 0, 0)
+            <string>//UNFINISHED
+
+scr_monstersetup(0, 0, 0, 0, 0)
 image_speed = 0.5
 hurtanim = 0
 hurtsound = snd_ehurt1

@@ -25,7 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_monstersetup()
+            <string>//UNFINISHED
+//If I end up doing a code cleanup, I should replace the turns variables here with the global turns.
+//Oh yeah Zax you handsome devil add flag stuff when this is implemented into the overworld proper.
+//Add that thing where Decibat has harder attacks if they are annoyed enough, sorta like Napstablook and Undyne.
+
+scr_monstersetup()
 image_speed = 0
 mypart1 = instance_create(x, y, obj_decibat_body);
 alarm[9] = 8
@@ -51,10 +56,6 @@ sfxcounter = 0
 whatiheard_prev = -1
 
 mycommand = 0
-
-//If I end up doing a code cleanup, I should replace the turns variables here with the global turns.
-//Oh yeah Zax you handsome devil add flag stuff when this is implemented into the overworld proper.
-//Add that thing where Decibat has harder attacks if they are annoyed enough, sorta like Napstablook and Undyne.
 
 obj_battlebg.image_index = 1
 </string>
@@ -532,7 +533,7 @@ if (global.mnfight == 2)
             global.msg[0] = scr_gettext("scr_battle_flavor_decibat_5") // * Decibat is being lulled to&amp;  sleep.
         if mercymod = 200
             global.msg[0] = scr_gettext("scr_battle_flavor_decibat_12") // * Decibat is ready to return to&amp;  sleep.
-        if (mercymod == -100)
+        if (mercymod == 100)
         {
             if (outside == 0)
             {
@@ -695,13 +696,13 @@ if (global.myfight == 2)
 
 if (global.myfight == 0)
 {
-    if (obj_battlecontroller_decibat.sfxcounter &gt; 32) &amp;&amp; headstate != 5 //Not fully sure what numbers to go for, so feedback on too much or too little will be appreciated.
+    if (obj_battlecontroller_decibat.sfxcounter &gt; 0) //Not fully sure what numbers to go for, so feedback on too much or too little will be appreciated.
     {
         if headstate &lt; 6
         {
             if headstate == 5
             {
-                mercymod = -100 //Decibat should flee. Put code here later.
+                mercymod = 100 //Decibat should flee. Put code here later.
                 global.mnfight = 1
                 obj_heart.visible = 0 //Probably shouldn't have issues, maybe aside from modding shenanigans where somebody tries to get Decibat in a fight with multiple monsters.
                 obj_heart.movement = 0
@@ -714,7 +715,7 @@ if (global.myfight == 0)
         }
         if headstate == 10
         {
-            mercymod = -100 //Decibat should flee. Put code here later.
+            mercymod = 100 //Decibat should flee. Put code here later.
             global.mnfight = 1
             obj_heart.visible = 0 //Probably shouldn't have issues, maybe aside from modding shenanigans where somebody tries to get Decibat in a fight with multiple monsters.
             obj_heart.movement = 0
